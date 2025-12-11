@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
+import pydeck as pdk
 from datetime import datetime
 
 # --- 1. PAGE CONFIGURATION ---
@@ -12,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- 2. CUSTOM CSS (The "Daily Planet" Dark Mode) ---
+# --- 2. CUSTOM CSS (Dark Mode) ---
 st.markdown("""
     <style>
     .main { background-color: #0e1117; }
@@ -26,7 +27,6 @@ st.markdown("""
 st.sidebar.title("📡 NAVIGATION")
 st.sidebar.markdown("Select a module to view live data:")
 
-# The Menu Options
 options = [
     "1. Weather & Economy",
     "2. Global Health (Bio-Radar)",
@@ -51,7 +51,6 @@ if selection == "1. Weather & Economy":
     st.markdown("This module correlates real-time financial markets with historical weather patterns in Minas Gerais, Brazil.")
     st.markdown("---")
 
-    # Load Data
     try:
         df = pd.read_csv("coffee_weather_master.csv")
         df['Date'] = pd.to_datetime(df['Date'])
@@ -75,7 +74,6 @@ if selection == "1. Weather & Economy":
         
         # Metrics
         latest = df_filtered.iloc[-1]
-        # Calculate changes (handle case where filter is too small)
         if len(df_filtered) > 1:
             prev = df_filtered.iloc[-2]
             price_change = latest['Close_Price'] - prev['Close_Price']
@@ -155,10 +153,8 @@ elif selection == "2. Global Health (Bio-Radar)":
         
         st.plotly_chart(fig_map, use_container_width=True)
         
-        # Top 5 Table
-        st.markdown(f"#### Highest Mortality Rates in {selected_year}")
-        top_5 = df_year.sort_values("Death_Rate", ascending=False).head(5)[['Country', 'Death_Rate']]
-        st.table(top_5)
+        with st.expander("📂 View Top 10 Mortality Rates"):
+            st.table(df_year.sort_values("Death_Rate", ascending=False).head(10)[['Country', 'Death_Rate']])
 
     except FileNotFoundError:
         st.error("⚠️ Data missing. Please run 'etl_health.py' locally.")
@@ -175,7 +171,7 @@ elif selection == "3. Energy & CO2":
     try:
         df_energy = pd.read_csv("energy_oil_co2.csv")
         
-        # Metrics (Latest Available Year)
+        # Metrics
         latest_energy = df_energy.iloc[-1]
         prev_energy = df_energy.iloc[-2]
         
@@ -186,40 +182,38 @@ elif selection == "3. Energy & CO2":
             co2_delta = latest_energy['Global_CO2_MillionTons'] - prev_energy['Global_CO2_MillionTons']
             st.metric("Global CO2 (Million Tons)", f"{latest_energy['Global_CO2_MillionTons']:,.0f}", f"{co2_delta:,.0f}")
         with c3:
-            # Calculate Correlation
             corr_energy = df_energy['Avg_Oil_Price'].corr(df_energy['Global_CO2_MillionTons'])
             st.metric("Price-Emission Correlation", f"{corr_energy:.2f}")
 
         # Dual Axis Chart
         fig_energy = go.Figure()
 
-        # Trace 1: Global CO2 (Area Chart - implies volume/accumulation)
         fig_energy.add_trace(go.Scatter(
             x=df_energy['Year'], 
             y=df_energy['Global_CO2_MillionTons'],
             name="Global CO2 Emissions",
             fill='tozeroy',
-            mode='none', # No line, just fill
-            fillcolor='rgba(231, 76, 60, 0.3)' # Red mist
+            mode='none',
+            fillcolor='rgba(231, 76, 60, 0.3)'
         ))
 
-        # Trace 2: Oil Price (Line Chart)
         fig_energy.add_trace(go.Scatter(
             x=df_energy['Year'], 
             y=df_energy['Avg_Oil_Price'],
             name="Oil Price ($/Barrel)",
             yaxis='y2',
-            line=dict(color='#f1c40f', width=3) # Gold color for Oil
+            line=dict(color='#f1c40f', width=3)
         ))
 
-	fig_energy.update_layout(
+        # FIXED FOR PLOTLY 6.0 (Nested font dictionaries)
+        fig_energy.update_layout(
             template="plotly_dark",
             title="Correlation: Cost of Energy vs. Carbon Output",
             height=500,
             xaxis=dict(title="Year"),
             yaxis=dict(title="Global CO2 (Million Tons)", showgrid=False),
             yaxis2=dict(
-                title=dict(text="Oil Price ($)", font=dict(color="#f1c40f")), # FIXED: Nested font dict
+                title=dict(text="Oil Price ($)", font=dict(color="#f1c40f")), 
                 overlaying='y', 
                 side='right',
                 tickfont=dict(color="#f1c40f")
@@ -228,28 +222,73 @@ elif selection == "3. Energy & CO2":
         )
 
         st.plotly_chart(fig_energy, use_container_width=True)
-        
         st.info("💡 **Analyst Note:** A positive correlation suggests that emissions continue to rise regardless of energy price volatility, indicating inelastic demand for fossil fuels.")
 
     except FileNotFoundError:
         st.error("⚠️ Data missing. Please run 'etl_energy.py' locally.")
 
 # ==========================================
-# MODULE 4: TERRORISM (Coming Soon)
+# MODULE 4: SECURITY (Active)
 # ==========================================
 elif selection == "4. Terrorism & Security":
     st.title("🛡️ GLOBAL SECURITY MONITOR")
-    st.warning("⚠️ Module Under Construction")
-    st.markdown("### Project Objective")
-    st.write("""
-    This module will map real-time **Counternarcotics Operations** and **Security Events**.
-    
-    **Planned Data Sources:**
-    * 📰 The GDELT Project (Global Events Language and Tone)
-    
-    **Key Feature:**
-    A 'Heatmap of Instability' identifying regions with spiking drug interdiction reports over the last 24 hours.
-    """)
+    st.markdown("### 🚨 Live Feed: Counternarcotics Operations (Last 24h)")
+    st.markdown("Real-time extraction of 'Seizure' and 'Trafficking' events from the GDELT Global News Stream.")
+    st.markdown("---")
+
+    try:
+        df_sec = pd.read_csv("security_events.csv")
+        
+        # Metrics
+        total_events = len(df_sec)
+        if not df_sec.empty:
+            top_hotspot = df_sec.sort_values('Article_Count', ascending=False).iloc[0]['Location']
+        else:
+            top_hotspot = "None"
+        
+        m1, m2 = st.columns(2)
+        m1.metric("Verified Events (24h)", total_events)
+        m2.metric("Top Reporting Hotspot", top_hotspot)
+
+        # PYDECK MAP (Hexagon Layer)
+        layer = pdk.Layer(
+            "HexagonLayer",
+            df_sec,
+            get_position=["Longitude", "Latitude"],
+            auto_highlight=True,
+            elevation_scale=50,
+            pickable=True,
+            elevation_range=[0, 3000],
+            extruded=True,                 
+            coverage=1
+        )
+
+        view_state = pdk.ViewState(
+            longitude=-75.0, # Centered on Americas
+            latitude=10.0,
+            zoom=2,
+            min_zoom=1,
+            max_zoom=15,
+            pitch=40.5,
+            bearing=-27.36
+        )
+
+        st.pydeck_chart(pdk.Deck(
+            map_style='mapbox://styles/mapbox/dark-v10',
+            initial_view_state=view_state,
+            layers=[layer],
+            tooltip={"text": "Event Density: {elevationValue}"}
+        ))
+        
+        st.markdown("### 📰 Live Wire: Latest Reports")
+        st.dataframe(
+            df_sec[['Location', 'Article_Count', 'Source_URL']],
+            column_config={"Source_URL": st.column_config.LinkColumn("News Source")},
+            hide_index=True
+        )
+
+    except FileNotFoundError:
+        st.error("⚠️ Data missing. Please run 'etl_security.py' locally.")
 
 # ==========================================
 # MODULE 5: POLITICS (Coming Soon)
