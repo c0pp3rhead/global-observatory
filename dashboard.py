@@ -164,23 +164,76 @@ elif selection == "2. Global Health (Bio-Radar)":
         st.error("⚠️ Data missing. Please run 'etl_health.py' locally.")
 
 # ==========================================
-# MODULE 3: ENERGY (Coming Soon)
+# MODULE 3: ENERGY & CO2 (Active)
 # ==========================================
 elif selection == "3. Energy & CO2":
-    st.title("⚡ ENERGY & EMISSIONS TRACKER")
-    st.warning("⚠️ Module Under Construction")
-    st.markdown("### Project Objective")
-    st.write("""
-    This dashboard will correlate **Energy Production Prices** with **CO2 Emissions** globally.
-    
-    **Planned Data Sources:**
-    * 🇺🇸 EIA API (Energy Information Administration)
-    * 🌍 Our World in Data (CO2 Datasets)
-    
-    **Key Hypothesis:**
-    Does the rise in renewable energy adoption correlate with a measurable drop in consumer energy prices in G20 nations?
-    """)
-    st.image("https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1000", caption="Global Energy Grid Visualization (Placeholder)")
+    st.title("⚡ THE GREENFLATION MONITOR")
+    st.markdown("### 🛢️ Macro Analysis: Oil Prices vs. Global Emissions")
+    st.markdown("Does expensive energy force the world to reduce emissions? This tool correlates **Brent Crude Oil Prices** with **Global CO2 Output**.")
+    st.markdown("---")
+
+    try:
+        df_energy = pd.read_csv("energy_oil_co2.csv")
+        
+        # Metrics (Latest Available Year)
+        latest_energy = df_energy.iloc[-1]
+        prev_energy = df_energy.iloc[-2]
+        
+        c1, c2, c3 = st.columns(3)
+        with c1:
+            st.metric("Avg Oil Price (Yearly)", f"${latest_energy['Avg_Oil_Price']:.2f}")
+        with c2:
+            co2_delta = latest_energy['Global_CO2_MillionTons'] - prev_energy['Global_CO2_MillionTons']
+            st.metric("Global CO2 (Million Tons)", f"{latest_energy['Global_CO2_MillionTons']:,.0f}", f"{co2_delta:,.0f}")
+        with c3:
+            # Calculate Correlation
+            corr_energy = df_energy['Avg_Oil_Price'].corr(df_energy['Global_CO2_MillionTons'])
+            st.metric("Price-Emission Correlation", f"{corr_energy:.2f}")
+
+        # Dual Axis Chart
+        fig_energy = go.Figure()
+
+        # Trace 1: Global CO2 (Area Chart - implies volume/accumulation)
+        fig_energy.add_trace(go.Scatter(
+            x=df_energy['Year'], 
+            y=df_energy['Global_CO2_MillionTons'],
+            name="Global CO2 Emissions",
+            fill='tozeroy',
+            mode='none', # No line, just fill
+            fillcolor='rgba(231, 76, 60, 0.3)' # Red mist
+        ))
+
+        # Trace 2: Oil Price (Line Chart)
+        fig_energy.add_trace(go.Scatter(
+            x=df_energy['Year'], 
+            y=df_energy['Avg_Oil_Price'],
+            name="Oil Price ($/Barrel)",
+            yaxis='y2',
+            line=dict(color='#f1c40f', width=3) # Gold color for Oil
+        ))
+
+        fig_energy.update_layout(
+            template="plotly_dark",
+            title="Correlation: Cost of Energy vs. Carbon Output",
+            height=500,
+            xaxis=dict(title="Year"),
+            yaxis=dict(title="Global CO2 (Million Tons)", showgrid=False),
+            yaxis2=dict(
+                title="Oil Price ($)", 
+                overlaying='y', 
+                side='right',
+                titlefont=dict(color="#f1c40f"),
+                tickfont=dict(color="#f1c40f")
+            ),
+            legend=dict(x=0, y=1.1, orientation="h")
+        )
+
+        st.plotly_chart(fig_energy, use_container_width=True)
+        
+        st.info("💡 **Analyst Note:** A positive correlation suggests that emissions continue to rise regardless of energy price volatility, indicating inelastic demand for fossil fuels.")
+
+    except FileNotFoundError:
+        st.error("⚠️ Data missing. Please run 'etl_energy.py' locally.")
 
 # ==========================================
 # MODULE 4: TERRORISM (Coming Soon)
