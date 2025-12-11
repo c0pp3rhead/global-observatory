@@ -291,19 +291,77 @@ elif selection == "4. Terrorism & Security":
         st.error("⚠️ Data missing. Please run 'etl_security.py' locally.")
 
 # ==========================================
-# MODULE 5: POLITICS (Coming Soon)
+# MODULE 5: POLITICS (Active)
 # ==========================================
 elif selection == "5. Political Sentiment":
     st.title("🗳️ THE AGENDA SETTER")
-    st.warning("⚠️ Module Under Construction")
-    st.markdown("### Project Objective")
-    st.write("""
-    This tool tracks the flow of keywords from **Search Trends** into **Political Discourse**.
-    
-    **Planned Data Sources:**
-    * 🔍 Google Trends (Pytrends)
-    * 📰 NewsAPI (Headlines)
-    
-    **Key Analysis:**
-    NLP Sentiment Analysis (VADER) to backtrack the origin of viral political slogans.
-    """)
+    st.markdown("### 🧠 NLP Analysis: Media Sentiment on 'Donald Trump'")
+    st.markdown("We use Natural Language Processing (TextBlob) to scan real-time headlines and score them for **Positivity** vs. **Negativity**.")
+    st.markdown("---")
+
+    try:
+        df_pol = pd.read_csv("politics_sentiment.csv")
+        
+        # Metrics
+        avg_sentiment = df_pol['Sentiment_Score'].mean()
+        # Convert score to emoji/text
+        if avg_sentiment > 0.05:
+            sent_status = "Positive 🟢"
+        elif avg_sentiment < -0.05:
+            sent_status = "Negative 🔴"
+        else:
+            sent_status = "Neutral ⚪"
+            
+        article_count = len(df_pol)
+        
+        c1, c2 = st.columns(2)
+        c1.metric("Current Media Tone", sent_status, f"{avg_sentiment:.3f} Polarity")
+        c2.metric("Articles Analyzed (Live)", article_count)
+
+        # SCATTER PLOT (The "Discource Map")
+        # X = Subjectivity (Fact vs Opinion)
+        # Y = Polarity (Happy vs Angry)
+        
+        fig_pol = px.scatter(
+            df_pol,
+            x="Subjectivity_Score",
+            y="Sentiment_Score",
+            color="Category",
+            hover_data=["Title", "Source"],
+            color_discrete_map={"Positive": "#2ecc71", "Negative": "#e74c3c", "Neutral": "#95a5a6"},
+            title="Media Landscape: Fact vs. Opinion & Tone"
+        )
+        
+        # Add 'Crosshairs' to divide the quadrants
+        fig_pol.add_hline(y=0, line_width=1, line_dash="dash", line_color="white")
+        fig_pol.add_vline(x=0.5, line_width=1, line_dash="dash", line_color="white")
+        
+        fig_pol.update_layout(
+            template="plotly_dark",
+            height=600,
+            xaxis=dict(title="Subjectivity (0=Fact, 1=Opinion)", range=[-0.1, 1.1]),
+            yaxis=dict(title="Sentiment (Negative ↔ Positive)", range=[-1.1, 1.1]),
+            legend=dict(orientation="h", y=1.1)
+        )
+        
+        st.plotly_chart(fig_pol, use_container_width=True)
+        
+        # Data Table
+        st.markdown("### 📰 Ranked Headlines")
+        # Filter buttons
+        filter_opt = st.radio("Show:", ["All", "Positive Only", "Negative Only"], horizontal=True)
+        
+        if filter_opt == "Positive Only":
+            df_show = df_pol[df_pol['Category'] == "Positive"]
+        elif filter_opt == "Negative Only":
+            df_show = df_pol[df_pol['Category'] == "Negative"]
+        else:
+            df_show = df_pol
+            
+        st.dataframe(
+            df_show[['Date', 'Title', 'Source', 'Sentiment_Score']],
+            hide_index=True
+        )
+
+    except FileNotFoundError:
+        st.error("⚠️ Data missing. Please run 'etl_politics.py' locally.")
