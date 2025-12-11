@@ -212,17 +212,16 @@ elif selection == "3. Energy & CO2":
             line=dict(color='#f1c40f', width=3) # Gold color for Oil
         ))
 
-        fig_energy.update_layout(
+	fig_energy.update_layout(
             template="plotly_dark",
             title="Correlation: Cost of Energy vs. Carbon Output",
             height=500,
             xaxis=dict(title="Year"),
             yaxis=dict(title="Global CO2 (Million Tons)", showgrid=False),
             yaxis2=dict(
-                title="Oil Price ($)", 
+                title=dict(text="Oil Price ($)", font=dict(color="#f1c40f")), # FIXED: Nested font dict
                 overlaying='y', 
                 side='right',
-                titlefont=dict(color="#f1c40f"),
                 tickfont=dict(color="#f1c40f")
             ),
             legend=dict(x=0, y=1.1, orientation="h")
