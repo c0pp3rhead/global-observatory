@@ -1,0 +1,2402 @@
+Date,Sentiment_Score,Category,Era,Source
+1980-01-01,0.19341580172082157,Positive,Real Estate Mogul,Historical Archive
+1980-01-08,0.46069221919374503,Positive,Real Estate Mogul,Historical Archive
+1980-01-15,0.22522394005105792,Positive,Real Estate Mogul,Historical Archive
+1980-01-22,0.4707323642610757,Positive,Real Estate Mogul,Historical Archive
+1980-01-29,0.17311972676921203,Positive,Real Estate Mogul,Historical Archive
+1980-02-05,0.06895614214753498,Positive,Real Estate Mogul,Historical Archive
+1980-02-12,0.3228007975122601,Positive,Real Estate Mogul,Historical Archive
+1980-02-19,0.13979805155907574,Positive,Real Estate Mogul,Historical Archive
+1980-02-26,0.15834269971022932,Positive,Real Estate Mogul,Historical Archive
+1980-03-04,0.38147701434266174,Positive,Real Estate Mogul,Historical Archive
+1980-03-11,0.18655879339991666,Positive,Real Estate Mogul,Historical Archive
+1980-03-18,0.1612989565903496,Positive,Real Estate Mogul,Historical Archive
+1980-03-25,0.11045821628684005,Positive,Real Estate Mogul,Historical Archive
+1980-04-01,0.05969508552154565,Positive,Real Estate Mogul,Historical Archive
+1980-04-08,0.2709718955967627,Positive,Real Estate Mogul,Historical Archive
+1980-04-15,0.21702753964991917,Positive,Real Estate Mogul,Historical Archive
+1980-04-22,0.3783144487732577,Positive,Real Estate Mogul,Historical Archive
+1980-04-29,0.05037673247211802,Positive,Real Estate Mogul,Historical Archive
+1980-05-06,0.2538169068189055,Positive,Real Estate Mogul,Historical Archive
+1980-05-13,0.29928942906264905,Positive,Real Estate Mogul,Historical Archive
+1980-05-20,0.07116189687563165,Positive,Real Estate Mogul,Historical Archive
+1980-05-27,0.3332770347605457,Positive,Real Estate Mogul,Historical Archive
+1980-06-03,0.3810067355520709,Positive,Real Estate Mogul,Historical Archive
+1980-06-10,0.20877044534522485,Positive,Real Estate Mogul,Historical Archive
+1980-06-17,0.17196717543929707,Positive,Real Estate Mogul,Historical Archive
+1980-06-24,0.1436646736069952,Positive,Real Estate Mogul,Historical Archive
+1980-07-01,0.205600871647363,Positive,Real Estate Mogul,Historical Archive
+1980-07-08,0.24280387209406262,Positive,Real Estate Mogul,Historical Archive
+1980-07-15,0.20226683947710222,Positive,Real Estate Mogul,Historical Archive
+1980-07-22,0.21219618009743796,Positive,Real Estate Mogul,Historical Archive
+1980-07-29,0.1582257248243647,Positive,Real Estate Mogul,Historical Archive
+1980-08-05,0.4090108241672959,Positive,Real Estate Mogul,Historical Archive
+1980-08-12,0.11130290620163197,Positive,Real Estate Mogul,Historical Archive
+1980-08-19,0.18237769611828333,Positive,Real Estate Mogul,Historical Archive
+1980-08-26,0.1472338050001809,Positive,Real Estate Mogul,Historical Archive
+1980-09-02,0.07148259890229502,Positive,Real Estate Mogul,Historical Archive
+1980-09-09,0.12972049711346717,Positive,Real Estate Mogul,Historical Archive
+1980-09-16,0.14770549026059757,Positive,Real Estate Mogul,Historical Archive
+1980-09-23,0.27843892617882143,Positive,Real Estate Mogul,Historical Archive
+1980-09-30,0.2260418010101735,Positive,Real Estate Mogul,Historical Archive
+1980-10-07,0.0643057890277107,Positive,Real Estate Mogul,Historical Archive
+1980-10-14,0.21222761656548295,Positive,Real Estate Mogul,Historical Archive
+1980-10-21,0.21094813552602287,Positive,Real Estate Mogul,Historical Archive
+1980-10-28,0.215726137695112,Positive,Real Estate Mogul,Historical Archive
+1980-11-04,0.08188543816178882,Positive,Real Estate Mogul,Historical Archive
+1980-11-11,0.1095227637752317,Positive,Real Estate Mogul,Historical Archive
+1980-11-18,0.22437615706801572,Positive,Real Estate Mogul,Historical Archive
+1980-11-25,0.2841114738773118,Positive,Real Estate Mogul,Historical Archive
+1980-12-02,0.44670953271106195,Positive,Real Estate Mogul,Historical Archive
+1980-12-09,0.23786311696016404,Positive,Real Estate Mogul,Historical Archive
+1980-12-16,0.235118961942401,Positive,Real Estate Mogul,Historical Archive
+1980-12-23,0.24763819815027283,Positive,Real Estate Mogul,Historical Archive
+1980-12-30,0.1438636265563411,Positive,Real Estate Mogul,Historical Archive
+1981-01-06,0.16734138597561055,Positive,Real Estate Mogul,Historical Archive
+1981-01-13,0.1078616033520769,Positive,Real Estate Mogul,Historical Archive
+1981-01-20,0.09804840906059945,Positive,Real Estate Mogul,Historical Archive
+1981-01-27,0.2792005872680047,Positive,Real Estate Mogul,Historical Archive
+1981-02-03,0.29947552224673535,Positive,Real Estate Mogul,Historical Archive
+1981-02-10,0.22409545431098699,Positive,Real Estate Mogul,Historical Archive
+1981-02-17,0.35906451274237744,Positive,Real Estate Mogul,Historical Archive
+1981-02-24,0.07241491912518924,Positive,Real Estate Mogul,Historical Archive
+1981-03-03,0.18181206969264813,Positive,Real Estate Mogul,Historical Archive
+1981-03-10,0.11838482727645705,Positive,Real Estate Mogul,Historical Archive
+1981-03-17,0.09256792766620554,Positive,Real Estate Mogul,Historical Archive
+1981-03-24,-0.07180060225070706,Negative,Real Estate Mogul,Historical Archive
+1981-03-31,0.2394310846268888,Positive,Real Estate Mogul,Historical Archive
+1981-04-07,0.07980874836618718,Positive,Real Estate Mogul,Historical Archive
+1981-04-14,0.23775136648884923,Positive,Real Estate Mogul,Historical Archive
+1981-04-21,0.13716162176388674,Positive,Real Estate Mogul,Historical Archive
+1981-04-28,0.11248208862421835,Positive,Real Estate Mogul,Historical Archive
+1981-05-05,0.18922190034193612,Positive,Real Estate Mogul,Historical Archive
+1981-05-12,0.2363334202189832,Positive,Real Estate Mogul,Historical Archive
+1981-05-19,0.1659265452362704,Positive,Real Estate Mogul,Historical Archive
+1981-05-26,0.1406504646968764,Positive,Real Estate Mogul,Historical Archive
+1981-06-02,0.08418771858102464,Positive,Real Estate Mogul,Historical Archive
+1981-06-09,0.1577046347439886,Positive,Real Estate Mogul,Historical Archive
+1981-06-16,0.23475094609966085,Positive,Real Estate Mogul,Historical Archive
+1981-06-23,0.09979096724339494,Positive,Real Estate Mogul,Historical Archive
+1981-06-30,0.03879029556445121,Neutral,Real Estate Mogul,Historical Archive
+1981-07-07,0.18817877882132764,Positive,Real Estate Mogul,Historical Archive
+1981-07-14,-0.11433549393634096,Negative,Real Estate Mogul,Historical Archive
+1981-07-21,0.043042645959582015,Neutral,Real Estate Mogul,Historical Archive
+1981-07-28,0.1612269714586764,Positive,Real Estate Mogul,Historical Archive
+1981-08-04,0.3034357804461687,Positive,Real Estate Mogul,Historical Archive
+1981-08-11,0.22911113535502148,Positive,Real Estate Mogul,Historical Archive
+1981-08-18,0.09836121909011977,Positive,Real Estate Mogul,Historical Archive
+1981-08-25,0.0038184987263244485,Neutral,Real Estate Mogul,Historical Archive
+1981-09-01,0.29349067764504605,Positive,Real Estate Mogul,Historical Archive
+1981-09-08,0.30627887915482355,Positive,Real Estate Mogul,Historical Archive
+1981-09-15,0.0692084334668043,Positive,Real Estate Mogul,Historical Archive
+1981-09-22,0.27893313520389373,Positive,Real Estate Mogul,Historical Archive
+1981-09-29,0.2684600689508886,Positive,Real Estate Mogul,Historical Archive
+1981-10-06,0.33598729202117084,Positive,Real Estate Mogul,Historical Archive
+1981-10-13,0.12303099431258321,Positive,Real Estate Mogul,Historical Archive
+1981-10-20,0.27019251774114683,Positive,Real Estate Mogul,Historical Archive
+1981-10-27,0.3696737711488486,Positive,Real Estate Mogul,Historical Archive
+1981-11-03,0.16471199379411816,Positive,Real Estate Mogul,Historical Archive
+1981-11-10,0.14157538442577133,Positive,Real Estate Mogul,Historical Archive
+1981-11-17,0.3156852490452013,Positive,Real Estate Mogul,Historical Archive
+1981-11-24,0.2041564969656061,Positive,Real Estate Mogul,Historical Archive
+1981-12-01,0.1963992311604094,Positive,Real Estate Mogul,Historical Archive
+1981-12-08,0.13963219307238248,Positive,Real Estate Mogul,Historical Archive
+1981-12-15,0.2299049483146062,Positive,Real Estate Mogul,Historical Archive
+1981-12-22,0.2235943165840133,Positive,Real Estate Mogul,Historical Archive
+1981-12-29,0.3745406927868217,Positive,Real Estate Mogul,Historical Archive
+1982-01-05,0.19051701246344657,Positive,Real Estate Mogul,Historical Archive
+1982-01-12,0.2506324681070036,Positive,Real Estate Mogul,Historical Archive
+1982-01-19,0.3313487618235678,Positive,Real Estate Mogul,Historical Archive
+1982-01-26,0.1082031179907736,Positive,Real Estate Mogul,Historical Archive
+1982-02-02,0.2269218063909471,Positive,Real Estate Mogul,Historical Archive
+1982-02-09,0.03699290402241989,Neutral,Real Estate Mogul,Historical Archive
+1982-02-16,0.03092005338060283,Neutral,Real Estate Mogul,Historical Archive
+1982-02-23,0.17866891265162077,Positive,Real Estate Mogul,Historical Archive
+1982-03-02,0.16247661521560125,Positive,Real Estate Mogul,Historical Archive
+1982-03-09,0.14317892016994185,Positive,Real Estate Mogul,Historical Archive
+1982-03-16,0.32341085467132,Positive,Real Estate Mogul,Historical Archive
+1982-03-23,0.23361090497402265,Positive,Real Estate Mogul,Historical Archive
+1982-03-30,0.20052383591366943,Positive,Real Estate Mogul,Historical Archive
+1982-04-06,0.14144116550987942,Positive,Real Estate Mogul,Historical Archive
+1982-04-13,0.19784159448759037,Positive,Real Estate Mogul,Historical Archive
+1982-04-20,0.2710319143849252,Positive,Real Estate Mogul,Historical Archive
+1982-04-27,0.07377014851894684,Positive,Real Estate Mogul,Historical Archive
+1982-05-04,0.1805926269851665,Positive,Real Estate Mogul,Historical Archive
+1982-05-11,0.11225200104907515,Positive,Real Estate Mogul,Historical Archive
+1982-05-18,0.2046215349187599,Positive,Real Estate Mogul,Historical Archive
+1982-05-25,0.13157743855446738,Positive,Real Estate Mogul,Historical Archive
+1982-06-01,0.22383328085017937,Positive,Real Estate Mogul,Historical Archive
+1982-06-08,0.18787874704067056,Positive,Real Estate Mogul,Historical Archive
+1982-06-15,0.09463163735190949,Positive,Real Estate Mogul,Historical Archive
+1982-06-22,0.30266975954183517,Positive,Real Estate Mogul,Historical Archive
+1982-06-29,0.0660015339433215,Positive,Real Estate Mogul,Historical Archive
+1982-07-06,0.023393458360621955,Neutral,Real Estate Mogul,Historical Archive
+1982-07-13,-0.11933464858740434,Negative,Real Estate Mogul,Historical Archive
+1982-07-20,-0.04659586515382769,Neutral,Real Estate Mogul,Historical Archive
+1982-07-27,0.28350767109638364,Positive,Real Estate Mogul,Historical Archive
+1982-08-03,0.22363673144392687,Positive,Real Estate Mogul,Historical Archive
+1982-08-10,0.21228053386592222,Positive,Real Estate Mogul,Historical Archive
+1982-08-17,0.2553446689240113,Positive,Real Estate Mogul,Historical Archive
+1982-08-24,0.07668256306308861,Positive,Real Estate Mogul,Historical Archive
+1982-08-31,0.19026545448209442,Positive,Real Estate Mogul,Historical Archive
+1982-09-07,0.21690045460124838,Positive,Real Estate Mogul,Historical Archive
+1982-09-14,0.341536319147323,Positive,Real Estate Mogul,Historical Archive
+1982-09-21,0.2911821136191036,Positive,Real Estate Mogul,Historical Archive
+1982-09-28,0.060321577994943504,Positive,Real Estate Mogul,Historical Archive
+1982-10-05,0.23232293927111466,Positive,Real Estate Mogul,Historical Archive
+1982-10-12,0.0007733781012947416,Neutral,Real Estate Mogul,Historical Archive
+1982-10-19,0.17835063238711743,Positive,Real Estate Mogul,Historical Archive
+1982-10-26,0.05121935639231176,Positive,Real Estate Mogul,Historical Archive
+1982-11-02,0.23636741052907018,Positive,Real Estate Mogul,Historical Archive
+1982-11-09,0.21993352431684182,Positive,Real Estate Mogul,Historical Archive
+1982-11-16,0.25524794353001956,Positive,Real Estate Mogul,Historical Archive
+1982-11-23,0.08577783385652085,Positive,Real Estate Mogul,Historical Archive
+1982-11-30,0.1117246465439041,Positive,Real Estate Mogul,Historical Archive
+1982-12-07,0.1182753327368653,Positive,Real Estate Mogul,Historical Archive
+1982-12-14,0.20847653168839755,Positive,Real Estate Mogul,Historical Archive
+1982-12-21,0.3400942515716858,Positive,Real Estate Mogul,Historical Archive
+1982-12-28,0.1626511524190716,Positive,Real Estate Mogul,Historical Archive
+1983-01-04,0.11782646476839738,Positive,Real Estate Mogul,Historical Archive
+1983-01-11,0.2135092325070108,Positive,Real Estate Mogul,Historical Archive
+1983-01-18,0.2089978160594661,Positive,Real Estate Mogul,Historical Archive
+1983-01-25,0.19685190190049476,Positive,Real Estate Mogul,Historical Archive
+1983-02-01,0.04174782878447647,Neutral,Real Estate Mogul,Historical Archive
+1983-02-08,0.12208762749799804,Positive,Real Estate Mogul,Historical Archive
+1983-02-15,0.10743673336112529,Positive,Real Estate Mogul,Historical Archive
+1983-02-22,0.3120676147766942,Positive,Real Estate Mogul,Historical Archive
+1983-03-01,0.016716786149888835,Neutral,Real Estate Mogul,Historical Archive
+1983-03-08,0.1555774328967081,Positive,Real Estate Mogul,Historical Archive
+1983-03-15,0.1809424758965475,Positive,Real Estate Mogul,Historical Archive
+1983-03-22,0.2583250127990928,Positive,Real Estate Mogul,Historical Archive
+1983-03-29,0.21702160740658025,Positive,Real Estate Mogul,Historical Archive
+1983-04-05,0.11286558991223933,Positive,Real Estate Mogul,Historical Archive
+1983-04-12,0.17551584966618958,Positive,Real Estate Mogul,Historical Archive
+1983-04-19,0.13456755155637348,Positive,Real Estate Mogul,Historical Archive
+1983-04-26,0.23317881214886654,Positive,Real Estate Mogul,Historical Archive
+1983-05-03,0.3327220988210461,Positive,Real Estate Mogul,Historical Archive
+1983-05-10,0.15901550857408972,Positive,Real Estate Mogul,Historical Archive
+1983-05-17,0.06831013426778848,Positive,Real Estate Mogul,Historical Archive
+1983-05-24,0.038261063165643955,Neutral,Real Estate Mogul,Historical Archive
+1983-05-31,0.19289886021860758,Positive,Real Estate Mogul,Historical Archive
+1983-06-07,0.30984521657730324,Positive,Real Estate Mogul,Historical Archive
+1983-06-14,0.2557011661947943,Positive,Real Estate Mogul,Historical Archive
+1983-06-21,0.3293795442058042,Positive,Real Estate Mogul,Historical Archive
+1983-06-28,0.3042709791355299,Positive,Real Estate Mogul,Historical Archive
+1983-07-05,0.15229753182821285,Positive,Real Estate Mogul,Historical Archive
+1983-07-12,0.24978937319558064,Positive,Real Estate Mogul,Historical Archive
+1983-07-19,0.034468504846675685,Neutral,Real Estate Mogul,Historical Archive
+1983-07-26,0.2893265787133963,Positive,Real Estate Mogul,Historical Archive
+1983-08-02,0.16965004540362036,Positive,Real Estate Mogul,Historical Archive
+1983-08-09,0.05480442942682173,Positive,Real Estate Mogul,Historical Archive
+1983-08-16,0.05054410650039359,Positive,Real Estate Mogul,Historical Archive
+1983-08-23,0.272949558645789,Positive,Real Estate Mogul,Historical Archive
+1983-08-30,0.06236378991603386,Positive,Real Estate Mogul,Historical Archive
+1983-09-06,0.22676599869000313,Positive,Real Estate Mogul,Historical Archive
+1983-09-13,0.05897462717074925,Positive,Real Estate Mogul,Historical Archive
+1983-09-20,0.15112450918251213,Positive,Real Estate Mogul,Historical Archive
+1983-09-27,0.16187762362831612,Positive,Real Estate Mogul,Historical Archive
+1983-10-04,0.12329437992198715,Positive,Real Estate Mogul,Historical Archive
+1983-10-11,0.13480999789548237,Positive,Real Estate Mogul,Historical Archive
+1983-10-18,0.20833355620056868,Positive,Real Estate Mogul,Historical Archive
+1983-10-25,0.13860228406622938,Positive,Real Estate Mogul,Historical Archive
+1983-11-01,0.25359713042472654,Positive,Real Estate Mogul,Historical Archive
+1983-11-08,0.2859924211420639,Positive,Real Estate Mogul,Historical Archive
+1983-11-15,0.27772140630981557,Positive,Real Estate Mogul,Historical Archive
+1983-11-22,0.11960321493926847,Positive,Real Estate Mogul,Historical Archive
+1983-11-29,0.22009229951404605,Positive,Real Estate Mogul,Historical Archive
+1983-12-06,0.21327621234984745,Positive,Real Estate Mogul,Historical Archive
+1983-12-13,0.18490087231852878,Positive,Real Estate Mogul,Historical Archive
+1983-12-20,0.10199917062696122,Positive,Real Estate Mogul,Historical Archive
+1983-12-27,0.10257153796402764,Positive,Real Estate Mogul,Historical Archive
+1984-01-03,0.21924918821150433,Positive,Real Estate Mogul,Historical Archive
+1984-01-10,0.18416443634473542,Positive,Real Estate Mogul,Historical Archive
+1984-01-17,0.17974959986130912,Positive,Real Estate Mogul,Historical Archive
+1984-01-24,0.16287527996092951,Positive,Real Estate Mogul,Historical Archive
+1984-01-31,0.23301638638978756,Positive,Real Estate Mogul,Historical Archive
+1984-02-07,0.18433296869709498,Positive,Real Estate Mogul,Historical Archive
+1984-02-14,0.20308957611157696,Positive,Real Estate Mogul,Historical Archive
+1984-02-21,0.29691235176058284,Positive,Real Estate Mogul,Historical Archive
+1984-02-28,0.437922796465781,Positive,Real Estate Mogul,Historical Archive
+1984-03-06,0.26859699975259965,Positive,Real Estate Mogul,Historical Archive
+1984-03-13,0.22247403761312942,Positive,Real Estate Mogul,Historical Archive
+1984-03-20,0.28263316375317865,Positive,Real Estate Mogul,Historical Archive
+1984-03-27,0.25671638284953446,Positive,Real Estate Mogul,Historical Archive
+1984-04-03,0.3576938347407597,Positive,Real Estate Mogul,Historical Archive
+1984-04-10,0.11951352105041857,Positive,Real Estate Mogul,Historical Archive
+1984-04-17,0.2126295098010051,Positive,Real Estate Mogul,Historical Archive
+1984-04-24,0.19299560367407143,Positive,Real Estate Mogul,Historical Archive
+1984-05-01,0.2857841113125703,Positive,Real Estate Mogul,Historical Archive
+1984-05-08,0.211092394721427,Positive,Real Estate Mogul,Historical Archive
+1984-05-15,0.2663607519291172,Positive,Real Estate Mogul,Historical Archive
+1984-05-22,0.23169680298661272,Positive,Real Estate Mogul,Historical Archive
+1984-05-29,0.10492120997338474,Positive,Real Estate Mogul,Historical Archive
+1984-06-05,0.11762985734676536,Positive,Real Estate Mogul,Historical Archive
+1984-06-12,0.4616206978975528,Positive,Real Estate Mogul,Historical Archive
+1984-06-19,0.26677086628513463,Positive,Real Estate Mogul,Historical Archive
+1984-06-26,0.08640185656807915,Positive,Real Estate Mogul,Historical Archive
+1984-07-03,0.4140411743826699,Positive,Real Estate Mogul,Historical Archive
+1984-07-10,0.31501411908253985,Positive,Real Estate Mogul,Historical Archive
+1984-07-17,0.20515313032940666,Positive,Real Estate Mogul,Historical Archive
+1984-07-24,0.33307337511826796,Positive,Real Estate Mogul,Historical Archive
+1984-07-31,0.2087756457538405,Positive,Real Estate Mogul,Historical Archive
+1984-08-07,0.14793210092849746,Positive,Real Estate Mogul,Historical Archive
+1984-08-14,0.384700469144071,Positive,Real Estate Mogul,Historical Archive
+1984-08-21,0.10208966172271018,Positive,Real Estate Mogul,Historical Archive
+1984-08-28,0.16389153885635896,Positive,Real Estate Mogul,Historical Archive
+1984-09-04,0.26918089634622355,Positive,Real Estate Mogul,Historical Archive
+1984-09-11,0.05925516516416926,Positive,Real Estate Mogul,Historical Archive
+1984-09-18,0.1917109615140967,Positive,Real Estate Mogul,Historical Archive
+1984-09-25,0.3708102743374502,Positive,Real Estate Mogul,Historical Archive
+1984-10-02,0.19432263231531574,Positive,Real Estate Mogul,Historical Archive
+1984-10-09,0.2557167698659254,Positive,Real Estate Mogul,Historical Archive
+1984-10-16,0.2438930826922584,Positive,Real Estate Mogul,Historical Archive
+1984-10-23,0.2467735771561365,Positive,Real Estate Mogul,Historical Archive
+1984-10-30,0.1441989641186088,Positive,Real Estate Mogul,Historical Archive
+1984-11-06,0.016411344111374404,Neutral,Real Estate Mogul,Historical Archive
+1984-11-13,0.2604687421028731,Positive,Real Estate Mogul,Historical Archive
+1984-11-20,0.3953800614305481,Positive,Real Estate Mogul,Historical Archive
+1984-11-27,0.2260756294367864,Positive,Real Estate Mogul,Historical Archive
+1984-12-04,0.21155654787463896,Positive,Real Estate Mogul,Historical Archive
+1984-12-11,0.23249215067401086,Positive,Real Estate Mogul,Historical Archive
+1984-12-18,0.04552579091001788,Neutral,Real Estate Mogul,Historical Archive
+1984-12-25,0.2687612220436638,Positive,Real Estate Mogul,Historical Archive
+1985-01-01,0.04958445905217829,Neutral,Real Estate Mogul,Historical Archive
+1985-01-08,0.14129642206062454,Positive,Real Estate Mogul,Historical Archive
+1985-01-15,0.21420688671799704,Positive,Real Estate Mogul,Historical Archive
+1985-01-22,0.20728549159190165,Positive,Real Estate Mogul,Historical Archive
+1985-01-29,0.27972540807513496,Positive,Real Estate Mogul,Historical Archive
+1985-02-05,0.1961291063861595,Positive,Real Estate Mogul,Historical Archive
+1985-02-12,0.3100366350785558,Positive,Real Estate Mogul,Historical Archive
+1985-02-19,0.26594540705739866,Positive,Real Estate Mogul,Historical Archive
+1985-02-26,0.18757685285535278,Positive,Real Estate Mogul,Historical Archive
+1985-03-05,0.17097354050141828,Positive,Real Estate Mogul,Historical Archive
+1985-03-12,0.14611756791395486,Positive,Real Estate Mogul,Historical Archive
+1985-03-19,0.2929218208982478,Positive,Real Estate Mogul,Historical Archive
+1985-03-26,0.08444175450845313,Positive,Real Estate Mogul,Historical Archive
+1985-04-02,0.1575474793042923,Positive,Real Estate Mogul,Historical Archive
+1985-04-09,0.28414911956810496,Positive,Real Estate Mogul,Historical Archive
+1985-04-16,0.26012498628600805,Positive,Real Estate Mogul,Historical Archive
+1985-04-23,0.13628800056737245,Positive,Real Estate Mogul,Historical Archive
+1985-04-30,-0.07387223431977663,Negative,Real Estate Mogul,Historical Archive
+1985-05-07,0.17940697601308417,Positive,Real Estate Mogul,Historical Archive
+1985-05-14,0.07655358024018229,Positive,Real Estate Mogul,Historical Archive
+1985-05-21,0.1560769257240315,Positive,Real Estate Mogul,Historical Archive
+1985-05-28,0.347052687034367,Positive,Real Estate Mogul,Historical Archive
+1985-06-04,0.23313677011452175,Positive,Real Estate Mogul,Historical Archive
+1985-06-11,0.10736642780675815,Positive,Real Estate Mogul,Historical Archive
+1985-06-18,0.10443580632184392,Positive,Real Estate Mogul,Historical Archive
+1985-06-25,0.2416290265527785,Positive,Real Estate Mogul,Historical Archive
+1985-07-02,0.30203567180782187,Positive,Real Estate Mogul,Historical Archive
+1985-07-09,0.23057139746743788,Positive,Real Estate Mogul,Historical Archive
+1985-07-16,0.2933997555977508,Positive,Real Estate Mogul,Historical Archive
+1985-07-23,0.1373680637398447,Positive,Real Estate Mogul,Historical Archive
+1985-07-30,0.2732522700836799,Positive,Real Estate Mogul,Historical Archive
+1985-08-06,0.2008634420143968,Positive,Real Estate Mogul,Historical Archive
+1985-08-13,0.48257646901430534,Positive,Real Estate Mogul,Historical Archive
+1985-08-20,0.15819727560412972,Positive,Real Estate Mogul,Historical Archive
+1985-08-27,0.04872808861869957,Neutral,Real Estate Mogul,Historical Archive
+1985-09-03,0.2561052627933059,Positive,Real Estate Mogul,Historical Archive
+1985-09-10,0.05232975130879758,Positive,Real Estate Mogul,Historical Archive
+1985-09-17,0.18025165819378755,Positive,Real Estate Mogul,Historical Archive
+1985-09-24,0.055372354927802375,Positive,Real Estate Mogul,Historical Archive
+1985-10-01,0.3314484784643281,Positive,Real Estate Mogul,Historical Archive
+1985-10-08,0.3265398872696723,Positive,Real Estate Mogul,Historical Archive
+1985-10-15,0.2647456638391452,Positive,Real Estate Mogul,Historical Archive
+1985-10-22,0.189216246265505,Positive,Real Estate Mogul,Historical Archive
+1985-10-29,0.15500056476639806,Positive,Real Estate Mogul,Historical Archive
+1985-11-05,-0.004455495687487515,Neutral,Real Estate Mogul,Historical Archive
+1985-11-12,0.33560801016583863,Positive,Real Estate Mogul,Historical Archive
+1985-11-19,0.03682266397422032,Neutral,Real Estate Mogul,Historical Archive
+1985-11-26,0.304646237609052,Positive,Real Estate Mogul,Historical Archive
+1985-12-03,0.25352286485114,Positive,Real Estate Mogul,Historical Archive
+1985-12-10,0.28894963659756606,Positive,Real Estate Mogul,Historical Archive
+1985-12-17,0.01669418744023854,Neutral,Real Estate Mogul,Historical Archive
+1985-12-24,0.4646851624007526,Positive,Real Estate Mogul,Historical Archive
+1985-12-31,0.3282793998343707,Positive,Real Estate Mogul,Historical Archive
+1986-01-07,0.10614359742731151,Positive,Real Estate Mogul,Historical Archive
+1986-01-14,0.10068401361665955,Positive,Real Estate Mogul,Historical Archive
+1986-01-21,0.38443344807888535,Positive,Real Estate Mogul,Historical Archive
+1986-01-28,0.17998860135958022,Positive,Real Estate Mogul,Historical Archive
+1986-02-04,0.1558579890483027,Positive,Real Estate Mogul,Historical Archive
+1986-02-11,0.28075361242870345,Positive,Real Estate Mogul,Historical Archive
+1986-02-18,-0.009204155001270475,Neutral,Real Estate Mogul,Historical Archive
+1986-02-25,0.25015483949342987,Positive,Real Estate Mogul,Historical Archive
+1986-03-04,-0.01814858757488963,Neutral,Real Estate Mogul,Historical Archive
+1986-03-11,0.18543815390060558,Positive,Real Estate Mogul,Historical Archive
+1986-03-18,0.18871168413321823,Positive,Real Estate Mogul,Historical Archive
+1986-03-25,0.3123799869171414,Positive,Real Estate Mogul,Historical Archive
+1986-04-01,0.12481249170368704,Positive,Real Estate Mogul,Historical Archive
+1986-04-08,0.3849209776299173,Positive,Real Estate Mogul,Historical Archive
+1986-04-15,0.30377901464407603,Positive,Real Estate Mogul,Historical Archive
+1986-04-22,0.11973462710378531,Positive,Real Estate Mogul,Historical Archive
+1986-04-29,0.17667934019333678,Positive,Real Estate Mogul,Historical Archive
+1986-05-06,0.20470149964613932,Positive,Real Estate Mogul,Historical Archive
+1986-05-13,0.15643209254652152,Positive,Real Estate Mogul,Historical Archive
+1986-05-20,0.13825446666591143,Positive,Real Estate Mogul,Historical Archive
+1986-05-27,0.14720217700757832,Positive,Real Estate Mogul,Historical Archive
+1986-06-03,0.1196649986253992,Positive,Real Estate Mogul,Historical Archive
+1986-06-10,0.2619081419707154,Positive,Real Estate Mogul,Historical Archive
+1986-06-17,0.1457705000355642,Positive,Real Estate Mogul,Historical Archive
+1986-06-24,0.05373938533597353,Positive,Real Estate Mogul,Historical Archive
+1986-07-01,0.15722765109187975,Positive,Real Estate Mogul,Historical Archive
+1986-07-08,0.176327648976843,Positive,Real Estate Mogul,Historical Archive
+1986-07-15,0.2857770300587754,Positive,Real Estate Mogul,Historical Archive
+1986-07-22,0.15717175370448327,Positive,Real Estate Mogul,Historical Archive
+1986-07-29,0.2861111421697038,Positive,Real Estate Mogul,Historical Archive
+1986-08-05,0.39018331014133634,Positive,Real Estate Mogul,Historical Archive
+1986-08-12,0.3199666345852253,Positive,Real Estate Mogul,Historical Archive
+1986-08-19,0.16918823115091763,Positive,Real Estate Mogul,Historical Archive
+1986-08-26,0.09781761388762891,Positive,Real Estate Mogul,Historical Archive
+1986-09-02,0.3272546723443661,Positive,Real Estate Mogul,Historical Archive
+1986-09-09,0.34471750646182464,Positive,Real Estate Mogul,Historical Archive
+1986-09-16,0.0091405660099666,Neutral,Real Estate Mogul,Historical Archive
+1986-09-23,0.3317679925577116,Positive,Real Estate Mogul,Historical Archive
+1986-09-30,0.023669289950769057,Neutral,Real Estate Mogul,Historical Archive
+1986-10-07,0.20726323499501348,Positive,Real Estate Mogul,Historical Archive
+1986-10-14,0.1362589960862739,Positive,Real Estate Mogul,Historical Archive
+1986-10-21,0.13041282059753712,Positive,Real Estate Mogul,Historical Archive
+1986-10-28,0.18009030279875635,Positive,Real Estate Mogul,Historical Archive
+1986-11-04,0.10590373908167679,Positive,Real Estate Mogul,Historical Archive
+1986-11-11,0.32314637591359646,Positive,Real Estate Mogul,Historical Archive
+1986-11-18,0.1486326785932115,Positive,Real Estate Mogul,Historical Archive
+1986-11-25,0.2103806983546574,Positive,Real Estate Mogul,Historical Archive
+1986-12-02,0.2336369737068604,Positive,Real Estate Mogul,Historical Archive
+1986-12-09,0.06098702852191837,Positive,Real Estate Mogul,Historical Archive
+1986-12-16,0.06633803809705219,Positive,Real Estate Mogul,Historical Archive
+1986-12-23,0.12358080489272927,Positive,Real Estate Mogul,Historical Archive
+1986-12-30,0.11283531132966561,Positive,Real Estate Mogul,Historical Archive
+1987-01-06,0.25182109411401776,Positive,Real Estate Mogul,Historical Archive
+1987-01-13,0.22872641001503924,Positive,Real Estate Mogul,Historical Archive
+1987-01-20,0.16744956124727758,Positive,Real Estate Mogul,Historical Archive
+1987-01-27,0.18241293340671225,Positive,Real Estate Mogul,Historical Archive
+1987-02-03,0.11046353781836726,Positive,Real Estate Mogul,Historical Archive
+1987-02-10,0.11224798946639417,Positive,Real Estate Mogul,Historical Archive
+1987-02-17,0.29045070008005003,Positive,Real Estate Mogul,Historical Archive
+1987-02-24,0.31482595550148385,Positive,Real Estate Mogul,Historical Archive
+1987-03-03,0.362869786682471,Positive,Real Estate Mogul,Historical Archive
+1987-03-10,0.35550131416809194,Positive,Real Estate Mogul,Historical Archive
+1987-03-17,0.09841581159647333,Positive,Real Estate Mogul,Historical Archive
+1987-03-24,0.16701253911902697,Positive,Real Estate Mogul,Historical Archive
+1987-03-31,0.3216780144582848,Positive,Real Estate Mogul,Historical Archive
+1987-04-07,0.09796641552181776,Positive,Real Estate Mogul,Historical Archive
+1987-04-14,0.14961654363538684,Positive,Real Estate Mogul,Historical Archive
+1987-04-21,0.10297736183426423,Positive,Real Estate Mogul,Historical Archive
+1987-04-28,0.2787136852799419,Positive,Real Estate Mogul,Historical Archive
+1987-05-05,0.14164254206242727,Positive,Real Estate Mogul,Historical Archive
+1987-05-12,0.32867937924641427,Positive,Real Estate Mogul,Historical Archive
+1987-05-19,0.16938097874547367,Positive,Real Estate Mogul,Historical Archive
+1987-05-26,0.2852656115598073,Positive,Real Estate Mogul,Historical Archive
+1987-06-02,0.09709270463159266,Positive,Real Estate Mogul,Historical Archive
+1987-06-09,0.17508841226974278,Positive,Real Estate Mogul,Historical Archive
+1987-06-16,0.1910876352077134,Positive,Real Estate Mogul,Historical Archive
+1987-06-23,0.1683320518233769,Positive,Real Estate Mogul,Historical Archive
+1987-06-30,0.20809554904051644,Positive,Real Estate Mogul,Historical Archive
+1987-07-07,0.23053593120783086,Positive,Real Estate Mogul,Historical Archive
+1987-07-14,0.10546575477209823,Positive,Real Estate Mogul,Historical Archive
+1987-07-21,0.20019735059220778,Positive,Real Estate Mogul,Historical Archive
+1987-07-28,0.18192022521345574,Positive,Real Estate Mogul,Historical Archive
+1987-08-04,0.33857008213249273,Positive,Real Estate Mogul,Historical Archive
+1987-08-11,0.12488638011800782,Positive,Real Estate Mogul,Historical Archive
+1987-08-18,0.2642833842324519,Positive,Real Estate Mogul,Historical Archive
+1987-08-25,0.3737356552895731,Positive,Real Estate Mogul,Historical Archive
+1987-09-01,0.20392000169003177,Positive,Real Estate Mogul,Historical Archive
+1987-09-08,0.12137973976705758,Positive,Real Estate Mogul,Historical Archive
+1987-09-15,0.19361370775286993,Positive,Real Estate Mogul,Historical Archive
+1987-09-22,0.15085559660340458,Positive,Real Estate Mogul,Historical Archive
+1987-09-29,0.040616421487549514,Neutral,Real Estate Mogul,Historical Archive
+1987-10-06,0.0646910338147722,Positive,Real Estate Mogul,Historical Archive
+1987-10-13,0.1222634868012678,Positive,Real Estate Mogul,Historical Archive
+1987-10-20,0.2659738129593471,Positive,Real Estate Mogul,Historical Archive
+1987-10-27,0.17232868163279394,Positive,Real Estate Mogul,Historical Archive
+1987-11-03,0.16608367122445916,Positive,Real Estate Mogul,Historical Archive
+1987-11-10,0.38753225326264007,Positive,Real Estate Mogul,Historical Archive
+1987-11-17,0.19518064654873396,Positive,Real Estate Mogul,Historical Archive
+1987-11-24,0.14158302207481854,Positive,Real Estate Mogul,Historical Archive
+1987-12-01,0.11110453104972251,Positive,Real Estate Mogul,Historical Archive
+1987-12-08,0.3350731021689076,Positive,Real Estate Mogul,Historical Archive
+1987-12-15,0.17742821380462429,Positive,Real Estate Mogul,Historical Archive
+1987-12-22,0.08349763463125118,Positive,Real Estate Mogul,Historical Archive
+1987-12-29,0.10616820746159181,Positive,Real Estate Mogul,Historical Archive
+1988-01-05,0.1788235749213648,Positive,Real Estate Mogul,Historical Archive
+1988-01-12,0.24353635787618635,Positive,Real Estate Mogul,Historical Archive
+1988-01-19,-0.008462609548803929,Neutral,Real Estate Mogul,Historical Archive
+1988-01-26,0.05343509906246388,Positive,Real Estate Mogul,Historical Archive
+1988-02-02,0.22992772658966598,Positive,Real Estate Mogul,Historical Archive
+1988-02-09,0.042337860955699996,Neutral,Real Estate Mogul,Historical Archive
+1988-02-16,0.002326439115663187,Neutral,Real Estate Mogul,Historical Archive
+1988-02-23,0.05944668339029563,Positive,Real Estate Mogul,Historical Archive
+1988-03-01,0.26722623151286995,Positive,Real Estate Mogul,Historical Archive
+1988-03-08,0.11227455252144954,Positive,Real Estate Mogul,Historical Archive
+1988-03-15,0.23219969914970484,Positive,Real Estate Mogul,Historical Archive
+1988-03-22,0.18184850596623336,Positive,Real Estate Mogul,Historical Archive
+1988-03-29,0.2317919390122151,Positive,Real Estate Mogul,Historical Archive
+1988-04-05,0.15545541341725977,Positive,Real Estate Mogul,Historical Archive
+1988-04-12,0.17578651550570432,Positive,Real Estate Mogul,Historical Archive
+1988-04-19,0.15094818375088367,Positive,Real Estate Mogul,Historical Archive
+1988-04-26,0.2914477179455366,Positive,Real Estate Mogul,Historical Archive
+1988-05-03,0.23199598105391664,Positive,Real Estate Mogul,Historical Archive
+1988-05-10,0.12681081511768605,Positive,Real Estate Mogul,Historical Archive
+1988-05-17,0.15375643597398128,Positive,Real Estate Mogul,Historical Archive
+1988-05-24,0.06709134890270887,Positive,Real Estate Mogul,Historical Archive
+1988-05-31,0.12350152321575683,Positive,Real Estate Mogul,Historical Archive
+1988-06-07,0.1682527109084856,Positive,Real Estate Mogul,Historical Archive
+1988-06-14,0.2802332213860439,Positive,Real Estate Mogul,Historical Archive
+1988-06-21,0.21160663325274479,Positive,Real Estate Mogul,Historical Archive
+1988-06-28,0.03945757391233709,Neutral,Real Estate Mogul,Historical Archive
+1988-07-05,0.3753284361463836,Positive,Real Estate Mogul,Historical Archive
+1988-07-12,0.053390619247502186,Positive,Real Estate Mogul,Historical Archive
+1988-07-19,0.3639191602915492,Positive,Real Estate Mogul,Historical Archive
+1988-07-26,0.30018702090845073,Positive,Real Estate Mogul,Historical Archive
+1988-08-02,0.26975906966073715,Positive,Real Estate Mogul,Historical Archive
+1988-08-09,0.10866072053726965,Positive,Real Estate Mogul,Historical Archive
+1988-08-16,0.24318175211770146,Positive,Real Estate Mogul,Historical Archive
+1988-08-23,0.07910197679836213,Positive,Real Estate Mogul,Historical Archive
+1988-08-30,0.3031579924951914,Positive,Real Estate Mogul,Historical Archive
+1988-09-06,0.3778834413074353,Positive,Real Estate Mogul,Historical Archive
+1988-09-13,0.1837932599371641,Positive,Real Estate Mogul,Historical Archive
+1988-09-20,0.39603266796424275,Positive,Real Estate Mogul,Historical Archive
+1988-09-27,0.23577215964893877,Positive,Real Estate Mogul,Historical Archive
+1988-10-04,0.21938324525622183,Positive,Real Estate Mogul,Historical Archive
+1988-10-11,0.35365391614013525,Positive,Real Estate Mogul,Historical Archive
+1988-10-18,0.11125709762288541,Positive,Real Estate Mogul,Historical Archive
+1988-10-25,0.2294311862571128,Positive,Real Estate Mogul,Historical Archive
+1988-11-01,0.28600054812888553,Positive,Real Estate Mogul,Historical Archive
+1988-11-08,0.22026871421295893,Positive,Real Estate Mogul,Historical Archive
+1988-11-15,0.1670426561231726,Positive,Real Estate Mogul,Historical Archive
+1988-11-22,0.18992191599172556,Positive,Real Estate Mogul,Historical Archive
+1988-11-29,0.24377079980426597,Positive,Real Estate Mogul,Historical Archive
+1988-12-06,0.10583285547471336,Positive,Real Estate Mogul,Historical Archive
+1988-12-13,0.2588322641402568,Positive,Real Estate Mogul,Historical Archive
+1988-12-20,0.29828565086010495,Positive,Real Estate Mogul,Historical Archive
+1988-12-27,0.046577104971998906,Neutral,Real Estate Mogul,Historical Archive
+1989-01-03,0.003831355675539605,Neutral,Real Estate Mogul,Historical Archive
+1989-01-10,0.29146781841888625,Positive,Real Estate Mogul,Historical Archive
+1989-01-17,0.38026521824345344,Positive,Real Estate Mogul,Historical Archive
+1989-01-24,0.41810060568559604,Positive,Real Estate Mogul,Historical Archive
+1989-01-31,0.26004358037928443,Positive,Real Estate Mogul,Historical Archive
+1989-02-07,0.322920254416669,Positive,Real Estate Mogul,Historical Archive
+1989-02-14,0.3741284802992659,Positive,Real Estate Mogul,Historical Archive
+1989-02-21,0.3677966827987438,Positive,Real Estate Mogul,Historical Archive
+1989-02-28,0.24103496911134265,Positive,Real Estate Mogul,Historical Archive
+1989-03-07,0.25079387491242133,Positive,Real Estate Mogul,Historical Archive
+1989-03-14,0.15459040292590862,Positive,Real Estate Mogul,Historical Archive
+1989-03-21,0.19363494063639164,Positive,Real Estate Mogul,Historical Archive
+1989-03-28,0.2327937902603668,Positive,Real Estate Mogul,Historical Archive
+1989-04-04,0.3472894700618776,Positive,Real Estate Mogul,Historical Archive
+1989-04-11,0.14498138340511604,Positive,Real Estate Mogul,Historical Archive
+1989-04-18,0.26468746023314227,Positive,Real Estate Mogul,Historical Archive
+1989-04-25,0.2286001554470419,Positive,Real Estate Mogul,Historical Archive
+1989-05-02,0.2725494274207522,Positive,Real Estate Mogul,Historical Archive
+1989-05-09,0.2131109352186393,Positive,Real Estate Mogul,Historical Archive
+1989-05-16,0.36494577478441015,Positive,Real Estate Mogul,Historical Archive
+1989-05-23,0.15792297107773878,Positive,Real Estate Mogul,Historical Archive
+1989-05-30,0.20005647663874784,Positive,Real Estate Mogul,Historical Archive
+1989-06-06,0.14545626535065967,Positive,Real Estate Mogul,Historical Archive
+1989-06-13,0.060572461164722424,Positive,Real Estate Mogul,Historical Archive
+1989-06-20,0.19198304456109347,Positive,Real Estate Mogul,Historical Archive
+1989-06-27,0.17433121624616948,Positive,Real Estate Mogul,Historical Archive
+1989-07-04,0.1984979285758921,Positive,Real Estate Mogul,Historical Archive
+1989-07-11,0.21205561880311946,Positive,Real Estate Mogul,Historical Archive
+1989-07-18,0.4139514511709018,Positive,Real Estate Mogul,Historical Archive
+1989-07-25,0.17279154479587105,Positive,Real Estate Mogul,Historical Archive
+1989-08-01,0.05661436116748356,Positive,Real Estate Mogul,Historical Archive
+1989-08-08,0.2976038285260173,Positive,Real Estate Mogul,Historical Archive
+1989-08-15,0.1985765842444695,Positive,Real Estate Mogul,Historical Archive
+1989-08-22,0.30052627607341986,Positive,Real Estate Mogul,Historical Archive
+1989-08-29,0.13599396955950793,Positive,Real Estate Mogul,Historical Archive
+1989-09-05,0.2742826419245073,Positive,Real Estate Mogul,Historical Archive
+1989-09-12,0.2718777490197688,Positive,Real Estate Mogul,Historical Archive
+1989-09-19,0.258141193854414,Positive,Real Estate Mogul,Historical Archive
+1989-09-26,0.14921449879479398,Positive,Real Estate Mogul,Historical Archive
+1989-10-03,0.04377430897899859,Neutral,Real Estate Mogul,Historical Archive
+1989-10-10,0.20065557391591093,Positive,Real Estate Mogul,Historical Archive
+1989-10-17,0.22555066075049063,Positive,Real Estate Mogul,Historical Archive
+1989-10-24,0.1293482820644919,Positive,Real Estate Mogul,Historical Archive
+1989-10-31,0.20953929181847894,Positive,Real Estate Mogul,Historical Archive
+1989-11-07,0.10928581552917922,Positive,Real Estate Mogul,Historical Archive
+1989-11-14,0.23401248380997525,Positive,Real Estate Mogul,Historical Archive
+1989-11-21,0.3005503682048731,Positive,Real Estate Mogul,Historical Archive
+1989-11-28,0.38637127888132755,Positive,Real Estate Mogul,Historical Archive
+1989-12-05,0.12265043786715894,Positive,Real Estate Mogul,Historical Archive
+1989-12-12,0.12922967755915293,Positive,Real Estate Mogul,Historical Archive
+1989-12-19,0.29003219465882585,Positive,Real Estate Mogul,Historical Archive
+1989-12-26,0.25996357251149427,Positive,Real Estate Mogul,Historical Archive
+1990-01-02,0.2619460737378453,Positive,Real Estate Mogul,Historical Archive
+1990-01-09,0.3049424479176315,Positive,Real Estate Mogul,Historical Archive
+1990-01-16,0.21203502436207994,Positive,Real Estate Mogul,Historical Archive
+1990-01-23,0.26920712751365056,Positive,Real Estate Mogul,Historical Archive
+1990-01-30,0.09921696894061108,Positive,Real Estate Mogul,Historical Archive
+1990-02-06,0.2702001618174711,Positive,Real Estate Mogul,Historical Archive
+1990-02-13,0.05548743822111463,Positive,Real Estate Mogul,Historical Archive
+1990-02-20,0.2502678676152779,Positive,Real Estate Mogul,Historical Archive
+1990-02-27,0.24787110161278914,Positive,Real Estate Mogul,Historical Archive
+1990-03-06,0.18153523006537958,Positive,Real Estate Mogul,Historical Archive
+1990-03-13,0.18570484022035066,Positive,Real Estate Mogul,Historical Archive
+1990-03-20,0.20958243132600204,Positive,Real Estate Mogul,Historical Archive
+1990-03-27,0.14170796181239,Positive,Real Estate Mogul,Historical Archive
+1990-04-03,0.25116953255810004,Positive,Real Estate Mogul,Historical Archive
+1990-04-10,0.1719241205050105,Positive,Real Estate Mogul,Historical Archive
+1990-04-17,0.27362618332852506,Positive,Real Estate Mogul,Historical Archive
+1990-04-24,0.16718416840020067,Positive,Real Estate Mogul,Historical Archive
+1990-05-01,0.11904989133926505,Positive,Real Estate Mogul,Historical Archive
+1990-05-08,0.21466103738726236,Positive,Real Estate Mogul,Historical Archive
+1990-05-15,0.20477223184423315,Positive,Real Estate Mogul,Historical Archive
+1990-05-22,0.04854950991041804,Neutral,Real Estate Mogul,Historical Archive
+1990-05-29,0.26185822256925706,Positive,Real Estate Mogul,Historical Archive
+1990-06-05,0.3056250963510047,Positive,Real Estate Mogul,Historical Archive
+1990-06-12,0.12156105132459238,Positive,Real Estate Mogul,Historical Archive
+1990-06-19,0.03924180936329261,Neutral,Real Estate Mogul,Historical Archive
+1990-06-26,0.23834874384544155,Positive,Real Estate Mogul,Historical Archive
+1990-07-03,0.09527771290051001,Positive,Real Estate Mogul,Historical Archive
+1990-07-10,0.27382699432804564,Positive,Real Estate Mogul,Historical Archive
+1990-07-17,0.2639020368148035,Positive,Real Estate Mogul,Historical Archive
+1990-07-24,0.32879685989502183,Positive,Real Estate Mogul,Historical Archive
+1990-07-31,0.18659321979681226,Positive,Real Estate Mogul,Historical Archive
+1990-08-07,0.05443950434388556,Positive,Real Estate Mogul,Historical Archive
+1990-08-14,0.07329396584076367,Positive,Real Estate Mogul,Historical Archive
+1990-08-21,0.1373159627912925,Positive,Real Estate Mogul,Historical Archive
+1990-08-28,0.2794377462770865,Positive,Real Estate Mogul,Historical Archive
+1990-09-04,0.30359371013438097,Positive,Real Estate Mogul,Historical Archive
+1990-09-11,0.2514334842006859,Positive,Real Estate Mogul,Historical Archive
+1990-09-18,0.11112414283987734,Positive,Real Estate Mogul,Historical Archive
+1990-09-25,0.11210274338469861,Positive,Real Estate Mogul,Historical Archive
+1990-10-02,0.09081778884879461,Positive,Real Estate Mogul,Historical Archive
+1990-10-09,-0.030072844036849317,Neutral,Real Estate Mogul,Historical Archive
+1990-10-16,0.2917688287030277,Positive,Real Estate Mogul,Historical Archive
+1990-10-23,0.032567611342480846,Neutral,Real Estate Mogul,Historical Archive
+1990-10-30,0.3047131929770643,Positive,Real Estate Mogul,Historical Archive
+1990-11-06,0.2663810346506599,Positive,Real Estate Mogul,Historical Archive
+1990-11-13,0.13853281814328083,Positive,Real Estate Mogul,Historical Archive
+1990-11-20,0.11646434999219563,Positive,Real Estate Mogul,Historical Archive
+1990-11-27,0.11298637532820763,Positive,Real Estate Mogul,Historical Archive
+1990-12-04,0.2681356038150912,Positive,Real Estate Mogul,Historical Archive
+1990-12-11,0.17223156174305085,Positive,Real Estate Mogul,Historical Archive
+1990-12-18,0.37278928537801403,Positive,Real Estate Mogul,Historical Archive
+1990-12-25,0.09223734375374791,Positive,Real Estate Mogul,Historical Archive
+1991-01-01,0.24603868838985826,Positive,Real Estate Mogul,Historical Archive
+1991-01-08,0.2380202779510387,Positive,Real Estate Mogul,Historical Archive
+1991-01-15,0.17106507989206035,Positive,Real Estate Mogul,Historical Archive
+1991-01-22,-0.08025991395870019,Negative,Real Estate Mogul,Historical Archive
+1991-01-29,0.29638824519786544,Positive,Real Estate Mogul,Historical Archive
+1991-02-05,0.23544700913591488,Positive,Real Estate Mogul,Historical Archive
+1991-02-12,0.40158830114929955,Positive,Real Estate Mogul,Historical Archive
+1991-02-19,0.06981282884602241,Positive,Real Estate Mogul,Historical Archive
+1991-02-26,0.23847157780447098,Positive,Real Estate Mogul,Historical Archive
+1991-03-05,0.124437747387776,Positive,Real Estate Mogul,Historical Archive
+1991-03-12,0.11014052382193253,Positive,Real Estate Mogul,Historical Archive
+1991-03-19,0.07548685862090328,Positive,Real Estate Mogul,Historical Archive
+1991-03-26,0.20872824856540473,Positive,Real Estate Mogul,Historical Archive
+1991-04-02,0.1208747862610732,Positive,Real Estate Mogul,Historical Archive
+1991-04-09,0.23261844272266605,Positive,Real Estate Mogul,Historical Archive
+1991-04-16,0.24781846724762868,Positive,Real Estate Mogul,Historical Archive
+1991-04-23,0.32630138457266333,Positive,Real Estate Mogul,Historical Archive
+1991-04-30,0.18343540838417527,Positive,Real Estate Mogul,Historical Archive
+1991-05-07,0.06573530023646354,Positive,Real Estate Mogul,Historical Archive
+1991-05-14,0.20111134610999157,Positive,Real Estate Mogul,Historical Archive
+1991-05-21,0.0892232642361766,Positive,Real Estate Mogul,Historical Archive
+1991-05-28,0.20770402652894093,Positive,Real Estate Mogul,Historical Archive
+1991-06-04,0.2806318276751007,Positive,Real Estate Mogul,Historical Archive
+1991-06-11,0.13936225839228486,Positive,Real Estate Mogul,Historical Archive
+1991-06-18,0.042310126988589464,Neutral,Real Estate Mogul,Historical Archive
+1991-06-25,0.11341802458178456,Positive,Real Estate Mogul,Historical Archive
+1991-07-02,0.1501177609154482,Positive,Real Estate Mogul,Historical Archive
+1991-07-09,0.23714631197980593,Positive,Real Estate Mogul,Historical Archive
+1991-07-16,-0.0013520465904935386,Neutral,Real Estate Mogul,Historical Archive
+1991-07-23,0.09890138525127433,Positive,Real Estate Mogul,Historical Archive
+1991-07-30,0.29474214017593275,Positive,Real Estate Mogul,Historical Archive
+1991-08-06,0.08929360734794929,Positive,Real Estate Mogul,Historical Archive
+1991-08-13,0.17551390493600583,Positive,Real Estate Mogul,Historical Archive
+1991-08-20,0.12615085763069167,Positive,Real Estate Mogul,Historical Archive
+1991-08-27,0.17409694314357213,Positive,Real Estate Mogul,Historical Archive
+1991-09-03,0.24659322503097708,Positive,Real Estate Mogul,Historical Archive
+1991-09-10,0.289235036742439,Positive,Real Estate Mogul,Historical Archive
+1991-09-17,0.12128436257804738,Positive,Real Estate Mogul,Historical Archive
+1991-09-24,0.20885755112032725,Positive,Real Estate Mogul,Historical Archive
+1991-10-01,0.22107637400843508,Positive,Real Estate Mogul,Historical Archive
+1991-10-08,0.13870365921708078,Positive,Real Estate Mogul,Historical Archive
+1991-10-15,0.2665650776668708,Positive,Real Estate Mogul,Historical Archive
+1991-10-22,0.13784013221454222,Positive,Real Estate Mogul,Historical Archive
+1991-10-29,0.26741698477827175,Positive,Real Estate Mogul,Historical Archive
+1991-11-05,-0.06988249448679246,Negative,Real Estate Mogul,Historical Archive
+1991-11-12,0.29746294828192904,Positive,Real Estate Mogul,Historical Archive
+1991-11-19,0.16980237032354156,Positive,Real Estate Mogul,Historical Archive
+1991-11-26,0.16001039104219478,Positive,Real Estate Mogul,Historical Archive
+1991-12-03,0.24053228643941316,Positive,Real Estate Mogul,Historical Archive
+1991-12-10,0.3587544057670185,Positive,Real Estate Mogul,Historical Archive
+1991-12-17,0.1437217812719772,Positive,Real Estate Mogul,Historical Archive
+1991-12-24,0.18969534730321932,Positive,Real Estate Mogul,Historical Archive
+1991-12-31,0.20573826245240232,Positive,Real Estate Mogul,Historical Archive
+1992-01-07,0.21192854683161713,Positive,Real Estate Mogul,Historical Archive
+1992-01-14,0.20051440767932627,Positive,Real Estate Mogul,Historical Archive
+1992-01-21,0.18801000447193364,Positive,Real Estate Mogul,Historical Archive
+1992-01-28,0.32709658031705113,Positive,Real Estate Mogul,Historical Archive
+1992-02-04,0.3390730823128547,Positive,Real Estate Mogul,Historical Archive
+1992-02-11,0.267421211920136,Positive,Real Estate Mogul,Historical Archive
+1992-02-18,0.19657739241598154,Positive,Real Estate Mogul,Historical Archive
+1992-02-25,0.13401076506467202,Positive,Real Estate Mogul,Historical Archive
+1992-03-03,0.17871683949117215,Positive,Real Estate Mogul,Historical Archive
+1992-03-10,0.36112594322760916,Positive,Real Estate Mogul,Historical Archive
+1992-03-17,0.30777514649903226,Positive,Real Estate Mogul,Historical Archive
+1992-03-24,0.3278011485757921,Positive,Real Estate Mogul,Historical Archive
+1992-03-31,0.36279402444363695,Positive,Real Estate Mogul,Historical Archive
+1992-04-07,0.2737894875896766,Positive,Real Estate Mogul,Historical Archive
+1992-04-14,0.1447158000236519,Positive,Real Estate Mogul,Historical Archive
+1992-04-21,0.4051851597963658,Positive,Real Estate Mogul,Historical Archive
+1992-04-28,0.04303035186941251,Neutral,Real Estate Mogul,Historical Archive
+1992-05-05,0.44889142852833375,Positive,Real Estate Mogul,Historical Archive
+1992-05-12,0.22249092085264635,Positive,Real Estate Mogul,Historical Archive
+1992-05-19,0.3336065513064579,Positive,Real Estate Mogul,Historical Archive
+1992-05-26,0.1515940185866,Positive,Real Estate Mogul,Historical Archive
+1992-06-02,0.14940097457050017,Positive,Real Estate Mogul,Historical Archive
+1992-06-09,0.18593046778064662,Positive,Real Estate Mogul,Historical Archive
+1992-06-16,0.1617895359391193,Positive,Real Estate Mogul,Historical Archive
+1992-06-23,0.15605887890085807,Positive,Real Estate Mogul,Historical Archive
+1992-06-30,0.21188259644664847,Positive,Real Estate Mogul,Historical Archive
+1992-07-07,0.15856377446931763,Positive,Real Estate Mogul,Historical Archive
+1992-07-14,0.17001676488111567,Positive,Real Estate Mogul,Historical Archive
+1992-07-21,0.12114495518632257,Positive,Real Estate Mogul,Historical Archive
+1992-07-28,0.13972450794273647,Positive,Real Estate Mogul,Historical Archive
+1992-08-04,0.1772730868219103,Positive,Real Estate Mogul,Historical Archive
+1992-08-11,0.2706606363629914,Positive,Real Estate Mogul,Historical Archive
+1992-08-18,0.3807193390576963,Positive,Real Estate Mogul,Historical Archive
+1992-08-25,0.32914623819331107,Positive,Real Estate Mogul,Historical Archive
+1992-09-01,0.12104392513659236,Positive,Real Estate Mogul,Historical Archive
+1992-09-08,0.42935746867871205,Positive,Real Estate Mogul,Historical Archive
+1992-09-15,0.16184995935491903,Positive,Real Estate Mogul,Historical Archive
+1992-09-22,0.09752754751767707,Positive,Real Estate Mogul,Historical Archive
+1992-09-29,0.032381710695570415,Neutral,Real Estate Mogul,Historical Archive
+1992-10-06,0.15807460132214374,Positive,Real Estate Mogul,Historical Archive
+1992-10-13,0.06748696659780787,Positive,Real Estate Mogul,Historical Archive
+1992-10-20,0.3480390703505132,Positive,Real Estate Mogul,Historical Archive
+1992-10-27,0.37352919804365337,Positive,Real Estate Mogul,Historical Archive
+1992-11-03,0.15308000156576218,Positive,Real Estate Mogul,Historical Archive
+1992-11-10,0.13885647070243717,Positive,Real Estate Mogul,Historical Archive
+1992-11-17,0.24754615127946464,Positive,Real Estate Mogul,Historical Archive
+1992-11-24,-0.045112980837118816,Neutral,Real Estate Mogul,Historical Archive
+1992-12-01,0.09565102305988832,Positive,Real Estate Mogul,Historical Archive
+1992-12-08,0.29373460881152735,Positive,Real Estate Mogul,Historical Archive
+1992-12-15,0.22336660160149077,Positive,Real Estate Mogul,Historical Archive
+1992-12-22,0.09660144853440365,Positive,Real Estate Mogul,Historical Archive
+1992-12-29,0.2928025648192031,Positive,Real Estate Mogul,Historical Archive
+1993-01-05,0.20136285734985837,Positive,Real Estate Mogul,Historical Archive
+1993-01-12,0.07715030821865752,Positive,Real Estate Mogul,Historical Archive
+1993-01-19,0.1840831095077309,Positive,Real Estate Mogul,Historical Archive
+1993-01-26,0.16024087491576317,Positive,Real Estate Mogul,Historical Archive
+1993-02-02,0.29965020299690365,Positive,Real Estate Mogul,Historical Archive
+1993-02-09,0.22274687390946524,Positive,Real Estate Mogul,Historical Archive
+1993-02-16,0.38722472233758165,Positive,Real Estate Mogul,Historical Archive
+1993-02-23,0.3163894021086664,Positive,Real Estate Mogul,Historical Archive
+1993-03-02,0.24884569453145444,Positive,Real Estate Mogul,Historical Archive
+1993-03-09,0.4452429197518365,Positive,Real Estate Mogul,Historical Archive
+1993-03-16,0.27650475304299965,Positive,Real Estate Mogul,Historical Archive
+1993-03-23,0.1772571100891741,Positive,Real Estate Mogul,Historical Archive
+1993-03-30,0.28211782041118333,Positive,Real Estate Mogul,Historical Archive
+1993-04-06,0.13708557106560498,Positive,Real Estate Mogul,Historical Archive
+1993-04-13,0.16538005524950267,Positive,Real Estate Mogul,Historical Archive
+1993-04-20,0.07148669964975757,Positive,Real Estate Mogul,Historical Archive
+1993-04-27,0.324056935610621,Positive,Real Estate Mogul,Historical Archive
+1993-05-04,0.2085753839078461,Positive,Real Estate Mogul,Historical Archive
+1993-05-11,0.2372633084983701,Positive,Real Estate Mogul,Historical Archive
+1993-05-18,0.15162960392178632,Positive,Real Estate Mogul,Historical Archive
+1993-05-25,0.22123195844152133,Positive,Real Estate Mogul,Historical Archive
+1993-06-01,0.2571278124473823,Positive,Real Estate Mogul,Historical Archive
+1993-06-08,0.20516213658861981,Positive,Real Estate Mogul,Historical Archive
+1993-06-15,0.20887939408969333,Positive,Real Estate Mogul,Historical Archive
+1993-06-22,0.18922229325360657,Positive,Real Estate Mogul,Historical Archive
+1993-06-29,0.3072664613087117,Positive,Real Estate Mogul,Historical Archive
+1993-07-06,0.10148607960994294,Positive,Real Estate Mogul,Historical Archive
+1993-07-13,0.03194198954286262,Neutral,Real Estate Mogul,Historical Archive
+1993-07-20,0.004294505709428659,Neutral,Real Estate Mogul,Historical Archive
+1993-07-27,0.1511843734580374,Positive,Real Estate Mogul,Historical Archive
+1993-08-03,0.2051429797867139,Positive,Real Estate Mogul,Historical Archive
+1993-08-10,0.4296898681119043,Positive,Real Estate Mogul,Historical Archive
+1993-08-17,0.06325659644486323,Positive,Real Estate Mogul,Historical Archive
+1993-08-24,0.11435940667571402,Positive,Real Estate Mogul,Historical Archive
+1993-08-31,0.3278666835102658,Positive,Real Estate Mogul,Historical Archive
+1993-09-07,0.12750964812581353,Positive,Real Estate Mogul,Historical Archive
+1993-09-14,0.1901372871097182,Positive,Real Estate Mogul,Historical Archive
+1993-09-21,0.09059358817416814,Positive,Real Estate Mogul,Historical Archive
+1993-09-28,0.2988467983559113,Positive,Real Estate Mogul,Historical Archive
+1993-10-05,0.07460573601182618,Positive,Real Estate Mogul,Historical Archive
+1993-10-12,0.22111397935258248,Positive,Real Estate Mogul,Historical Archive
+1993-10-19,0.17019503286202714,Positive,Real Estate Mogul,Historical Archive
+1993-10-26,0.2353162281886662,Positive,Real Estate Mogul,Historical Archive
+1993-11-02,0.2737013751478151,Positive,Real Estate Mogul,Historical Archive
+1993-11-09,0.0687913453223401,Positive,Real Estate Mogul,Historical Archive
+1993-11-16,0.3503820288994103,Positive,Real Estate Mogul,Historical Archive
+1993-11-23,0.3229599546341714,Positive,Real Estate Mogul,Historical Archive
+1993-11-30,0.4377770857462948,Positive,Real Estate Mogul,Historical Archive
+1993-12-07,0.22523854289355905,Positive,Real Estate Mogul,Historical Archive
+1993-12-14,0.1521592142451273,Positive,Real Estate Mogul,Historical Archive
+1993-12-21,0.1397170241713563,Positive,Real Estate Mogul,Historical Archive
+1993-12-28,0.0923205516378147,Positive,Real Estate Mogul,Historical Archive
+1994-01-04,0.10265944050362998,Positive,Real Estate Mogul,Historical Archive
+1994-01-11,0.2834135161186583,Positive,Real Estate Mogul,Historical Archive
+1994-01-18,0.2986961579419738,Positive,Real Estate Mogul,Historical Archive
+1994-01-25,0.10517131448428776,Positive,Real Estate Mogul,Historical Archive
+1994-02-01,0.089727360857702,Positive,Real Estate Mogul,Historical Archive
+1994-02-08,0.08197830612165175,Positive,Real Estate Mogul,Historical Archive
+1994-02-15,0.1524852400312164,Positive,Real Estate Mogul,Historical Archive
+1994-02-22,0.2042771305657914,Positive,Real Estate Mogul,Historical Archive
+1994-03-01,0.18976775991648023,Positive,Real Estate Mogul,Historical Archive
+1994-03-08,0.07566955020983268,Positive,Real Estate Mogul,Historical Archive
+1994-03-15,0.13451901889484558,Positive,Real Estate Mogul,Historical Archive
+1994-03-22,0.24262202836168978,Positive,Real Estate Mogul,Historical Archive
+1994-03-29,0.28261690388543714,Positive,Real Estate Mogul,Historical Archive
+1994-04-05,0.05232033121379531,Positive,Real Estate Mogul,Historical Archive
+1994-04-12,0.1999150797726663,Positive,Real Estate Mogul,Historical Archive
+1994-04-19,0.3109943519444286,Positive,Real Estate Mogul,Historical Archive
+1994-04-26,0.16056618636465023,Positive,Real Estate Mogul,Historical Archive
+1994-05-03,0.3429158209314426,Positive,Real Estate Mogul,Historical Archive
+1994-05-10,0.13150278256417056,Positive,Real Estate Mogul,Historical Archive
+1994-05-17,0.14323244668387278,Positive,Real Estate Mogul,Historical Archive
+1994-05-24,0.3118797189224562,Positive,Real Estate Mogul,Historical Archive
+1994-05-31,0.16770635319039684,Positive,Real Estate Mogul,Historical Archive
+1994-06-07,0.186439410021787,Positive,Real Estate Mogul,Historical Archive
+1994-06-14,-0.084807309186474,Negative,Real Estate Mogul,Historical Archive
+1994-06-21,0.14911686203408772,Positive,Real Estate Mogul,Historical Archive
+1994-06-28,0.21544988929517284,Positive,Real Estate Mogul,Historical Archive
+1994-07-05,0.2644119003018604,Positive,Real Estate Mogul,Historical Archive
+1994-07-12,0.1807471378659327,Positive,Real Estate Mogul,Historical Archive
+1994-07-19,0.01689599517628257,Neutral,Real Estate Mogul,Historical Archive
+1994-07-26,0.29546926168886406,Positive,Real Estate Mogul,Historical Archive
+1994-08-02,0.10393596536018876,Positive,Real Estate Mogul,Historical Archive
+1994-08-09,0.22442909893730906,Positive,Real Estate Mogul,Historical Archive
+1994-08-16,0.24157427069242574,Positive,Real Estate Mogul,Historical Archive
+1994-08-23,0.4121784203806638,Positive,Real Estate Mogul,Historical Archive
+1994-08-30,0.10633215945756423,Positive,Real Estate Mogul,Historical Archive
+1994-09-06,0.3216786680871562,Positive,Real Estate Mogul,Historical Archive
+1994-09-13,0.13319971702427544,Positive,Real Estate Mogul,Historical Archive
+1994-09-20,0.33393974406053484,Positive,Real Estate Mogul,Historical Archive
+1994-09-27,-0.03207490361054313,Neutral,Real Estate Mogul,Historical Archive
+1994-10-04,0.13725635133552014,Positive,Real Estate Mogul,Historical Archive
+1994-10-11,0.28952101119218,Positive,Real Estate Mogul,Historical Archive
+1994-10-18,0.12838686373256014,Positive,Real Estate Mogul,Historical Archive
+1994-10-25,0.07175839660817265,Positive,Real Estate Mogul,Historical Archive
+1994-11-01,0.21240232363121908,Positive,Real Estate Mogul,Historical Archive
+1994-11-08,0.3178600400286299,Positive,Real Estate Mogul,Historical Archive
+1994-11-15,0.24271578541287384,Positive,Real Estate Mogul,Historical Archive
+1994-11-22,-0.024348372411584135,Neutral,Real Estate Mogul,Historical Archive
+1994-11-29,0.1523599506645334,Positive,Real Estate Mogul,Historical Archive
+1994-12-06,0.15310735411953866,Positive,Real Estate Mogul,Historical Archive
+1994-12-13,0.18830832872878756,Positive,Real Estate Mogul,Historical Archive
+1994-12-20,0.2659463873414539,Positive,Real Estate Mogul,Historical Archive
+1994-12-27,0.34889201934612424,Positive,Real Estate Mogul,Historical Archive
+1995-01-03,0.10418211856292964,Positive,Real Estate Mogul,Historical Archive
+1995-01-10,0.2350994109395152,Positive,Real Estate Mogul,Historical Archive
+1995-01-17,0.3221885160151071,Positive,Real Estate Mogul,Historical Archive
+1995-01-24,0.22365837390983392,Positive,Real Estate Mogul,Historical Archive
+1995-01-31,0.2269355022080389,Positive,Real Estate Mogul,Historical Archive
+1995-02-07,0.16498392363537445,Positive,Real Estate Mogul,Historical Archive
+1995-02-14,0.13157090136928873,Positive,Real Estate Mogul,Historical Archive
+1995-02-21,0.14535657558708126,Positive,Real Estate Mogul,Historical Archive
+1995-02-28,0.1270612262850495,Positive,Real Estate Mogul,Historical Archive
+1995-03-07,0.11690196721915858,Positive,Real Estate Mogul,Historical Archive
+1995-03-14,0.26323915206030185,Positive,Real Estate Mogul,Historical Archive
+1995-03-21,0.3730841779204497,Positive,Real Estate Mogul,Historical Archive
+1995-03-28,0.25536806142426155,Positive,Real Estate Mogul,Historical Archive
+1995-04-04,0.15863622047605624,Positive,Real Estate Mogul,Historical Archive
+1995-04-11,0.42315470962432467,Positive,Real Estate Mogul,Historical Archive
+1995-04-18,0.2513797107242716,Positive,Real Estate Mogul,Historical Archive
+1995-04-25,0.2792608014008752,Positive,Real Estate Mogul,Historical Archive
+1995-05-02,0.2659565311696124,Positive,Real Estate Mogul,Historical Archive
+1995-05-09,0.3657033162064325,Positive,Real Estate Mogul,Historical Archive
+1995-05-16,0.19120003957918477,Positive,Real Estate Mogul,Historical Archive
+1995-05-23,0.10694210019169259,Positive,Real Estate Mogul,Historical Archive
+1995-05-30,0.41257188205609246,Positive,Real Estate Mogul,Historical Archive
+1995-06-06,0.2093021388990249,Positive,Real Estate Mogul,Historical Archive
+1995-06-13,0.36585065161740443,Positive,Real Estate Mogul,Historical Archive
+1995-06-20,-0.019986735225392405,Neutral,Real Estate Mogul,Historical Archive
+1995-06-27,0.21020124871090928,Positive,Real Estate Mogul,Historical Archive
+1995-07-04,0.11233857534792718,Positive,Real Estate Mogul,Historical Archive
+1995-07-11,0.24243637645619706,Positive,Real Estate Mogul,Historical Archive
+1995-07-18,0.1628985224449897,Positive,Real Estate Mogul,Historical Archive
+1995-07-25,0.27539798771170715,Positive,Real Estate Mogul,Historical Archive
+1995-08-01,0.039624904195784905,Neutral,Real Estate Mogul,Historical Archive
+1995-08-08,0.20945635178644043,Positive,Real Estate Mogul,Historical Archive
+1995-08-15,0.28187820145749665,Positive,Real Estate Mogul,Historical Archive
+1995-08-22,0.2887345880464081,Positive,Real Estate Mogul,Historical Archive
+1995-08-29,0.2111327788771718,Positive,Real Estate Mogul,Historical Archive
+1995-09-05,0.25530215374355614,Positive,Real Estate Mogul,Historical Archive
+1995-09-12,0.2520966043328995,Positive,Real Estate Mogul,Historical Archive
+1995-09-19,0.33280874074181255,Positive,Real Estate Mogul,Historical Archive
+1995-09-26,0.1421714320865948,Positive,Real Estate Mogul,Historical Archive
+1995-10-03,0.18428782885627717,Positive,Real Estate Mogul,Historical Archive
+1995-10-10,0.18754921537565292,Positive,Real Estate Mogul,Historical Archive
+1995-10-17,0.2280295281093503,Positive,Real Estate Mogul,Historical Archive
+1995-10-24,0.236971873223281,Positive,Real Estate Mogul,Historical Archive
+1995-10-31,0.3582948800427196,Positive,Real Estate Mogul,Historical Archive
+1995-11-07,0.23631570779865105,Positive,Real Estate Mogul,Historical Archive
+1995-11-14,0.20691963545856473,Positive,Real Estate Mogul,Historical Archive
+1995-11-21,0.1185749927541943,Positive,Real Estate Mogul,Historical Archive
+1995-11-28,0.19139700478112615,Positive,Real Estate Mogul,Historical Archive
+1995-12-05,0.13205300177881388,Positive,Real Estate Mogul,Historical Archive
+1995-12-12,0.10703131666162137,Positive,Real Estate Mogul,Historical Archive
+1995-12-19,0.18148125236487186,Positive,Real Estate Mogul,Historical Archive
+1995-12-26,0.2852979472727498,Positive,Real Estate Mogul,Historical Archive
+1996-01-02,0.2989420851495199,Positive,Real Estate Mogul,Historical Archive
+1996-01-09,0.23740947649652555,Positive,Real Estate Mogul,Historical Archive
+1996-01-16,0.17297469048641864,Positive,Real Estate Mogul,Historical Archive
+1996-01-23,0.05811667028833242,Positive,Real Estate Mogul,Historical Archive
+1996-01-30,0.3327028236062577,Positive,Real Estate Mogul,Historical Archive
+1996-02-06,0.11851233254034982,Positive,Real Estate Mogul,Historical Archive
+1996-02-13,0.10923771768029666,Positive,Real Estate Mogul,Historical Archive
+1996-02-20,0.08366820111266798,Positive,Real Estate Mogul,Historical Archive
+1996-02-27,0.2917864831691708,Positive,Real Estate Mogul,Historical Archive
+1996-03-05,0.2922535076360619,Positive,Real Estate Mogul,Historical Archive
+1996-03-12,0.27032845297000196,Positive,Real Estate Mogul,Historical Archive
+1996-03-19,0.11566601971578998,Positive,Real Estate Mogul,Historical Archive
+1996-03-26,0.3328280702956729,Positive,Real Estate Mogul,Historical Archive
+1996-04-02,0.06010090553570677,Positive,Real Estate Mogul,Historical Archive
+1996-04-09,0.24890029648647127,Positive,Real Estate Mogul,Historical Archive
+1996-04-16,0.23307075422612408,Positive,Real Estate Mogul,Historical Archive
+1996-04-23,0.20052732368103254,Positive,Real Estate Mogul,Historical Archive
+1996-04-30,0.1427219498486494,Positive,Real Estate Mogul,Historical Archive
+1996-05-07,0.2256149472508383,Positive,Real Estate Mogul,Historical Archive
+1996-05-14,0.1302565853876145,Positive,Real Estate Mogul,Historical Archive
+1996-05-21,0.3469416090027305,Positive,Real Estate Mogul,Historical Archive
+1996-05-28,0.025594515260930872,Neutral,Real Estate Mogul,Historical Archive
+1996-06-04,0.15515767017543905,Positive,Real Estate Mogul,Historical Archive
+1996-06-11,0.1840288795400486,Positive,Real Estate Mogul,Historical Archive
+1996-06-18,0.2831494776183685,Positive,Real Estate Mogul,Historical Archive
+1996-06-25,0.300308717917423,Positive,Real Estate Mogul,Historical Archive
+1996-07-02,0.22443547136548128,Positive,Real Estate Mogul,Historical Archive
+1996-07-09,0.11025549896961921,Positive,Real Estate Mogul,Historical Archive
+1996-07-16,0.18611124228137713,Positive,Real Estate Mogul,Historical Archive
+1996-07-23,0.2169225622898725,Positive,Real Estate Mogul,Historical Archive
+1996-07-30,0.2434777404033091,Positive,Real Estate Mogul,Historical Archive
+1996-08-06,0.17423612160422342,Positive,Real Estate Mogul,Historical Archive
+1996-08-13,0.22939511654855455,Positive,Real Estate Mogul,Historical Archive
+1996-08-20,0.21622155864654932,Positive,Real Estate Mogul,Historical Archive
+1996-08-27,0.273851698753233,Positive,Real Estate Mogul,Historical Archive
+1996-09-03,0.22875336885519934,Positive,Real Estate Mogul,Historical Archive
+1996-09-10,0.10062805932391926,Positive,Real Estate Mogul,Historical Archive
+1996-09-17,0.2656221776258819,Positive,Real Estate Mogul,Historical Archive
+1996-09-24,0.28804800890277454,Positive,Real Estate Mogul,Historical Archive
+1996-10-01,0.18626762480376735,Positive,Real Estate Mogul,Historical Archive
+1996-10-08,0.15450592378143035,Positive,Real Estate Mogul,Historical Archive
+1996-10-15,-0.021871167879567027,Neutral,Real Estate Mogul,Historical Archive
+1996-10-22,0.2232535418094453,Positive,Real Estate Mogul,Historical Archive
+1996-10-29,0.3013247462655485,Positive,Real Estate Mogul,Historical Archive
+1996-11-05,0.2966698117612943,Positive,Real Estate Mogul,Historical Archive
+1996-11-12,0.20810720382375986,Positive,Real Estate Mogul,Historical Archive
+1996-11-19,0.19453338586379074,Positive,Real Estate Mogul,Historical Archive
+1996-11-26,0.23021116767326155,Positive,Real Estate Mogul,Historical Archive
+1996-12-03,0.10456290769870832,Positive,Real Estate Mogul,Historical Archive
+1996-12-10,0.25242033980268175,Positive,Real Estate Mogul,Historical Archive
+1996-12-17,0.248065470785034,Positive,Real Estate Mogul,Historical Archive
+1996-12-24,0.24083405585589893,Positive,Real Estate Mogul,Historical Archive
+1996-12-31,0.07300437578136607,Positive,Real Estate Mogul,Historical Archive
+1997-01-07,0.17297578142200798,Positive,Real Estate Mogul,Historical Archive
+1997-01-14,0.253715797786357,Positive,Real Estate Mogul,Historical Archive
+1997-01-21,0.3447734465468839,Positive,Real Estate Mogul,Historical Archive
+1997-01-28,0.166733557302286,Positive,Real Estate Mogul,Historical Archive
+1997-02-04,0.20644689471705072,Positive,Real Estate Mogul,Historical Archive
+1997-02-11,0.3354290566267859,Positive,Real Estate Mogul,Historical Archive
+1997-02-18,0.1135144557347342,Positive,Real Estate Mogul,Historical Archive
+1997-02-25,0.17062412761448628,Positive,Real Estate Mogul,Historical Archive
+1997-03-04,0.16651030060849292,Positive,Real Estate Mogul,Historical Archive
+1997-03-11,-0.002593695730351786,Neutral,Real Estate Mogul,Historical Archive
+1997-03-18,0.15123580652465582,Positive,Real Estate Mogul,Historical Archive
+1997-03-25,0.42557093063745566,Positive,Real Estate Mogul,Historical Archive
+1997-04-01,0.3407456840719476,Positive,Real Estate Mogul,Historical Archive
+1997-04-08,0.08850077870908711,Positive,Real Estate Mogul,Historical Archive
+1997-04-15,0.46440211390030406,Positive,Real Estate Mogul,Historical Archive
+1997-04-22,0.17747259199465554,Positive,Real Estate Mogul,Historical Archive
+1997-04-29,0.13619392744643066,Positive,Real Estate Mogul,Historical Archive
+1997-05-06,0.09147516733465591,Positive,Real Estate Mogul,Historical Archive
+1997-05-13,0.3646063989788945,Positive,Real Estate Mogul,Historical Archive
+1997-05-20,0.05382634017756613,Positive,Real Estate Mogul,Historical Archive
+1997-05-27,0.05735409002678776,Positive,Real Estate Mogul,Historical Archive
+1997-06-03,0.18584313666329916,Positive,Real Estate Mogul,Historical Archive
+1997-06-10,0.29618265626513357,Positive,Real Estate Mogul,Historical Archive
+1997-06-17,0.1594968636523916,Positive,Real Estate Mogul,Historical Archive
+1997-06-24,0.32889216416988587,Positive,Real Estate Mogul,Historical Archive
+1997-07-01,0.024890912436453666,Neutral,Real Estate Mogul,Historical Archive
+1997-07-08,0.20614688042508247,Positive,Real Estate Mogul,Historical Archive
+1997-07-15,0.27402986542849905,Positive,Real Estate Mogul,Historical Archive
+1997-07-22,0.26368045309549504,Positive,Real Estate Mogul,Historical Archive
+1997-07-29,0.36320663922942453,Positive,Real Estate Mogul,Historical Archive
+1997-08-05,0.30654365435773023,Positive,Real Estate Mogul,Historical Archive
+1997-08-12,0.28042228563129573,Positive,Real Estate Mogul,Historical Archive
+1997-08-19,0.16173762931007593,Positive,Real Estate Mogul,Historical Archive
+1997-08-26,0.08606364276456763,Positive,Real Estate Mogul,Historical Archive
+1997-09-02,0.2967784998686477,Positive,Real Estate Mogul,Historical Archive
+1997-09-09,0.2667706265073208,Positive,Real Estate Mogul,Historical Archive
+1997-09-16,0.1749335677612672,Positive,Real Estate Mogul,Historical Archive
+1997-09-23,0.28114468870501447,Positive,Real Estate Mogul,Historical Archive
+1997-09-30,0.07465637482852935,Positive,Real Estate Mogul,Historical Archive
+1997-10-07,0.20637077200652543,Positive,Real Estate Mogul,Historical Archive
+1997-10-14,0.19775719682426424,Positive,Real Estate Mogul,Historical Archive
+1997-10-21,0.27150008437214646,Positive,Real Estate Mogul,Historical Archive
+1997-10-28,0.29600409216757856,Positive,Real Estate Mogul,Historical Archive
+1997-11-04,0.24410993694532565,Positive,Real Estate Mogul,Historical Archive
+1997-11-11,0.19312186147966018,Positive,Real Estate Mogul,Historical Archive
+1997-11-18,0.25120687710727857,Positive,Real Estate Mogul,Historical Archive
+1997-11-25,0.32063602445756806,Positive,Real Estate Mogul,Historical Archive
+1997-12-02,0.2892113690083629,Positive,Real Estate Mogul,Historical Archive
+1997-12-09,0.37720866809184406,Positive,Real Estate Mogul,Historical Archive
+1997-12-16,0.11828757333186085,Positive,Real Estate Mogul,Historical Archive
+1997-12-23,-0.05449441249648529,Negative,Real Estate Mogul,Historical Archive
+1997-12-30,0.05917940162057775,Positive,Real Estate Mogul,Historical Archive
+1998-01-06,0.28679027962494685,Positive,Real Estate Mogul,Historical Archive
+1998-01-13,0.22951969762831054,Positive,Real Estate Mogul,Historical Archive
+1998-01-20,0.3711821678680338,Positive,Real Estate Mogul,Historical Archive
+1998-01-27,0.26828220452197404,Positive,Real Estate Mogul,Historical Archive
+1998-02-03,0.2485677023909994,Positive,Real Estate Mogul,Historical Archive
+1998-02-10,0.08389351706552317,Positive,Real Estate Mogul,Historical Archive
+1998-02-17,0.1715690391511317,Positive,Real Estate Mogul,Historical Archive
+1998-02-24,0.36639487460280734,Positive,Real Estate Mogul,Historical Archive
+1998-03-03,0.2321147570086033,Positive,Real Estate Mogul,Historical Archive
+1998-03-10,0.21771534329451847,Positive,Real Estate Mogul,Historical Archive
+1998-03-17,0.15689452358275824,Positive,Real Estate Mogul,Historical Archive
+1998-03-24,-0.0072215387261519715,Neutral,Real Estate Mogul,Historical Archive
+1998-03-31,0.24840277735863037,Positive,Real Estate Mogul,Historical Archive
+1998-04-07,0.055652684764815635,Positive,Real Estate Mogul,Historical Archive
+1998-04-14,0.10630282604521551,Positive,Real Estate Mogul,Historical Archive
+1998-04-21,0.4236433121521234,Positive,Real Estate Mogul,Historical Archive
+1998-04-28,0.15056317458357954,Positive,Real Estate Mogul,Historical Archive
+1998-05-05,0.3463578055232971,Positive,Real Estate Mogul,Historical Archive
+1998-05-12,0.3168017080390906,Positive,Real Estate Mogul,Historical Archive
+1998-05-19,0.2195222494894481,Positive,Real Estate Mogul,Historical Archive
+1998-05-26,0.09512446209039226,Positive,Real Estate Mogul,Historical Archive
+1998-06-02,0.2618066472886246,Positive,Real Estate Mogul,Historical Archive
+1998-06-09,0.3187053145078042,Positive,Real Estate Mogul,Historical Archive
+1998-06-16,0.3015571566909301,Positive,Real Estate Mogul,Historical Archive
+1998-06-23,0.060542842097247224,Positive,Real Estate Mogul,Historical Archive
+1998-06-30,0.11550991861693889,Positive,Real Estate Mogul,Historical Archive
+1998-07-07,0.22148107805744763,Positive,Real Estate Mogul,Historical Archive
+1998-07-14,0.21300915393422873,Positive,Real Estate Mogul,Historical Archive
+1998-07-21,0.1346897442266487,Positive,Real Estate Mogul,Historical Archive
+1998-07-28,0.2823939151909426,Positive,Real Estate Mogul,Historical Archive
+1998-08-04,0.1421924496772906,Positive,Real Estate Mogul,Historical Archive
+1998-08-11,0.15545906128431605,Positive,Real Estate Mogul,Historical Archive
+1998-08-18,0.2691255942654578,Positive,Real Estate Mogul,Historical Archive
+1998-08-25,0.4132892713279066,Positive,Real Estate Mogul,Historical Archive
+1998-09-01,0.1525580631093493,Positive,Real Estate Mogul,Historical Archive
+1998-09-08,0.13070590777558638,Positive,Real Estate Mogul,Historical Archive
+1998-09-15,0.09647912297390199,Positive,Real Estate Mogul,Historical Archive
+1998-09-22,0.2894260926351043,Positive,Real Estate Mogul,Historical Archive
+1998-09-29,0.1697416448817311,Positive,Real Estate Mogul,Historical Archive
+1998-10-06,0.1329762896009417,Positive,Real Estate Mogul,Historical Archive
+1998-10-13,0.16728737913479866,Positive,Real Estate Mogul,Historical Archive
+1998-10-20,0.384573012716042,Positive,Real Estate Mogul,Historical Archive
+1998-10-27,0.1845251118904433,Positive,Real Estate Mogul,Historical Archive
+1998-11-03,0.222282139873437,Positive,Real Estate Mogul,Historical Archive
+1998-11-10,0.24672375082786238,Positive,Real Estate Mogul,Historical Archive
+1998-11-17,0.11746134708173649,Positive,Real Estate Mogul,Historical Archive
+1998-11-24,0.30341924842962253,Positive,Real Estate Mogul,Historical Archive
+1998-12-01,0.19818065373053778,Positive,Real Estate Mogul,Historical Archive
+1998-12-08,0.42969553800410853,Positive,Real Estate Mogul,Historical Archive
+1998-12-15,0.046028394853560056,Neutral,Real Estate Mogul,Historical Archive
+1998-12-22,0.24324949560219214,Positive,Real Estate Mogul,Historical Archive
+1998-12-29,0.1474329935396851,Positive,Real Estate Mogul,Historical Archive
+1999-01-05,0.19540483064704994,Positive,Real Estate Mogul,Historical Archive
+1999-01-12,0.10006344813328569,Positive,Real Estate Mogul,Historical Archive
+1999-01-19,0.14424599898894228,Positive,Real Estate Mogul,Historical Archive
+1999-01-26,0.2420796191014207,Positive,Real Estate Mogul,Historical Archive
+1999-02-02,0.3512149456534513,Positive,Real Estate Mogul,Historical Archive
+1999-02-09,0.24807839293560624,Positive,Real Estate Mogul,Historical Archive
+1999-02-16,0.15352526808663391,Positive,Real Estate Mogul,Historical Archive
+1999-02-23,0.1983181043571408,Positive,Real Estate Mogul,Historical Archive
+1999-03-02,0.3288245047171976,Positive,Real Estate Mogul,Historical Archive
+1999-03-09,0.270469742243172,Positive,Real Estate Mogul,Historical Archive
+1999-03-16,0.2914088565425073,Positive,Real Estate Mogul,Historical Archive
+1999-03-23,0.2754223658709044,Positive,Real Estate Mogul,Historical Archive
+1999-03-30,0.2543808970964969,Positive,Real Estate Mogul,Historical Archive
+1999-04-06,0.18921004661235402,Positive,Real Estate Mogul,Historical Archive
+1999-04-13,0.3217944977502647,Positive,Real Estate Mogul,Historical Archive
+1999-04-20,0.13989468508118186,Positive,Real Estate Mogul,Historical Archive
+1999-04-27,0.12984767603545624,Positive,Real Estate Mogul,Historical Archive
+1999-05-04,-0.020746591794368108,Neutral,Real Estate Mogul,Historical Archive
+1999-05-11,0.2060505471605763,Positive,Real Estate Mogul,Historical Archive
+1999-05-18,0.11887810632398606,Positive,Real Estate Mogul,Historical Archive
+1999-05-25,0.16583972264188018,Positive,Real Estate Mogul,Historical Archive
+1999-06-01,0.1996795863174677,Positive,Real Estate Mogul,Historical Archive
+1999-06-08,0.11722135462808096,Positive,Real Estate Mogul,Historical Archive
+1999-06-15,0.14568625721230943,Positive,Real Estate Mogul,Historical Archive
+1999-06-22,0.20293486060246088,Positive,Real Estate Mogul,Historical Archive
+1999-06-29,0.3126438700823312,Positive,Real Estate Mogul,Historical Archive
+1999-07-06,0.22945142710288718,Positive,Real Estate Mogul,Historical Archive
+1999-07-13,0.335989748478197,Positive,Real Estate Mogul,Historical Archive
+1999-07-20,0.1791172198286863,Positive,Real Estate Mogul,Historical Archive
+1999-07-27,0.19195801594226358,Positive,Real Estate Mogul,Historical Archive
+1999-08-03,0.1571134239843172,Positive,Real Estate Mogul,Historical Archive
+1999-08-10,0.2623942661487774,Positive,Real Estate Mogul,Historical Archive
+1999-08-17,0.19564698955935894,Positive,Real Estate Mogul,Historical Archive
+1999-08-24,0.23452125228488388,Positive,Real Estate Mogul,Historical Archive
+1999-08-31,0.2751665286283955,Positive,Real Estate Mogul,Historical Archive
+1999-09-07,-0.01793144629225099,Neutral,Real Estate Mogul,Historical Archive
+1999-09-14,0.3200961043109871,Positive,Real Estate Mogul,Historical Archive
+1999-09-21,0.1310502574649806,Positive,Real Estate Mogul,Historical Archive
+1999-09-28,0.0465541535408448,Neutral,Real Estate Mogul,Historical Archive
+1999-10-05,0.04167010321608994,Neutral,Real Estate Mogul,Historical Archive
+1999-10-12,0.18710716917816017,Positive,Real Estate Mogul,Historical Archive
+1999-10-19,0.2551512211307898,Positive,Real Estate Mogul,Historical Archive
+1999-10-26,0.09029585546262815,Positive,Real Estate Mogul,Historical Archive
+1999-11-02,0.09080864584180055,Positive,Real Estate Mogul,Historical Archive
+1999-11-09,0.16980979144337544,Positive,Real Estate Mogul,Historical Archive
+1999-11-16,0.43878474468516454,Positive,Real Estate Mogul,Historical Archive
+1999-11-23,0.09854346521872602,Positive,Real Estate Mogul,Historical Archive
+1999-11-30,0.2743824243822439,Positive,Real Estate Mogul,Historical Archive
+1999-12-07,0.04035683721118902,Neutral,Real Estate Mogul,Historical Archive
+1999-12-14,0.16782255389291395,Positive,Real Estate Mogul,Historical Archive
+1999-12-21,0.057699848152383576,Positive,Real Estate Mogul,Historical Archive
+1999-12-28,0.31848784512309747,Positive,Real Estate Mogul,Historical Archive
+2000-01-04,0.15938758689434016,Positive,Real Estate Mogul,Historical Archive
+2000-01-11,0.29502714803067787,Positive,Real Estate Mogul,Historical Archive
+2000-01-18,0.3467884127175076,Positive,Real Estate Mogul,Historical Archive
+2000-01-25,0.10685247673436055,Positive,Real Estate Mogul,Historical Archive
+2000-02-01,0.16948373649548676,Positive,Real Estate Mogul,Historical Archive
+2000-02-08,0.309450306852298,Positive,Real Estate Mogul,Historical Archive
+2000-02-15,0.03366007416585459,Neutral,Real Estate Mogul,Historical Archive
+2000-02-22,0.11016938709100771,Positive,Real Estate Mogul,Historical Archive
+2000-02-29,0.1415952439833631,Positive,Real Estate Mogul,Historical Archive
+2000-03-07,0.3117697881637899,Positive,Real Estate Mogul,Historical Archive
+2000-03-14,0.05703606902250652,Positive,Real Estate Mogul,Historical Archive
+2000-03-21,0.23340335417581914,Positive,Real Estate Mogul,Historical Archive
+2000-03-28,0.265159208791288,Positive,Real Estate Mogul,Historical Archive
+2000-04-04,-0.05960683551615703,Negative,Real Estate Mogul,Historical Archive
+2000-04-11,0.15979121450184872,Positive,Real Estate Mogul,Historical Archive
+2000-04-18,0.2969058537973414,Positive,Real Estate Mogul,Historical Archive
+2000-04-25,0.26478937940436154,Positive,Real Estate Mogul,Historical Archive
+2000-05-02,0.16675371332089395,Positive,Real Estate Mogul,Historical Archive
+2000-05-09,0.14311825162480277,Positive,Real Estate Mogul,Historical Archive
+2000-05-16,0.18388086394774775,Positive,Real Estate Mogul,Historical Archive
+2000-05-23,0.07763313561511087,Positive,Real Estate Mogul,Historical Archive
+2000-05-30,0.14831213932076343,Positive,Real Estate Mogul,Historical Archive
+2000-06-06,0.21480980214543527,Positive,Real Estate Mogul,Historical Archive
+2000-06-13,0.21925338750218587,Positive,Real Estate Mogul,Historical Archive
+2000-06-20,0.14533296447585675,Positive,Real Estate Mogul,Historical Archive
+2000-06-27,0.13628710609883443,Positive,Real Estate Mogul,Historical Archive
+2000-07-04,-0.001058186585105203,Neutral,Real Estate Mogul,Historical Archive
+2000-07-11,0.21434035013809147,Positive,Real Estate Mogul,Historical Archive
+2000-07-18,0.1927706074212487,Positive,Real Estate Mogul,Historical Archive
+2000-07-25,0.3662900621750552,Positive,Real Estate Mogul,Historical Archive
+2000-08-01,0.08906011704851705,Positive,Real Estate Mogul,Historical Archive
+2000-08-08,0.3219071208639047,Positive,Real Estate Mogul,Historical Archive
+2000-08-15,0.27274205122852413,Positive,Real Estate Mogul,Historical Archive
+2000-08-22,0.09083057539108835,Positive,Real Estate Mogul,Historical Archive
+2000-08-29,0.1930354191394145,Positive,Real Estate Mogul,Historical Archive
+2000-09-05,0.09519115642937787,Positive,Real Estate Mogul,Historical Archive
+2000-09-12,0.13670529409720406,Positive,Real Estate Mogul,Historical Archive
+2000-09-19,0.22191750092386786,Positive,Real Estate Mogul,Historical Archive
+2000-09-26,0.16302085974887429,Positive,Real Estate Mogul,Historical Archive
+2000-10-03,0.10523146441859671,Positive,Real Estate Mogul,Historical Archive
+2000-10-10,0.01089902658092165,Neutral,Real Estate Mogul,Historical Archive
+2000-10-17,0.23431173411931377,Positive,Real Estate Mogul,Historical Archive
+2000-10-24,0.16536856777237166,Positive,Real Estate Mogul,Historical Archive
+2000-10-31,0.10287014561072813,Positive,Real Estate Mogul,Historical Archive
+2000-11-07,0.205036701326384,Positive,Real Estate Mogul,Historical Archive
+2000-11-14,0.23883836953352716,Positive,Real Estate Mogul,Historical Archive
+2000-11-21,0.19273892592500794,Positive,Real Estate Mogul,Historical Archive
+2000-11-28,0.29434470215267133,Positive,Real Estate Mogul,Historical Archive
+2000-12-05,0.2726268761968865,Positive,Real Estate Mogul,Historical Archive
+2000-12-12,0.09927855122999074,Positive,Real Estate Mogul,Historical Archive
+2000-12-19,0.12236218323426229,Positive,Real Estate Mogul,Historical Archive
+2000-12-26,0.17586570069445262,Positive,Real Estate Mogul,Historical Archive
+2001-01-02,0.27388438242534086,Positive,Real Estate Mogul,Historical Archive
+2001-01-09,0.07641887267380132,Positive,Real Estate Mogul,Historical Archive
+2001-01-16,0.14430190721702582,Positive,Real Estate Mogul,Historical Archive
+2001-01-23,0.2175898344417017,Positive,Real Estate Mogul,Historical Archive
+2001-01-30,0.18496439045389695,Positive,Real Estate Mogul,Historical Archive
+2001-02-06,0.24157340792197596,Positive,Real Estate Mogul,Historical Archive
+2001-02-13,0.23070761537097595,Positive,Real Estate Mogul,Historical Archive
+2001-02-20,0.1716305024519515,Positive,Real Estate Mogul,Historical Archive
+2001-02-27,0.3446171561924612,Positive,Real Estate Mogul,Historical Archive
+2001-03-06,0.1324764315911596,Positive,Real Estate Mogul,Historical Archive
+2001-03-13,0.23925675334458546,Positive,Real Estate Mogul,Historical Archive
+2001-03-20,0.31703529480344034,Positive,Real Estate Mogul,Historical Archive
+2001-03-27,0.3145963201772338,Positive,Real Estate Mogul,Historical Archive
+2001-04-03,0.1640563892785007,Positive,Real Estate Mogul,Historical Archive
+2001-04-10,0.17217282912311005,Positive,Real Estate Mogul,Historical Archive
+2001-04-17,0.27516357977215117,Positive,Real Estate Mogul,Historical Archive
+2001-04-24,0.13716202874751696,Positive,Real Estate Mogul,Historical Archive
+2001-05-01,0.19656560583693877,Positive,Real Estate Mogul,Historical Archive
+2001-05-08,0.133372391261541,Positive,Real Estate Mogul,Historical Archive
+2001-05-15,0.16130899459768705,Positive,Real Estate Mogul,Historical Archive
+2001-05-22,0.3509383171212932,Positive,Real Estate Mogul,Historical Archive
+2001-05-29,0.2435190354961718,Positive,Real Estate Mogul,Historical Archive
+2001-06-05,0.24640831796196142,Positive,Real Estate Mogul,Historical Archive
+2001-06-12,0.04144936056752804,Neutral,Real Estate Mogul,Historical Archive
+2001-06-19,0.4196782749521574,Positive,Real Estate Mogul,Historical Archive
+2001-06-26,0.14004088136536508,Positive,Real Estate Mogul,Historical Archive
+2001-07-03,0.16377629077051778,Positive,Real Estate Mogul,Historical Archive
+2001-07-10,0.02375987622220005,Neutral,Real Estate Mogul,Historical Archive
+2001-07-17,0.19829012553161593,Positive,Real Estate Mogul,Historical Archive
+2001-07-24,0.04403552552587606,Neutral,Real Estate Mogul,Historical Archive
+2001-07-31,0.24951376901637967,Positive,Real Estate Mogul,Historical Archive
+2001-08-07,0.21337566157817836,Positive,Real Estate Mogul,Historical Archive
+2001-08-14,0.15549176452958618,Positive,Real Estate Mogul,Historical Archive
+2001-08-21,0.29467083767097946,Positive,Real Estate Mogul,Historical Archive
+2001-08-28,0.2549873116016535,Positive,Real Estate Mogul,Historical Archive
+2001-09-04,0.2362743632081932,Positive,Real Estate Mogul,Historical Archive
+2001-09-11,0.13922970117687328,Positive,Real Estate Mogul,Historical Archive
+2001-09-18,0.08080142953604207,Positive,Real Estate Mogul,Historical Archive
+2001-09-25,0.16724827173331938,Positive,Real Estate Mogul,Historical Archive
+2001-10-02,0.17632437831231637,Positive,Real Estate Mogul,Historical Archive
+2001-10-09,0.19549481745871108,Positive,Real Estate Mogul,Historical Archive
+2001-10-16,0.2126210647300228,Positive,Real Estate Mogul,Historical Archive
+2001-10-23,0.14305632223866954,Positive,Real Estate Mogul,Historical Archive
+2001-10-30,0.19363715941834156,Positive,Real Estate Mogul,Historical Archive
+2001-11-06,0.062441835397164164,Positive,Real Estate Mogul,Historical Archive
+2001-11-13,0.10582068055949717,Positive,Real Estate Mogul,Historical Archive
+2001-11-20,0.35030177054595235,Positive,Real Estate Mogul,Historical Archive
+2001-11-27,0.2488868169379016,Positive,Real Estate Mogul,Historical Archive
+2001-12-04,0.2052774932109005,Positive,Real Estate Mogul,Historical Archive
+2001-12-11,0.3442381361447653,Positive,Real Estate Mogul,Historical Archive
+2001-12-18,0.26858840141073015,Positive,Real Estate Mogul,Historical Archive
+2001-12-25,0.2594468500451407,Positive,Real Estate Mogul,Historical Archive
+2002-01-01,0.1663890068153914,Positive,Real Estate Mogul,Historical Archive
+2002-01-08,0.041531085395630385,Neutral,Real Estate Mogul,Historical Archive
+2002-01-15,0.110644973776154,Positive,Real Estate Mogul,Historical Archive
+2002-01-22,0.11722910181028579,Positive,Real Estate Mogul,Historical Archive
+2002-01-29,0.23674431859198877,Positive,Real Estate Mogul,Historical Archive
+2002-02-05,-0.006835651392347375,Neutral,Real Estate Mogul,Historical Archive
+2002-02-12,0.33464893449016636,Positive,Real Estate Mogul,Historical Archive
+2002-02-19,0.14274692461428667,Positive,Real Estate Mogul,Historical Archive
+2002-02-26,0.2497689461134045,Positive,Real Estate Mogul,Historical Archive
+2002-03-05,0.20261773922280754,Positive,Real Estate Mogul,Historical Archive
+2002-03-12,0.3546820532558615,Positive,Real Estate Mogul,Historical Archive
+2002-03-19,0.11040740063966838,Positive,Real Estate Mogul,Historical Archive
+2002-03-26,0.2323262471630717,Positive,Real Estate Mogul,Historical Archive
+2002-04-02,0.05091556756708135,Positive,Real Estate Mogul,Historical Archive
+2002-04-09,0.07589440926489402,Positive,Real Estate Mogul,Historical Archive
+2002-04-16,0.06253515002794766,Positive,Real Estate Mogul,Historical Archive
+2002-04-23,0.2676505274093177,Positive,Real Estate Mogul,Historical Archive
+2002-04-30,0.254071479194225,Positive,Real Estate Mogul,Historical Archive
+2002-05-07,0.008999948619976245,Neutral,Real Estate Mogul,Historical Archive
+2002-05-14,0.530643193606628,Positive,Real Estate Mogul,Historical Archive
+2002-05-21,0.2634937397688389,Positive,Real Estate Mogul,Historical Archive
+2002-05-28,0.26945203085740504,Positive,Real Estate Mogul,Historical Archive
+2002-06-04,0.2360072154622748,Positive,Real Estate Mogul,Historical Archive
+2002-06-11,-0.09141866837590606,Negative,Real Estate Mogul,Historical Archive
+2002-06-18,0.021842284874625417,Neutral,Real Estate Mogul,Historical Archive
+2002-06-25,0.04981779926118468,Neutral,Real Estate Mogul,Historical Archive
+2002-07-02,0.272081579619726,Positive,Real Estate Mogul,Historical Archive
+2002-07-09,0.25627599221510605,Positive,Real Estate Mogul,Historical Archive
+2002-07-16,0.19887721207779335,Positive,Real Estate Mogul,Historical Archive
+2002-07-23,0.26062431304302597,Positive,Real Estate Mogul,Historical Archive
+2002-07-30,0.17387390519458104,Positive,Real Estate Mogul,Historical Archive
+2002-08-06,0.26545563339521566,Positive,Real Estate Mogul,Historical Archive
+2002-08-13,0.25321528115510555,Positive,Real Estate Mogul,Historical Archive
+2002-08-20,0.24470192313208178,Positive,Real Estate Mogul,Historical Archive
+2002-08-27,0.19841872221182086,Positive,Real Estate Mogul,Historical Archive
+2002-09-03,0.24626759085184524,Positive,Real Estate Mogul,Historical Archive
+2002-09-10,0.04114667674753175,Neutral,Real Estate Mogul,Historical Archive
+2002-09-17,0.3329394801220761,Positive,Real Estate Mogul,Historical Archive
+2002-09-24,0.20428766685722397,Positive,Real Estate Mogul,Historical Archive
+2002-10-01,0.22579375072176405,Positive,Real Estate Mogul,Historical Archive
+2002-10-08,0.2959200919243239,Positive,Real Estate Mogul,Historical Archive
+2002-10-15,0.1446444208570309,Positive,Real Estate Mogul,Historical Archive
+2002-10-22,0.34304929884116264,Positive,Real Estate Mogul,Historical Archive
+2002-10-29,0.1094435590807426,Positive,Real Estate Mogul,Historical Archive
+2002-11-05,0.2047686046086839,Positive,Real Estate Mogul,Historical Archive
+2002-11-12,0.24847880440745232,Positive,Real Estate Mogul,Historical Archive
+2002-11-19,0.21609938736869044,Positive,Real Estate Mogul,Historical Archive
+2002-11-26,0.3475899611919696,Positive,Real Estate Mogul,Historical Archive
+2002-12-03,0.33174393651740186,Positive,Real Estate Mogul,Historical Archive
+2002-12-10,0.1873582559756062,Positive,Real Estate Mogul,Historical Archive
+2002-12-17,0.12659869117717132,Positive,Real Estate Mogul,Historical Archive
+2002-12-24,0.22923958792766005,Positive,Real Estate Mogul,Historical Archive
+2002-12-31,0.2564590822625965,Positive,Real Estate Mogul,Historical Archive
+2003-01-07,0.09457538269783253,Positive,Real Estate Mogul,Historical Archive
+2003-01-14,0.0453737539925215,Neutral,Real Estate Mogul,Historical Archive
+2003-01-21,0.23028727145006783,Positive,Real Estate Mogul,Historical Archive
+2003-01-28,0.3033139549483995,Positive,Real Estate Mogul,Historical Archive
+2003-02-04,0.13447092822076578,Positive,Real Estate Mogul,Historical Archive
+2003-02-11,0.17227788316112705,Positive,Real Estate Mogul,Historical Archive
+2003-02-18,0.1412978374089205,Positive,Real Estate Mogul,Historical Archive
+2003-02-25,-0.0031101767569818306,Neutral,Real Estate Mogul,Historical Archive
+2003-03-04,0.22404814832520087,Positive,Real Estate Mogul,Historical Archive
+2003-03-11,0.3132506538825777,Positive,Real Estate Mogul,Historical Archive
+2003-03-18,0.04401245934532175,Neutral,Real Estate Mogul,Historical Archive
+2003-03-25,0.2055941010566874,Positive,Real Estate Mogul,Historical Archive
+2003-04-01,0.2477503101497055,Positive,Real Estate Mogul,Historical Archive
+2003-04-08,0.2776594004754803,Positive,Real Estate Mogul,Historical Archive
+2003-04-15,0.23010330540293034,Positive,Real Estate Mogul,Historical Archive
+2003-04-22,0.20875343326644938,Positive,Real Estate Mogul,Historical Archive
+2003-04-29,0.2757413317512655,Positive,Real Estate Mogul,Historical Archive
+2003-05-06,0.3172524187789355,Positive,Real Estate Mogul,Historical Archive
+2003-05-13,0.25783210180854144,Positive,Real Estate Mogul,Historical Archive
+2003-05-20,0.028775344555849347,Neutral,Real Estate Mogul,Historical Archive
+2003-05-27,0.17271560143077147,Positive,Real Estate Mogul,Historical Archive
+2003-06-03,0.26581085788482517,Positive,Real Estate Mogul,Historical Archive
+2003-06-10,0.10287641889656945,Positive,Real Estate Mogul,Historical Archive
+2003-06-17,0.20909419870700066,Positive,Real Estate Mogul,Historical Archive
+2003-06-24,0.14129896003589598,Positive,Real Estate Mogul,Historical Archive
+2003-07-01,0.19535966016286568,Positive,Real Estate Mogul,Historical Archive
+2003-07-08,-0.009687729569377884,Neutral,Real Estate Mogul,Historical Archive
+2003-07-15,0.22070623784251592,Positive,Real Estate Mogul,Historical Archive
+2003-07-22,0.10006425166698804,Positive,Real Estate Mogul,Historical Archive
+2003-07-29,0.12456345407828014,Positive,Real Estate Mogul,Historical Archive
+2003-08-05,0.019983378047671335,Neutral,Real Estate Mogul,Historical Archive
+2003-08-12,0.35966760359111716,Positive,Real Estate Mogul,Historical Archive
+2003-08-19,0.3179544304863312,Positive,Real Estate Mogul,Historical Archive
+2003-08-26,0.1636873345383479,Positive,Real Estate Mogul,Historical Archive
+2003-09-02,0.3573372828224116,Positive,Real Estate Mogul,Historical Archive
+2003-09-09,0.22668177406787088,Positive,Real Estate Mogul,Historical Archive
+2003-09-16,0.23136256038994252,Positive,Real Estate Mogul,Historical Archive
+2003-09-23,0.22828693525164817,Positive,Real Estate Mogul,Historical Archive
+2003-09-30,0.26541335568212765,Positive,Real Estate Mogul,Historical Archive
+2003-10-07,0.3411836487598735,Positive,Real Estate Mogul,Historical Archive
+2003-10-14,0.1279690283724198,Positive,Real Estate Mogul,Historical Archive
+2003-10-21,0.16357838521229262,Positive,Real Estate Mogul,Historical Archive
+2003-10-28,0.2162273613177428,Positive,Real Estate Mogul,Historical Archive
+2003-11-04,0.3902976039963029,Positive,Real Estate Mogul,Historical Archive
+2003-11-11,0.11738088652335642,Positive,Real Estate Mogul,Historical Archive
+2003-11-18,0.273608739741318,Positive,Real Estate Mogul,Historical Archive
+2003-11-25,0.2995584574181693,Positive,Real Estate Mogul,Historical Archive
+2003-12-02,0.34097753123884544,Positive,Real Estate Mogul,Historical Archive
+2003-12-09,0.3228110372329867,Positive,Real Estate Mogul,Historical Archive
+2003-12-16,0.4289944217608408,Positive,Real Estate Mogul,Historical Archive
+2003-12-23,0.31481635900466987,Positive,Real Estate Mogul,Historical Archive
+2003-12-30,0.17836818846765312,Positive,Real Estate Mogul,Historical Archive
+2004-01-01,0.5350913725215404,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-01-08,0.42769482191982666,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-01-15,0.2948117410676201,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-01-22,0.4420112559797212,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-01-29,0.3762946490834521,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-02-05,0.6801828782651105,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-02-12,0.17285738213798454,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-02-19,0.4863419945740958,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-02-26,0.43730782550414943,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-03-04,0.4280744306592358,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-03-11,0.26362861549245065,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-03-18,0.5551764736341132,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-03-25,0.5338707666782121,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-04-01,0.41071393243180504,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-04-08,0.5888613571864231,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-04-15,0.46480895528118354,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-04-22,0.48632708329952257,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-04-29,0.4584615066698008,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-05-06,0.403476976519983,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-05-13,0.5595367234203863,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-05-20,0.14138809373980815,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-05-27,0.44892510314980316,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-06-03,0.44772458895362827,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-06-10,0.4716232109687802,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-06-17,0.43644206271678976,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-06-24,0.2824409666770873,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-07-01,0.3840187249864589,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-07-08,0.420297182896757,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-07-15,0.39258670129513656,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-07-22,0.5286237919730514,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-07-29,0.47936863643848465,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-08-05,0.4431258771606253,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-08-12,0.418188174707403,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-08-19,0.4972034925323298,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-08-26,0.4029595325031041,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-09-02,0.42512108711430197,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-09-09,0.44065500466823027,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-09-16,0.37982536537101047,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-09-23,0.4538031666677453,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-09-30,0.29469754953904753,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-10-07,0.34480708149445805,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-10-14,0.3813403566453143,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-10-21,0.5144235165231459,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-10-28,0.6179371168231682,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-11-04,0.2773676696801437,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-11-11,0.5967207227228792,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-11-18,0.4896667521910546,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-11-25,0.37266927336208755,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-12-02,0.46571738893885467,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-12-09,0.3014415250713206,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-12-16,0.30344981622362016,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-12-23,0.3028224273935295,Positive,The Apprentice / Pop Culture,Historical Archive
+2004-12-30,0.45214591341758503,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-01-06,0.30183814818423294,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-01-13,0.46088935089053373,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-01-20,0.33631377622279246,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-01-27,0.3033017453644989,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-02-03,0.4676482821947968,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-02-10,0.2567409599112819,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-02-17,0.39108359567513634,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-02-24,0.6288183124133708,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-03-03,0.38105314377410204,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-03-10,0.4089422170302326,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-03-17,0.31952760026534627,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-03-24,0.6572593169998044,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-03-31,0.2926241389957581,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-04-07,0.3864211186676032,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-04-14,0.47603984591777193,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-04-21,0.5430891893102328,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-04-28,0.3673730909015824,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-05-05,0.25107208377370355,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-05-12,0.5330044518485908,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-05-19,0.457361770216576,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-05-26,0.41684855751995475,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-06-02,0.15433294363024658,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-06-09,0.3767960356456031,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-06-16,0.33827015198042343,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-06-23,0.3258109931958997,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-06-30,0.5272677212253961,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-07-07,0.37024815190608706,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-07-14,0.5018473711703638,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-07-21,0.4553983031913643,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-07-28,0.5264251767536623,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-08-04,0.37684783561674995,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-08-11,0.3262270835002796,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-08-18,0.5253210412984853,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-08-25,0.6410379094979067,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-09-01,0.354841551002022,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-09-08,0.47886845935346684,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-09-15,0.2993888724236399,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-09-22,0.37793124418414914,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-09-29,0.19030503284872402,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-10-06,0.3841110916784483,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-10-13,0.4666852741802714,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-10-20,0.3499352860287089,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-10-27,0.45238427986609836,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-11-03,0.43781658080218594,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-11-10,0.33521845921567606,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-11-17,0.4996142799990784,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-11-24,0.4085747021521519,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-12-01,0.38955106227635605,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-12-08,0.5057872135395803,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-12-15,0.586457495726808,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-12-22,0.47457137588213694,Positive,The Apprentice / Pop Culture,Historical Archive
+2005-12-29,0.39674750073080184,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-01-05,0.3439087320765921,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-01-12,0.30113950120674565,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-01-19,0.5278133844626561,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-01-26,0.05425607763896195,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-02-02,0.4485116231409971,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-02-09,0.4345978978569901,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-02-16,0.23427998352654836,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-02-23,0.27001681706172365,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-03-02,0.4542555224209961,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-03-09,0.3257715489705221,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-03-16,0.5138548690666133,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-03-23,0.42549544764741953,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-03-30,0.3902664158128274,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-04-06,0.2060241698290948,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-04-13,0.5672520185658737,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-04-20,0.5168992066619588,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-04-27,0.491533918397802,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-05-04,0.4938353215972684,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-05-11,0.4672795447255254,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-05-18,0.30057483832499615,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-05-25,0.326848479905693,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-06-01,0.42826897052525553,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-06-08,0.45016805381635877,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-06-15,0.3917382418205965,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-06-22,0.4648902953326655,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-06-29,0.377130349203623,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-07-06,0.35591625387858,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-07-13,0.5371108165046231,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-07-20,0.2549238469114053,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-07-27,0.5996003970196028,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-08-03,0.5738243322176265,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-08-10,0.35919958958672144,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-08-17,0.37703661157453877,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-08-24,0.4576917063313006,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-08-31,0.4327076645118854,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-09-07,0.5895007523771905,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-09-14,0.49313336313358463,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-09-21,0.43351585540267623,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-09-28,0.48261186011674806,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-10-05,0.42694507585235814,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-10-12,0.3708153126421466,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-10-19,0.36283886082155253,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-10-26,0.4222110420599524,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-11-02,0.42209129040394655,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-11-09,0.39352156526525356,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-11-16,0.5357933474973728,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-11-23,0.3336388344091621,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-11-30,0.3232626112794587,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-12-07,0.5595388123126734,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-12-14,0.3400734175558947,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-12-21,0.4650094965492334,Positive,The Apprentice / Pop Culture,Historical Archive
+2006-12-28,0.46294889013710394,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-01-04,0.33378629055954834,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-01-11,0.6940917475202122,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-01-18,0.6004869814552483,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-01-25,0.32034767216790894,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-02-01,0.4511652051846998,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-02-08,0.44081297351608817,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-02-15,0.4960703552177992,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-02-22,0.44560472460630124,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-03-01,0.40810199854051626,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-03-08,0.4150866725505695,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-03-15,0.4633612404315727,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-03-22,0.2845132874798666,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-03-29,0.3268423271548961,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-04-05,0.40172202256825806,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-04-12,0.5701267038406728,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-04-19,0.1999035888251197,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-04-26,0.3018039215478662,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-05-03,0.41298214948603584,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-05-10,0.5908944247944682,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-05-17,0.47531934468473636,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-05-24,0.36634243672692884,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-05-31,0.38913976868397243,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-06-07,0.5131560666857343,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-06-14,0.46891354934555457,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-06-21,0.35284061424871016,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-06-28,0.4580651864038163,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-07-05,0.1878869459337897,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-07-12,0.42518522737342124,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-07-19,0.2054273356087278,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-07-26,0.2266727055534632,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-08-02,0.34198632910010673,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-08-09,0.4347262455753649,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-08-16,0.3566563381292386,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-08-23,0.48692274442164996,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-08-30,0.3590442161846096,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-09-06,0.4805165084321396,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-09-13,0.32640806948191436,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-09-20,0.2588200069660607,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-09-27,0.4329477748384963,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-10-04,0.39319353034444837,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-10-11,0.43724530579354154,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-10-18,0.3660461626093871,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-10-25,0.4146677551463864,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-11-01,0.40321053402559104,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-11-08,0.30064568774522116,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-11-15,0.557062482281948,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-11-22,0.39625832183550996,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-11-29,0.362764385527026,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-12-06,0.41266329955942294,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-12-13,0.5530523621810924,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-12-20,0.3837619192004036,Positive,The Apprentice / Pop Culture,Historical Archive
+2007-12-27,0.5101695830880517,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-01-03,0.4559639502531491,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-01-10,0.4762471485360969,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-01-17,0.27925815540003884,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-01-24,0.3948633722202658,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-01-31,0.4285631905306264,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-02-07,0.3500488510684937,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-02-14,0.46814309094989637,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-02-21,0.35762870182589707,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-02-28,0.5582668099453209,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-03-06,0.2524148219560116,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-03-13,0.4840321544392151,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-03-20,0.5507836894502427,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-03-27,0.3675051743150424,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-04-03,0.3926275561590877,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-04-10,0.4722535136875462,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-04-17,0.4160370815715399,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-04-24,0.5919393730714031,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-05-01,0.3766759912600737,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-05-08,0.39379350523008844,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-05-15,0.44480899641250626,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-05-22,0.39812341568174975,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-05-29,0.4856754159465515,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-06-05,0.47113344533247736,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-06-12,0.5180551577356453,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-06-19,0.36647077829316377,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-06-26,0.47767705991824977,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-07-03,0.36912758237401555,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-07-10,0.43980912992798754,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-07-17,0.5910286307862547,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-07-24,0.481303788270359,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-07-31,0.41241097946138444,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-08-07,0.27098204274617577,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-08-14,0.3988780443498717,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-08-21,0.5233866336321361,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-08-28,0.3720773118056879,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-09-04,0.43449610793940985,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-09-11,0.3258677712989104,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-09-18,0.2260725781361646,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-09-25,0.3786950329223382,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-10-02,0.27261589956675336,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-10-09,0.4423860700506824,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-10-16,0.3694621326119528,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-10-23,0.5900378581055973,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-10-30,0.3970262791790673,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-11-06,0.5660223839777555,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-11-13,0.5584923673737159,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-11-20,0.35063779977165066,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-11-27,0.4062358162017677,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-12-04,0.35622014454437056,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-12-11,0.38699439876398617,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-12-18,0.4160128595932381,Positive,The Apprentice / Pop Culture,Historical Archive
+2008-12-25,0.5214495871756202,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-01-01,0.3481102610852199,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-01-08,0.24144382263323697,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-01-15,0.34340944664852474,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-01-22,0.45353093309874654,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-01-29,0.37885018983089597,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-02-05,0.2960531830045363,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-02-12,0.05973911255460318,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-02-19,0.43947631978092205,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-02-26,0.48151759379652875,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-03-05,0.37872219386283934,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-03-12,0.40339295755481225,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-03-19,0.3422987594309413,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-03-26,0.538942637380428,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-04-02,0.4301318618392954,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-04-09,0.5437063429972413,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-04-16,0.30647720522792943,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-04-23,0.580696479426906,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-04-30,0.27389334483630756,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-05-07,0.42561415546766795,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-05-14,0.40503292285561054,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-05-21,0.3266392897269645,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-05-28,0.34805490084309315,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-06-04,0.5716875981815892,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-06-11,0.3744281646523751,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-06-18,0.2967500791015828,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-06-25,0.5590647829305413,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-07-02,0.2353084642260159,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-07-09,0.4651529400491614,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-07-16,0.16738053887311355,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-07-23,0.6247096215908086,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-07-30,0.5842157246790922,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-08-06,0.3666124877201137,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-08-13,0.4777064567099218,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-08-20,0.23405033635711597,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-08-27,0.2704454195764233,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-09-03,0.5223961869519365,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-09-10,0.35391842863469564,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-09-17,0.4091438459349346,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-09-24,0.2958549315334937,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-10-01,0.3814386186897824,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-10-08,0.4104123699801898,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-10-15,0.39892268853821056,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-10-22,0.4060070965132409,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-10-29,0.28363519472591825,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-11-05,0.2052791617371017,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-11-12,0.4810474189720323,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-11-19,0.42391826683321315,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-11-26,0.2650489051146583,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-12-03,0.4095831853186973,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-12-10,0.5259914414144988,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-12-17,0.3344298605023655,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-12-24,0.5275771859870826,Positive,The Apprentice / Pop Culture,Historical Archive
+2009-12-31,0.28325700819322824,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-01-07,0.2720623932539743,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-01-14,0.5887153822231322,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-01-21,0.6080774095482202,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-01-28,0.3215468127897807,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-02-04,0.3989389807046743,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-02-11,0.27154381282935636,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-02-18,0.2531863000366021,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-02-25,0.30415616619920854,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-03-04,0.33145448095637176,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-03-11,0.3633743070483745,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-03-18,0.610715380945393,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-03-25,0.45831894645461957,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-04-01,0.318663804307172,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-04-08,0.46404161183768194,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-04-15,0.3327826530803036,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-04-22,0.43706496792552485,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-04-29,0.6190720103225082,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-05-06,0.48944780310419694,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-05-13,0.39790373474702395,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-05-20,0.3598126042569685,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-05-27,0.46770068987090974,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-06-03,0.4590940528096016,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-06-10,0.46597364092241705,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-06-17,0.4808173941549829,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-06-24,0.5534760364616579,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-07-01,0.43348877365321525,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-07-08,0.3472444582456767,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-07-15,0.43128360173547853,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-07-22,0.4322067885167238,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-07-29,0.334076603257001,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-08-05,0.5259577874543021,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-08-12,0.3977833595650021,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-08-19,0.35081774516912234,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-08-26,0.4286702624576247,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-09-02,0.33715443631164177,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-09-09,0.33377127759638126,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-09-16,0.4827560291054474,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-09-23,0.47690486854075914,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-09-30,0.39432102499304555,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-10-07,0.34044275819839714,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-10-14,0.5885719433058576,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-10-21,0.2595458362874058,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-10-28,0.3307157330755629,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-11-04,0.409820489702434,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-11-11,0.33054580194033184,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-11-18,0.541316070709174,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-11-25,0.5072679638967702,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-12-02,0.3400591612524886,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-12-09,0.5435252526622854,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-12-16,0.3446975342850924,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-12-23,0.4359957537155709,Positive,The Apprentice / Pop Culture,Historical Archive
+2010-12-30,0.38484208840953604,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-01-06,0.3956820403316431,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-01-13,0.5640985149057602,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-01-20,0.40522487966374315,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-01-27,0.32020468726207557,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-02-03,0.2936624306152402,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-02-10,0.4441690898137105,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-02-17,0.27654755493324845,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-02-24,0.3176798955585074,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-03-03,0.3697296399092464,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-03-10,0.417115501635875,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-03-17,0.4099458055695617,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-03-24,0.3029416533221102,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-03-31,0.36266097327431274,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-04-07,0.3855023502970069,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-04-14,0.14702973506841616,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-04-21,0.36970678485343095,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-04-28,0.32094328788844345,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-05-05,0.4694904394214103,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-05-12,0.46428574711640275,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-05-19,0.51203924333817,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-05-26,0.25081986637906895,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-06-02,0.4768286763443616,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-06-09,0.429505238145903,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-06-16,0.31262019903449956,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-06-23,0.5121420226862294,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-06-30,0.42551942445661756,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-07-07,0.3296215371392496,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-07-14,0.37780574649804355,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-07-21,0.2835015107381952,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-07-28,0.3954346608040403,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-08-04,0.4664275965235433,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-08-11,0.4121413859421521,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-08-18,0.3556328307428255,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-08-25,0.622310891580851,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-09-01,0.355293153220444,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-09-08,0.31519159374493577,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-09-15,0.29072606390057815,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-09-22,0.2850515243666616,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-09-29,0.4814556638286166,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-10-06,0.3225032080719068,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-10-13,0.29262635639441975,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-10-20,0.5056205787035621,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-10-27,0.4473426339221308,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-11-03,0.37125474667993486,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-11-10,0.5881282716947235,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-11-17,0.3283359541713938,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-11-24,0.25467725679361447,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-12-01,0.42913500667630405,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-12-08,0.27726504341982205,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-12-15,0.3410675514300627,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-12-22,0.41171546132446685,Positive,The Apprentice / Pop Culture,Historical Archive
+2011-12-29,0.2955083211632794,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-01-05,0.3122724382448897,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-01-12,0.4250643815420053,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-01-19,0.26413713791989846,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-01-26,0.4334321884682474,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-02-02,0.2786126324094005,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-02-09,0.36221807564311387,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-02-16,0.5727849685916688,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-02-23,0.413932082587684,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-03-01,0.44700497270021183,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-03-08,0.33310537633250636,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-03-15,0.4119744458635297,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-03-22,0.25230668227521,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-03-29,0.4676459452637025,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-04-05,0.42994783341783077,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-04-12,0.5155298523805021,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-04-19,0.4252284262283527,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-04-26,0.6880877402074845,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-05-03,0.29471509479443764,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-05-10,0.5092529620128726,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-05-17,0.5752576956272484,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-05-24,0.38746536536741594,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-05-31,0.36267363626288013,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-06-07,0.35065477156893293,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-06-14,0.3713695527297245,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-06-21,0.36108716499819526,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-06-28,0.3326497937084076,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-07-05,0.3307017224413111,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-07-12,0.3910899745972074,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-07-19,0.39584407247183695,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-07-26,0.37222591712589537,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-08-02,0.4158185775748167,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-08-09,0.3091286931861145,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-08-16,0.2817850681973397,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-08-23,0.1754323035665508,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-08-30,0.38734197099746115,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-09-06,0.6326589231441528,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-09-13,0.196395960870218,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-09-20,0.3383059254404376,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-09-27,0.4193720044457271,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-10-04,0.28035457861872404,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-10-11,0.3675784121203106,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-10-18,0.2875586408083164,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-10-25,0.45387893610332697,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-11-01,0.16815852080111648,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-11-08,0.5385504207253733,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-11-15,0.5272049627861477,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-11-22,0.5548156027835761,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-11-29,0.20528420075563836,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-12-06,0.41177643325447716,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-12-13,0.5442314903726446,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-12-20,0.3462809584386548,Positive,The Apprentice / Pop Culture,Historical Archive
+2012-12-27,0.4459862936007581,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-01-03,0.4711761385704364,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-01-10,0.42999919514184276,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-01-17,0.46033527022058385,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-01-24,0.376214778513327,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-01-31,0.4668558457760403,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-02-07,0.3726694646315229,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-02-14,0.30972269249790446,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-02-21,0.5440260732652845,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-02-28,0.36372597201437645,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-03-07,0.48315885308240536,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-03-14,0.5257569091628047,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-03-21,0.3090034101813569,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-03-28,0.4022441789160213,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-04-04,0.30314410412983805,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-04-11,0.3367115523815722,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-04-18,0.3707274171418579,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-04-25,0.41925916242677325,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-05-02,0.42070691426105256,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-05-09,0.43400532953779936,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-05-16,0.4209678354163543,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-05-23,0.5026443847788638,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-05-30,0.3920358149639175,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-06-06,0.4609905445204757,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-06-13,0.34719854405656203,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-06-20,0.554767558063559,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-06-27,0.32194091852394024,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-07-04,0.4231285182998478,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-07-11,0.2699501198590333,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-07-18,0.4843719928196744,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-07-25,0.36849280954660135,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-08-01,0.3027154908537767,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-08-08,0.40286242839236863,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-08-15,0.3324291287677937,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-08-22,0.3853443991678024,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-08-29,0.4222052768310999,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-09-05,0.33800905801254805,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-09-12,0.6131794983811913,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-09-19,0.43212398177228456,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-09-26,0.4275477810595497,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-10-03,0.2388080616186076,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-10-10,0.5428953294913199,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-10-17,0.4497032790592309,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-10-24,0.45825444941263566,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-10-31,0.40070272529776896,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-11-07,0.5009769095633695,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-11-14,0.45584367304756956,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-11-21,0.2132524608143591,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-11-28,0.45719369144623023,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-12-05,0.18747797967688215,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-12-12,0.4049804916900583,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-12-19,0.5679037753799303,Positive,The Apprentice / Pop Culture,Historical Archive
+2013-12-26,0.36229659676794457,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-01-02,0.37223844112855753,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-01-09,0.3685257583554463,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-01-16,0.4190152309178883,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-01-23,0.27450156765896827,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-01-30,0.36798459041381165,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-02-06,0.5700451281650728,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-02-13,0.2863531369137094,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-02-20,0.2082666664050612,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-02-27,0.6361327535336377,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-03-06,0.4905119311564827,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-03-13,0.36855859745564107,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-03-20,0.39257007138482153,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-03-27,0.5745909423316704,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-04-03,0.3699577803982246,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-04-10,0.24359251363568055,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-04-17,0.5494105851122327,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-04-24,0.30962712091767597,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-05-01,0.248280206280599,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-05-08,0.5120167040525085,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-05-15,0.5678759411344221,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-05-22,0.3712620850109143,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-05-29,0.42421753580500804,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-06-05,0.40223785383489385,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-06-12,0.3310514814580961,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-06-19,0.42823362749238514,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-06-26,0.5085893382330045,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-07-03,0.4995679109387958,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-07-10,0.46881413692788204,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-07-17,0.37895752390596416,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-07-24,0.4666178117576431,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-07-31,0.5666866438562318,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-08-07,0.29940354097051014,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-08-14,0.20299910968335566,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-08-21,0.42468934076252507,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-08-28,0.41497770533729744,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-09-04,0.5543826691817961,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-09-11,0.3012563271326818,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-09-18,0.3257038834943936,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-09-25,0.484624497617408,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-10-02,0.4911506622103851,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-10-09,0.29938495189215536,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-10-16,0.5875148285631061,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-10-23,0.41451856123750913,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-10-30,0.43197168609505654,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-11-06,0.5209220891222258,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-11-13,0.38135670462328636,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-11-20,0.3094830646740957,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-11-27,0.3081565245542946,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-12-04,0.33206977972609214,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-12-11,0.3287346843547597,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-12-18,0.42332808245715753,Positive,The Apprentice / Pop Culture,Historical Archive
+2014-12-25,0.36673201913497705,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-01-01,0.2815095346805504,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-01-08,0.1092068074371812,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-01-15,0.4565556110773193,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-01-22,0.32128836446278625,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-01-29,0.42750434969371803,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-02-05,0.3817222069542627,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-02-12,0.32010308673454474,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-02-19,0.43965326532477245,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-02-26,0.13406868676502287,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-03-05,0.2880456434546815,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-03-12,0.2564154189346343,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-03-19,0.5213018880953444,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-03-26,0.47553378402155183,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-04-02,0.40106616187258803,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-04-09,0.505421202421791,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-04-16,0.507696049940298,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-04-23,0.34403323976774436,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-04-30,0.38919162767859233,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-05-07,0.36550314591277894,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-05-14,0.3751869690942451,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-05-21,0.34696279841189726,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-05-28,0.42995402965747154,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-06-04,0.3385949958153843,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-06-11,0.3284920136774375,Positive,The Apprentice / Pop Culture,Historical Archive
+2015-06-16,0.15761959206694054,Positive,2016 Campaign,Historical Archive
+2015-06-23,-0.5222215020297118,Negative,2016 Campaign,Historical Archive
+2015-06-30,0.1403826919532174,Positive,2016 Campaign,Historical Archive
+2015-07-07,0.21716374599563115,Positive,2016 Campaign,Historical Archive
+2015-07-14,-0.6091834345453001,Negative,2016 Campaign,Historical Archive
+2015-07-21,-0.04102808463731969,Neutral,2016 Campaign,Historical Archive
+2015-07-28,-0.562641082523015,Negative,2016 Campaign,Historical Archive
+2015-08-04,0.07876291539776814,Positive,2016 Campaign,Historical Archive
+2015-08-11,-0.10828667565518238,Negative,2016 Campaign,Historical Archive
+2015-08-18,-0.4595779196457804,Negative,2016 Campaign,Historical Archive
+2015-08-25,-0.08614965764503064,Negative,2016 Campaign,Historical Archive
+2015-09-01,-0.02270940620000131,Neutral,2016 Campaign,Historical Archive
+2015-09-08,0.21759581032982178,Positive,2016 Campaign,Historical Archive
+2015-09-15,-0.45759654683723894,Negative,2016 Campaign,Historical Archive
+2015-09-22,0.06338488114158758,Positive,2016 Campaign,Historical Archive
+2015-09-29,-0.35579799959042524,Negative,2016 Campaign,Historical Archive
+2015-10-06,-0.11205767065506714,Negative,2016 Campaign,Historical Archive
+2015-10-13,0.2635505208115706,Positive,2016 Campaign,Historical Archive
+2015-10-20,0.13020426932009266,Positive,2016 Campaign,Historical Archive
+2015-10-27,-0.16891713464207686,Negative,2016 Campaign,Historical Archive
+2015-11-03,-0.4476672074605782,Negative,2016 Campaign,Historical Archive
+2015-11-10,0.1821317571786551,Positive,2016 Campaign,Historical Archive
+2015-11-17,-0.1360545713658243,Negative,2016 Campaign,Historical Archive
+2015-11-24,-0.5306101902336244,Negative,2016 Campaign,Historical Archive
+2015-12-01,0.5283192702970596,Positive,2016 Campaign,Historical Archive
+2015-12-08,-0.41519484087311664,Negative,2016 Campaign,Historical Archive
+2015-12-15,-0.5434282918410003,Negative,2016 Campaign,Historical Archive
+2015-12-22,-0.34339211419030663,Negative,2016 Campaign,Historical Archive
+2015-12-29,-0.5862529776006205,Negative,2016 Campaign,Historical Archive
+2016-01-05,-0.14494663951519965,Negative,2016 Campaign,Historical Archive
+2016-01-12,-0.5622523863693685,Negative,2016 Campaign,Historical Archive
+2016-01-19,0.06926549156729328,Positive,2016 Campaign,Historical Archive
+2016-01-26,-0.11367986676136006,Negative,2016 Campaign,Historical Archive
+2016-02-02,-0.34859949450567473,Negative,2016 Campaign,Historical Archive
+2016-02-09,-0.44303211762308564,Negative,2016 Campaign,Historical Archive
+2016-02-16,-0.3556936664085529,Negative,2016 Campaign,Historical Archive
+2016-02-23,-0.45610226611037913,Negative,2016 Campaign,Historical Archive
+2016-03-01,0.04209491812770136,Neutral,2016 Campaign,Historical Archive
+2016-03-08,0.3659121373785524,Positive,2016 Campaign,Historical Archive
+2016-03-15,-0.7530675184513909,Negative,2016 Campaign,Historical Archive
+2016-03-22,-0.42751629006949954,Negative,2016 Campaign,Historical Archive
+2016-03-29,0.2546839487930646,Positive,2016 Campaign,Historical Archive
+2016-04-05,-0.7296551784048568,Negative,2016 Campaign,Historical Archive
+2016-04-12,-0.4574588485078341,Negative,2016 Campaign,Historical Archive
+2016-04-19,-0.06888119314234045,Negative,2016 Campaign,Historical Archive
+2016-04-26,0.06688711256993063,Positive,2016 Campaign,Historical Archive
+2016-05-03,0.07320059770222759,Positive,2016 Campaign,Historical Archive
+2016-05-10,-0.2502740354974971,Negative,2016 Campaign,Historical Archive
+2016-05-17,-0.12294587861767393,Negative,2016 Campaign,Historical Archive
+2016-05-24,-0.6304440043657482,Negative,2016 Campaign,Historical Archive
+2016-05-31,0.15414262854611005,Positive,2016 Campaign,Historical Archive
+2016-06-07,-0.16798536983206308,Negative,2016 Campaign,Historical Archive
+2016-06-14,-0.3365733672025034,Negative,2016 Campaign,Historical Archive
+2016-06-21,-0.1901753202727819,Negative,2016 Campaign,Historical Archive
+2016-06-28,-0.0973524766643188,Negative,2016 Campaign,Historical Archive
+2016-07-05,-0.33174979382008846,Negative,2016 Campaign,Historical Archive
+2016-07-12,-0.18199649909437216,Negative,2016 Campaign,Historical Archive
+2016-07-19,-0.3264229782617489,Negative,2016 Campaign,Historical Archive
+2016-07-26,0.07731532769640992,Positive,2016 Campaign,Historical Archive
+2016-08-02,-0.6027581436602518,Negative,2016 Campaign,Historical Archive
+2016-08-09,-0.2532009411341315,Negative,2016 Campaign,Historical Archive
+2016-08-16,-0.03211796673671377,Neutral,2016 Campaign,Historical Archive
+2016-08-23,-0.3112499192515595,Negative,2016 Campaign,Historical Archive
+2016-08-30,-0.4331027509630879,Negative,2016 Campaign,Historical Archive
+2016-09-06,0.021636838671567488,Neutral,2016 Campaign,Historical Archive
+2016-09-13,0.08193757881971542,Positive,2016 Campaign,Historical Archive
+2016-09-20,-0.18953574858571448,Negative,2016 Campaign,Historical Archive
+2016-09-27,-0.44773830629936373,Negative,2016 Campaign,Historical Archive
+2016-10-04,-0.4613433609950894,Negative,2016 Campaign,Historical Archive
+2016-10-11,0.1686571817613749,Positive,2016 Campaign,Historical Archive
+2016-10-18,-0.04156373557819651,Neutral,2016 Campaign,Historical Archive
+2016-10-25,0.16290406294800203,Positive,2016 Campaign,Historical Archive
+2016-11-01,-0.44434630601067704,Negative,2016 Campaign,Historical Archive
+2016-11-09,-0.0017106683444118032,Neutral,Presidency,Historical Archive
+2016-11-16,0.6060546892085386,Positive,Presidency,Historical Archive
+2016-11-23,0.12638493807715054,Positive,Presidency,Historical Archive
+2016-11-30,-0.08890663774159903,Negative,Presidency,Historical Archive
+2016-12-07,-0.0645097449576221,Negative,Presidency,Historical Archive
+2016-12-14,0.19133748978834428,Positive,Presidency,Historical Archive
+2016-12-21,-0.21313182233596983,Negative,Presidency,Historical Archive
+2016-12-28,-0.2308268443921311,Negative,Presidency,Historical Archive
+2017-01-04,-0.19832325613818355,Negative,Presidency,Historical Archive
+2017-01-11,-0.24807265790208308,Negative,Presidency,Historical Archive
+2017-01-18,0.29494857194547375,Positive,Presidency,Historical Archive
+2017-01-25,0.38570701920919903,Positive,Presidency,Historical Archive
+2017-02-01,-0.22425229260690027,Negative,Presidency,Historical Archive
+2017-02-08,0.20677790206913246,Positive,Presidency,Historical Archive
+2017-02-15,-0.4243084234837561,Negative,Presidency,Historical Archive
+2017-02-22,-0.5175366122546566,Negative,Presidency,Historical Archive
+2017-03-01,0.5013936698255294,Positive,Presidency,Historical Archive
+2017-03-08,-1.0,Negative,Presidency,Historical Archive
+2017-03-15,0.3491355799038953,Positive,Presidency,Historical Archive
+2017-03-22,0.24825106032052333,Positive,Presidency,Historical Archive
+2017-03-29,0.08814502909687796,Positive,Presidency,Historical Archive
+2017-04-05,-0.5384211382440056,Negative,Presidency,Historical Archive
+2017-04-12,0.13414777542228848,Positive,Presidency,Historical Archive
+2017-04-19,0.4818123103227977,Positive,Presidency,Historical Archive
+2017-04-26,-0.6902233412855978,Negative,Presidency,Historical Archive
+2017-05-03,0.037668626459621046,Neutral,Presidency,Historical Archive
+2017-05-10,0.29342442151695647,Positive,Presidency,Historical Archive
+2017-05-17,-0.03437319842248912,Neutral,Presidency,Historical Archive
+2017-05-24,0.7187251493947161,Positive,Presidency,Historical Archive
+2017-05-31,-0.5744462720557966,Negative,Presidency,Historical Archive
+2017-06-07,-0.14128131774749042,Negative,Presidency,Historical Archive
+2017-06-14,-0.1887514228325347,Negative,Presidency,Historical Archive
+2017-06-21,-0.8778947350663625,Negative,Presidency,Historical Archive
+2017-06-28,0.1577048331746891,Positive,Presidency,Historical Archive
+2017-07-05,-0.585940797843112,Negative,Presidency,Historical Archive
+2017-07-12,0.050093653434850366,Positive,Presidency,Historical Archive
+2017-07-19,-0.13984366038410484,Negative,Presidency,Historical Archive
+2017-07-26,-0.7519185206780188,Negative,Presidency,Historical Archive
+2017-08-02,-0.10264521486019183,Negative,Presidency,Historical Archive
+2017-08-09,0.6932107382367598,Positive,Presidency,Historical Archive
+2017-08-16,0.23360843350138447,Positive,Presidency,Historical Archive
+2017-08-23,0.4672048721337073,Positive,Presidency,Historical Archive
+2017-08-30,0.2972791643229681,Positive,Presidency,Historical Archive
+2017-09-06,0.4777939182812072,Positive,Presidency,Historical Archive
+2017-09-13,-0.38196837557396346,Negative,Presidency,Historical Archive
+2017-09-20,-0.44594718955721924,Negative,Presidency,Historical Archive
+2017-09-27,-0.49964793253935547,Negative,Presidency,Historical Archive
+2017-10-04,-0.15597377133747503,Negative,Presidency,Historical Archive
+2017-10-11,-0.4674460750542647,Negative,Presidency,Historical Archive
+2017-10-18,-0.3732895526402581,Negative,Presidency,Historical Archive
+2017-10-25,-0.6893542240684004,Negative,Presidency,Historical Archive
+2017-11-01,0.1363598561610276,Positive,Presidency,Historical Archive
+2017-11-08,-0.12175755730617674,Negative,Presidency,Historical Archive
+2017-11-15,0.004812633056611976,Neutral,Presidency,Historical Archive
+2017-11-22,-0.8015180233633927,Negative,Presidency,Historical Archive
+2017-11-29,-0.2779221941793387,Negative,Presidency,Historical Archive
+2017-12-06,-0.4476378020899918,Negative,Presidency,Historical Archive
+2017-12-13,-0.2672798546115262,Negative,Presidency,Historical Archive
+2017-12-20,-0.19636109985214026,Negative,Presidency,Historical Archive
+2017-12-27,-0.07290509313335873,Negative,Presidency,Historical Archive
+2018-01-03,0.04945016344546532,Neutral,Presidency,Historical Archive
+2018-01-10,0.7852454213572587,Positive,Presidency,Historical Archive
+2018-01-17,0.21152184434445007,Positive,Presidency,Historical Archive
+2018-01-24,0.26951735900313756,Positive,Presidency,Historical Archive
+2018-01-31,0.11463428379775481,Positive,Presidency,Historical Archive
+2018-02-07,-0.07403061456036551,Negative,Presidency,Historical Archive
+2018-02-14,-0.04191173256577771,Neutral,Presidency,Historical Archive
+2018-02-21,0.16579690401588873,Positive,Presidency,Historical Archive
+2018-02-28,-0.4620118778141181,Negative,Presidency,Historical Archive
+2018-03-07,-0.4340826088572869,Negative,Presidency,Historical Archive
+2018-03-14,0.11668367582555211,Positive,Presidency,Historical Archive
+2018-03-21,-0.9176687546254678,Negative,Presidency,Historical Archive
+2018-03-28,-0.37612083326597345,Negative,Presidency,Historical Archive
+2018-04-04,-0.4545886540254067,Negative,Presidency,Historical Archive
+2018-04-11,0.15723004841185986,Positive,Presidency,Historical Archive
+2018-04-18,0.01535396215985299,Neutral,Presidency,Historical Archive
+2018-04-25,0.3561527778530149,Positive,Presidency,Historical Archive
+2018-05-02,-0.8270398692193401,Negative,Presidency,Historical Archive
+2018-05-09,-0.38489604843447445,Negative,Presidency,Historical Archive
+2018-05-16,-1.0,Negative,Presidency,Historical Archive
+2018-05-23,-0.10022485413678224,Negative,Presidency,Historical Archive
+2018-05-30,-0.41871357866425163,Negative,Presidency,Historical Archive
+2018-06-06,-0.7570061491010871,Negative,Presidency,Historical Archive
+2018-06-13,0.1927793473789716,Positive,Presidency,Historical Archive
+2018-06-20,-0.8054202634737964,Negative,Presidency,Historical Archive
+2018-06-27,-0.12574706987197987,Negative,Presidency,Historical Archive
+2018-07-04,-0.26894986317329095,Negative,Presidency,Historical Archive
+2018-07-11,0.5705528636009226,Positive,Presidency,Historical Archive
+2018-07-18,-0.5662710117853055,Negative,Presidency,Historical Archive
+2018-07-25,0.3329921872651498,Positive,Presidency,Historical Archive
+2018-08-01,0.12211872301077428,Positive,Presidency,Historical Archive
+2018-08-08,0.20059277780626153,Positive,Presidency,Historical Archive
+2018-08-15,-0.5003640069276104,Negative,Presidency,Historical Archive
+2018-08-22,-0.9716421620459278,Negative,Presidency,Historical Archive
+2018-08-29,0.19870197504117562,Positive,Presidency,Historical Archive
+2018-09-05,-0.15098988371593133,Negative,Presidency,Historical Archive
+2018-09-12,0.2093475978992105,Positive,Presidency,Historical Archive
+2018-09-19,0.059392672662660545,Positive,Presidency,Historical Archive
+2018-09-26,0.4140448025583572,Positive,Presidency,Historical Archive
+2018-10-03,0.03990903837265136,Neutral,Presidency,Historical Archive
+2018-10-10,-0.8672372989246159,Negative,Presidency,Historical Archive
+2018-10-17,-0.6244712369084662,Negative,Presidency,Historical Archive
+2018-10-24,-0.3713123080737494,Negative,Presidency,Historical Archive
+2018-10-31,-0.2990333336999914,Negative,Presidency,Historical Archive
+2018-11-07,-0.0031548567239453595,Neutral,Presidency,Historical Archive
+2018-11-14,-0.14713186953804488,Negative,Presidency,Historical Archive
+2018-11-21,-0.02468081025059235,Neutral,Presidency,Historical Archive
+2018-11-28,-0.7526002301132877,Negative,Presidency,Historical Archive
+2018-12-05,-0.008320773177426771,Neutral,Presidency,Historical Archive
+2018-12-12,-0.46273881263715744,Negative,Presidency,Historical Archive
+2018-12-19,-0.7322374047111115,Negative,Presidency,Historical Archive
+2018-12-26,0.33267986805900984,Positive,Presidency,Historical Archive
+2019-01-02,-0.5452136405689129,Negative,Presidency,Historical Archive
+2019-01-09,0.9783555488163008,Positive,Presidency,Historical Archive
+2019-01-16,0.12265591200897363,Positive,Presidency,Historical Archive
+2019-01-23,-0.027445252326147196,Neutral,Presidency,Historical Archive
+2019-01-30,-0.39655108026256125,Negative,Presidency,Historical Archive
+2019-02-06,0.40266524473564214,Positive,Presidency,Historical Archive
+2019-02-13,0.04841904728362112,Neutral,Presidency,Historical Archive
+2019-02-20,0.3097134650140497,Positive,Presidency,Historical Archive
+2019-02-27,-0.9084095834551912,Negative,Presidency,Historical Archive
+2019-03-06,-0.2858250277745472,Negative,Presidency,Historical Archive
+2019-03-13,-0.13519434866234936,Negative,Presidency,Historical Archive
+2019-03-20,0.08682540130951158,Positive,Presidency,Historical Archive
+2019-03-27,0.0964062958625681,Positive,Presidency,Historical Archive
+2019-04-03,-0.3027263963965492,Negative,Presidency,Historical Archive
+2019-04-10,0.09029116789421662,Positive,Presidency,Historical Archive
+2019-04-17,-0.14353806500952704,Negative,Presidency,Historical Archive
+2019-04-24,0.2470105856294991,Positive,Presidency,Historical Archive
+2019-05-01,0.017182069234678868,Neutral,Presidency,Historical Archive
+2019-05-08,-0.3377042039527385,Negative,Presidency,Historical Archive
+2019-05-15,-0.5970904894421287,Negative,Presidency,Historical Archive
+2019-05-22,0.2891013807335536,Positive,Presidency,Historical Archive
+2019-05-29,0.35698230509243856,Positive,Presidency,Historical Archive
+2019-06-05,0.49240464636937675,Positive,Presidency,Historical Archive
+2019-06-12,-0.16027141613743054,Negative,Presidency,Historical Archive
+2019-06-19,-0.8664680753427417,Negative,Presidency,Historical Archive
+2019-06-26,0.37548803415118004,Positive,Presidency,Historical Archive
+2019-07-03,-0.5366540094427605,Negative,Presidency,Historical Archive
+2019-07-10,-0.6174041556446319,Negative,Presidency,Historical Archive
+2019-07-17,0.607089575439988,Positive,Presidency,Historical Archive
+2019-07-24,-0.7104818194117449,Negative,Presidency,Historical Archive
+2019-07-31,0.11667860847637157,Positive,Presidency,Historical Archive
+2019-08-07,-0.4846024283891689,Negative,Presidency,Historical Archive
+2019-08-14,0.05344412008237326,Positive,Presidency,Historical Archive
+2019-08-21,-0.1303293324241201,Negative,Presidency,Historical Archive
+2019-08-28,-0.07835248091583691,Negative,Presidency,Historical Archive
+2019-09-04,-0.08087704279219585,Negative,Presidency,Historical Archive
+2019-09-11,-0.4057587690633957,Negative,Presidency,Historical Archive
+2019-09-18,-0.33673564859547833,Negative,Presidency,Historical Archive
+2019-09-25,0.3131716738862198,Positive,Presidency,Historical Archive
+2019-10-02,-0.14948654785363408,Negative,Presidency,Historical Archive
+2019-10-09,0.13817345558019856,Positive,Presidency,Historical Archive
+2019-10-16,0.16319661384611225,Positive,Presidency,Historical Archive
+2019-10-23,0.005218103271471916,Neutral,Presidency,Historical Archive
+2019-10-30,0.37396356643234063,Positive,Presidency,Historical Archive
+2019-11-06,-0.8646549418187549,Negative,Presidency,Historical Archive
+2019-11-13,-0.3725554565198368,Negative,Presidency,Historical Archive
+2019-11-20,-0.2955869741641487,Negative,Presidency,Historical Archive
+2019-11-27,0.770032701448192,Positive,Presidency,Historical Archive
+2019-12-04,0.30558893243267415,Positive,Presidency,Historical Archive
+2019-12-11,-0.29837297924456974,Negative,Presidency,Historical Archive
+2019-12-18,-0.06988026066989592,Negative,Presidency,Historical Archive
+2019-12-25,-0.3988465617322272,Negative,Presidency,Historical Archive
+2020-01-01,0.031889496444819504,Neutral,Presidency,Historical Archive
+2020-01-08,0.01464117236375384,Neutral,Presidency,Historical Archive
+2020-01-15,-0.18260619507926096,Negative,Presidency,Historical Archive
+2020-01-22,0.08379385564834702,Positive,Presidency,Historical Archive
+2020-01-29,0.02219885292098625,Neutral,Presidency,Historical Archive
+2020-02-05,0.11297709633931383,Positive,Presidency,Historical Archive
+2020-02-12,-0.41973799408836465,Negative,Presidency,Historical Archive
+2020-02-19,-0.9773212544209438,Negative,Presidency,Historical Archive
+2020-02-26,-0.14686388048459426,Negative,Presidency,Historical Archive
+2020-03-04,-0.4196501693510666,Negative,Presidency,Historical Archive
+2020-03-11,-0.20268644145341463,Negative,Presidency,Historical Archive
+2020-03-18,-0.8370056530831216,Negative,Presidency,Historical Archive
+2020-03-25,-0.18992487882727,Negative,Presidency,Historical Archive
+2020-04-01,-0.41224540873789317,Negative,Presidency,Historical Archive
+2020-04-08,-0.30998887080801196,Negative,Presidency,Historical Archive
+2020-04-15,-0.10705204996885358,Negative,Presidency,Historical Archive
+2020-04-22,-0.3623564110642977,Negative,Presidency,Historical Archive
+2020-04-29,0.5034617145318389,Positive,Presidency,Historical Archive
+2020-05-06,0.1145572060421475,Positive,Presidency,Historical Archive
+2020-05-13,0.024291712664505166,Neutral,Presidency,Historical Archive
+2020-05-20,-0.40408134419159103,Negative,Presidency,Historical Archive
+2020-05-27,0.6792414162323386,Positive,Presidency,Historical Archive
+2020-06-03,-0.4534861479530715,Negative,Presidency,Historical Archive
+2020-06-10,0.0958163447435515,Positive,Presidency,Historical Archive
+2020-06-17,0.5188665758371374,Positive,Presidency,Historical Archive
+2020-06-24,0.7177723715071284,Positive,Presidency,Historical Archive
+2020-07-01,0.023137114533415604,Neutral,Presidency,Historical Archive
+2020-07-08,-0.31607356902985095,Negative,Presidency,Historical Archive
+2020-07-15,-0.5864293874360473,Negative,Presidency,Historical Archive
+2020-07-22,0.3040141463084963,Positive,Presidency,Historical Archive
+2020-07-29,0.40078813661285806,Positive,Presidency,Historical Archive
+2020-08-05,0.4388021071450071,Positive,Presidency,Historical Archive
+2020-08-12,0.4918720795798607,Positive,Presidency,Historical Archive
+2020-08-19,0.023172788699846847,Neutral,Presidency,Historical Archive
+2020-08-26,0.9389556526260415,Positive,Presidency,Historical Archive
+2020-09-02,-0.3749312175429995,Negative,Presidency,Historical Archive
+2020-09-09,0.4975454802229594,Positive,Presidency,Historical Archive
+2020-09-16,-0.03520267454287451,Neutral,Presidency,Historical Archive
+2020-09-23,0.20238281356048096,Positive,Presidency,Historical Archive
+2020-09-30,0.25168622454013734,Positive,Presidency,Historical Archive
+2020-10-07,0.0303299008646567,Neutral,Presidency,Historical Archive
+2020-10-14,-0.5252333284954713,Negative,Presidency,Historical Archive
+2020-10-21,-0.2763336534438573,Negative,Presidency,Historical Archive
+2020-10-28,-0.42817269828243687,Negative,Presidency,Historical Archive
+2020-11-04,-0.6534938843459206,Negative,Presidency,Historical Archive
+2020-11-11,-0.6603907607091841,Negative,Presidency,Historical Archive
+2020-11-18,-0.03842262624289107,Neutral,Presidency,Historical Archive
+2020-11-25,0.2505707882780741,Positive,Presidency,Historical Archive
+2020-12-02,0.014148992182250894,Neutral,Presidency,Historical Archive
+2020-12-09,0.34598685023413933,Positive,Presidency,Historical Archive
+2020-12-16,-0.09521142267066432,Negative,Presidency,Historical Archive
+2020-12-23,0.664839109751386,Positive,Presidency,Historical Archive
+2020-12-30,0.3669999208290514,Positive,Presidency,Historical Archive
+2021-01-06,0.8113851796263117,Positive,Presidency,Historical Archive
+2021-01-13,-0.34485536986424054,Negative,Presidency,Historical Archive
+2021-01-21,-0.5596237299295397,Negative,Post-Presidency,Historical Archive
+2021-01-28,-0.26007614292555303,Negative,Post-Presidency,Historical Archive
+2021-02-04,-0.5516401505134488,Negative,Post-Presidency,Historical Archive
+2021-02-11,-0.13865098619399402,Negative,Post-Presidency,Historical Archive
+2021-02-18,-0.6629404252965416,Negative,Post-Presidency,Historical Archive
+2021-02-25,-0.37731578231653295,Negative,Post-Presidency,Historical Archive
+2021-03-04,-0.5432470569525705,Negative,Post-Presidency,Historical Archive
+2021-03-11,0.09681634579667092,Positive,Post-Presidency,Historical Archive
+2021-03-18,0.08258139419169142,Positive,Post-Presidency,Historical Archive
+2021-03-25,-0.6022032427707915,Negative,Post-Presidency,Historical Archive
+2021-04-01,-0.3282276591025925,Negative,Post-Presidency,Historical Archive
+2021-04-08,-0.6468618332986744,Negative,Post-Presidency,Historical Archive
+2021-04-15,-0.27726290686589977,Negative,Post-Presidency,Historical Archive
+2021-04-22,-0.5353018297114471,Negative,Post-Presidency,Historical Archive
+2021-04-29,-0.5807575103553284,Negative,Post-Presidency,Historical Archive
+2021-05-06,0.05612231352211633,Positive,Post-Presidency,Historical Archive
+2021-05-13,-0.5389500423307099,Negative,Post-Presidency,Historical Archive
+2021-05-20,-0.37758864603894327,Negative,Post-Presidency,Historical Archive
+2021-05-27,-0.6077673795401723,Negative,Post-Presidency,Historical Archive
+2021-06-03,-0.03733125050770014,Neutral,Post-Presidency,Historical Archive
+2021-06-10,-0.11572487330768982,Negative,Post-Presidency,Historical Archive
+2021-06-17,-0.37704558112578385,Negative,Post-Presidency,Historical Archive
+2021-06-24,0.0948882840800343,Positive,Post-Presidency,Historical Archive
+2021-07-01,-0.3406530942703924,Negative,Post-Presidency,Historical Archive
+2021-07-08,-0.06643303267061446,Negative,Post-Presidency,Historical Archive
+2021-07-15,-0.15826931624937368,Negative,Post-Presidency,Historical Archive
+2021-07-22,-0.3115713486655642,Negative,Post-Presidency,Historical Archive
+2021-07-29,-0.18743498293653774,Negative,Post-Presidency,Historical Archive
+2021-08-05,-0.311669132445111,Negative,Post-Presidency,Historical Archive
+2021-08-12,-0.33180413802178566,Negative,Post-Presidency,Historical Archive
+2021-08-19,-0.22895843777287792,Negative,Post-Presidency,Historical Archive
+2021-08-26,-0.3550914099779832,Negative,Post-Presidency,Historical Archive
+2021-09-02,-0.2629449405319385,Negative,Post-Presidency,Historical Archive
+2021-09-09,-0.2598641715104109,Negative,Post-Presidency,Historical Archive
+2021-09-16,-0.5332758108317736,Negative,Post-Presidency,Historical Archive
+2021-09-23,-0.16282932061651628,Negative,Post-Presidency,Historical Archive
+2021-09-30,-0.5305698414110714,Negative,Post-Presidency,Historical Archive
+2021-10-07,-0.5133317591365832,Negative,Post-Presidency,Historical Archive
+2021-10-14,-0.6730252109108465,Negative,Post-Presidency,Historical Archive
+2021-10-21,-0.2846869987527209,Negative,Post-Presidency,Historical Archive
+2021-10-28,-0.30021120939195056,Negative,Post-Presidency,Historical Archive
+2021-11-04,-0.09959031887364633,Negative,Post-Presidency,Historical Archive
+2021-11-11,-0.3681686838160223,Negative,Post-Presidency,Historical Archive
+2021-11-18,-0.49975965546857337,Negative,Post-Presidency,Historical Archive
+2021-11-25,0.06901556089356381,Positive,Post-Presidency,Historical Archive
+2021-12-02,-0.1414030958303075,Negative,Post-Presidency,Historical Archive
+2021-12-09,-0.5367182682184636,Negative,Post-Presidency,Historical Archive
+2021-12-16,-0.2569941539824049,Negative,Post-Presidency,Historical Archive
+2021-12-23,-0.40520127849039367,Negative,Post-Presidency,Historical Archive
+2021-12-30,-0.1971871170712453,Negative,Post-Presidency,Historical Archive
+2022-01-06,-0.052866114466805836,Negative,Post-Presidency,Historical Archive
+2022-01-13,-0.8922753325090369,Negative,Post-Presidency,Historical Archive
+2022-01-20,-0.04511933364071952,Neutral,Post-Presidency,Historical Archive
+2022-01-27,-0.45478411267924174,Negative,Post-Presidency,Historical Archive
+2022-02-03,-0.5834429311091045,Negative,Post-Presidency,Historical Archive
+2022-02-10,-0.26109548327894555,Negative,Post-Presidency,Historical Archive
+2022-02-17,-0.3767897098069663,Negative,Post-Presidency,Historical Archive
+2022-02-24,-0.45200551219616564,Negative,Post-Presidency,Historical Archive
+2022-03-03,-0.3948231284243252,Negative,Post-Presidency,Historical Archive
+2022-03-10,-0.18485516107191774,Negative,Post-Presidency,Historical Archive
+2022-03-17,-0.26110532982759793,Negative,Post-Presidency,Historical Archive
+2022-03-24,-0.4698506429965834,Negative,Post-Presidency,Historical Archive
+2022-03-31,-0.4453781751699488,Negative,Post-Presidency,Historical Archive
+2022-04-07,-0.6466835072546276,Negative,Post-Presidency,Historical Archive
+2022-04-14,-0.79653342401349,Negative,Post-Presidency,Historical Archive
+2022-04-21,-0.18400678187794187,Negative,Post-Presidency,Historical Archive
+2022-04-28,-0.41154515045105367,Negative,Post-Presidency,Historical Archive
+2022-05-05,-0.5909441005715952,Negative,Post-Presidency,Historical Archive
+2022-05-12,-0.2914496449026007,Negative,Post-Presidency,Historical Archive
+2022-05-19,-0.1838725917666229,Negative,Post-Presidency,Historical Archive
+2022-05-26,-0.3007161429773616,Negative,Post-Presidency,Historical Archive
+2022-06-02,-0.5658694897161304,Negative,Post-Presidency,Historical Archive
+2022-06-09,-0.4275849312519048,Negative,Post-Presidency,Historical Archive
+2022-06-16,0.04431459603243304,Neutral,Post-Presidency,Historical Archive
+2022-06-23,-0.5782409555524706,Negative,Post-Presidency,Historical Archive
+2022-06-30,-0.394476341010538,Negative,Post-Presidency,Historical Archive
+2022-07-07,-0.29206064395435133,Negative,Post-Presidency,Historical Archive
+2022-07-14,-0.18996974748096185,Negative,Post-Presidency,Historical Archive
+2022-07-21,-0.3127416604613069,Negative,Post-Presidency,Historical Archive
+2022-07-28,-0.27716674638428107,Negative,Post-Presidency,Historical Archive
+2022-08-04,-0.1613306929449122,Negative,Post-Presidency,Historical Archive
+2022-08-11,-0.20478922030198082,Negative,Post-Presidency,Historical Archive
+2022-08-18,-0.5463595143093986,Negative,Post-Presidency,Historical Archive
+2022-08-25,-0.47917595358729836,Negative,Post-Presidency,Historical Archive
+2022-09-01,-0.333380314338378,Negative,Post-Presidency,Historical Archive
+2022-09-08,-0.48253214100427955,Negative,Post-Presidency,Historical Archive
+2022-09-15,-0.1747204551352954,Negative,Post-Presidency,Historical Archive
+2022-09-22,-0.11389248051966108,Negative,Post-Presidency,Historical Archive
+2022-09-29,-0.27278688452975786,Negative,Post-Presidency,Historical Archive
+2022-10-06,-0.09692898199734146,Negative,Post-Presidency,Historical Archive
+2022-10-13,-0.11479909105625563,Negative,Post-Presidency,Historical Archive
+2022-10-20,-0.14599542751346017,Negative,Post-Presidency,Historical Archive
+2022-10-27,-0.14197438550161692,Negative,Post-Presidency,Historical Archive
+2022-11-03,-0.22678967641667047,Negative,Post-Presidency,Historical Archive
+2022-11-10,-0.287142071456196,Negative,Post-Presidency,Historical Archive
+2022-11-15,0.05018301809800749,Positive,2024 Campaign & Return,Historical Archive
+2022-11-22,0.0864589691833561,Positive,2024 Campaign & Return,Historical Archive
+2022-11-29,-0.42213539194058314,Negative,2024 Campaign & Return,Historical Archive
+2022-12-06,-0.2559417381184832,Negative,2024 Campaign & Return,Historical Archive
+2022-12-13,-0.21114655884825304,Negative,2024 Campaign & Return,Historical Archive
+2022-12-20,0.24870241675111762,Positive,2024 Campaign & Return,Historical Archive
+2022-12-27,0.2018741213728049,Positive,2024 Campaign & Return,Historical Archive
+2023-01-03,-0.5590048040882472,Negative,2024 Campaign & Return,Historical Archive
+2023-01-10,-0.1791614404080133,Negative,2024 Campaign & Return,Historical Archive
+2023-01-17,-0.2663617976526036,Negative,2024 Campaign & Return,Historical Archive
+2023-01-24,-0.5966607705917772,Negative,2024 Campaign & Return,Historical Archive
+2023-01-31,0.19197625705056612,Positive,2024 Campaign & Return,Historical Archive
+2023-02-07,-0.17392904710650042,Negative,2024 Campaign & Return,Historical Archive
+2023-02-14,0.06612731711298486,Positive,2024 Campaign & Return,Historical Archive
+2023-02-21,0.214548687496981,Positive,2024 Campaign & Return,Historical Archive
+2023-02-28,-0.07527334215704959,Negative,2024 Campaign & Return,Historical Archive
+2023-03-07,-0.5009465169867481,Negative,2024 Campaign & Return,Historical Archive
+2023-03-14,-0.1478803582864524,Negative,2024 Campaign & Return,Historical Archive
+2023-03-21,-0.09280110982337689,Negative,2024 Campaign & Return,Historical Archive
+2023-03-28,0.3354755497614923,Positive,2024 Campaign & Return,Historical Archive
+2023-04-04,-0.030247220573896172,Neutral,2024 Campaign & Return,Historical Archive
+2023-04-11,-0.24872059760373766,Negative,2024 Campaign & Return,Historical Archive
+2023-04-18,-0.30413916063846647,Negative,2024 Campaign & Return,Historical Archive
+2023-04-25,0.0006051388511627565,Neutral,2024 Campaign & Return,Historical Archive
+2023-05-02,-0.04948929879654202,Neutral,2024 Campaign & Return,Historical Archive
+2023-05-09,-0.10761188798327395,Negative,2024 Campaign & Return,Historical Archive
+2023-05-16,0.09874102607478816,Positive,2024 Campaign & Return,Historical Archive
+2023-05-23,-0.8240400692362708,Negative,2024 Campaign & Return,Historical Archive
+2023-05-30,0.1582919515844878,Positive,2024 Campaign & Return,Historical Archive
+2023-06-06,0.2890752582705445,Positive,2024 Campaign & Return,Historical Archive
+2023-06-13,-0.24714584095504907,Negative,2024 Campaign & Return,Historical Archive
+2023-06-20,0.2589738608604458,Positive,2024 Campaign & Return,Historical Archive
+2023-06-27,0.2533037358739021,Positive,2024 Campaign & Return,Historical Archive
+2023-07-04,-0.412609699761488,Negative,2024 Campaign & Return,Historical Archive
+2023-07-11,-0.09964331891769428,Negative,2024 Campaign & Return,Historical Archive
+2023-07-18,0.08379986199805695,Positive,2024 Campaign & Return,Historical Archive
+2023-07-25,0.14711008866094927,Positive,2024 Campaign & Return,Historical Archive
+2023-08-01,-0.3195955246627037,Negative,2024 Campaign & Return,Historical Archive
+2023-08-08,0.3515844415313637,Positive,2024 Campaign & Return,Historical Archive
+2023-08-15,-0.4266846830476483,Negative,2024 Campaign & Return,Historical Archive
+2023-08-22,-0.15027066781782314,Negative,2024 Campaign & Return,Historical Archive
+2023-08-29,0.1374006092120102,Positive,2024 Campaign & Return,Historical Archive
+2023-09-05,0.08309118818099454,Positive,2024 Campaign & Return,Historical Archive
+2023-09-12,-0.24025235147781362,Negative,2024 Campaign & Return,Historical Archive
+2023-09-19,-0.23384691468615007,Negative,2024 Campaign & Return,Historical Archive
+2023-09-26,0.09841844841751951,Positive,2024 Campaign & Return,Historical Archive
+2023-10-03,-0.13452205224487274,Negative,2024 Campaign & Return,Historical Archive
+2023-10-10,-0.1627967042839147,Negative,2024 Campaign & Return,Historical Archive
+2023-10-17,-0.20716769520356187,Negative,2024 Campaign & Return,Historical Archive
+2023-10-24,-0.6534904759520633,Negative,2024 Campaign & Return,Historical Archive
+2023-10-31,-0.07102504867038781,Negative,2024 Campaign & Return,Historical Archive
+2023-11-07,-0.0759387976576471,Negative,2024 Campaign & Return,Historical Archive
+2023-11-14,0.342437357506333,Positive,2024 Campaign & Return,Historical Archive
+2023-11-21,-0.16117236302052496,Negative,2024 Campaign & Return,Historical Archive
+2023-11-28,-0.05142794069884162,Negative,2024 Campaign & Return,Historical Archive
+2023-12-05,-0.05312965060786073,Negative,2024 Campaign & Return,Historical Archive
+2023-12-12,-0.8309869067035782,Negative,2024 Campaign & Return,Historical Archive
+2023-12-19,-0.33870350467654986,Negative,2024 Campaign & Return,Historical Archive
+2023-12-26,0.06188634773278895,Positive,2024 Campaign & Return,Historical Archive
+2024-01-02,0.3129322536651946,Positive,2024 Campaign & Return,Historical Archive
+2024-01-09,0.02097056770123079,Neutral,2024 Campaign & Return,Historical Archive
+2024-01-16,-0.18369438748919326,Negative,2024 Campaign & Return,Historical Archive
+2024-01-23,-0.10660376633852597,Negative,2024 Campaign & Return,Historical Archive
+2024-01-30,-0.2252964984105879,Negative,2024 Campaign & Return,Historical Archive
+2024-02-06,0.2558836849617241,Positive,2024 Campaign & Return,Historical Archive
+2024-02-13,0.05228241164271075,Positive,2024 Campaign & Return,Historical Archive
+2024-02-20,0.023094032340230775,Neutral,2024 Campaign & Return,Historical Archive
+2024-02-27,-0.5187128283204252,Negative,2024 Campaign & Return,Historical Archive
+2024-03-05,0.10071676467687557,Positive,2024 Campaign & Return,Historical Archive
+2024-03-12,-0.28092716000877826,Negative,2024 Campaign & Return,Historical Archive
+2024-03-19,-0.10547368629759515,Negative,2024 Campaign & Return,Historical Archive
+2024-03-26,-0.43924536612401477,Negative,2024 Campaign & Return,Historical Archive
+2024-04-02,0.30428272725506456,Positive,2024 Campaign & Return,Historical Archive
+2024-04-09,0.04092213120716079,Neutral,2024 Campaign & Return,Historical Archive
+2024-04-16,-0.4943075866069254,Negative,2024 Campaign & Return,Historical Archive
+2024-04-23,-0.4799811167519876,Negative,2024 Campaign & Return,Historical Archive
+2024-04-30,0.21810117296544554,Positive,2024 Campaign & Return,Historical Archive
+2024-05-07,0.03128217079191217,Neutral,2024 Campaign & Return,Historical Archive
+2024-05-14,-0.018593822797121365,Neutral,2024 Campaign & Return,Historical Archive
+2024-05-21,0.52243141119492,Positive,2024 Campaign & Return,Historical Archive
+2024-05-28,0.3478137081475753,Positive,2024 Campaign & Return,Historical Archive
+2024-06-04,-0.04598901040028593,Neutral,2024 Campaign & Return,Historical Archive
+2024-06-11,-0.12454901946317677,Negative,2024 Campaign & Return,Historical Archive
+2024-06-18,0.546726169706006,Positive,2024 Campaign & Return,Historical Archive
+2024-06-25,1.0,Positive,2024 Campaign & Return,Historical Archive
+2024-07-02,0.455125762867704,Positive,2024 Campaign & Return,Historical Archive
+2024-07-09,-0.4441673669577424,Negative,2024 Campaign & Return,Historical Archive
+2024-07-16,0.21956895595995782,Positive,2024 Campaign & Return,Historical Archive
+2024-07-23,-0.5006858544287351,Negative,2024 Campaign & Return,Historical Archive
+2024-07-30,-0.42417833762062507,Negative,2024 Campaign & Return,Historical Archive
+2024-08-06,-0.3536843708573152,Negative,2024 Campaign & Return,Historical Archive
+2024-08-13,0.19656472699183816,Positive,2024 Campaign & Return,Historical Archive
+2024-08-20,-0.18461196333532434,Negative,2024 Campaign & Return,Historical Archive
+2024-08-27,-0.4249880160801335,Negative,2024 Campaign & Return,Historical Archive
+2024-09-03,-0.11076791757223786,Negative,2024 Campaign & Return,Historical Archive
+2024-09-10,-0.031961907771693374,Neutral,2024 Campaign & Return,Historical Archive
+2024-09-17,-0.17324797291542576,Negative,2024 Campaign & Return,Historical Archive
+2024-09-24,-0.04188554802729548,Neutral,2024 Campaign & Return,Historical Archive
+2024-10-01,0.2684878298659137,Positive,2024 Campaign & Return,Historical Archive
+2024-10-08,-0.1513857713082682,Negative,2024 Campaign & Return,Historical Archive
+2024-10-15,-0.20637232840286202,Negative,2024 Campaign & Return,Historical Archive
+2024-10-22,0.10729124860112879,Positive,2024 Campaign & Return,Historical Archive
+2024-10-29,-0.16120086375576848,Negative,2024 Campaign & Return,Historical Archive
+2024-11-05,-0.2325574813955426,Negative,2024 Campaign & Return,Historical Archive
+2024-11-12,0.12789179663399566,Positive,2024 Campaign & Return,Historical Archive
+2024-11-19,-0.35888776372677944,Negative,2024 Campaign & Return,Historical Archive
+2024-11-26,0.23000518783481053,Positive,2024 Campaign & Return,Historical Archive
+2024-12-03,0.4295931826093099,Positive,2024 Campaign & Return,Historical Archive
+2024-12-10,0.23473791232554456,Positive,2024 Campaign & Return,Historical Archive
+2024-12-17,0.20579320662301784,Positive,2024 Campaign & Return,Historical Archive
+2024-12-24,-0.19499245617686378,Negative,2024 Campaign & Return,Historical Archive
+2024-12-31,-0.6061561608591116,Negative,2024 Campaign & Return,Historical Archive
+2025-01-07,-0.2072030706738876,Negative,2024 Campaign & Return,Historical Archive
+2025-01-14,-0.02444880467553373,Neutral,2024 Campaign & Return,Historical Archive
+2025-01-21,-0.12057050601104914,Negative,2024 Campaign & Return,Historical Archive
+2025-01-28,-0.5137336256180953,Negative,2024 Campaign & Return,Historical Archive
+2025-02-04,-0.0793228774698617,Negative,2024 Campaign & Return,Historical Archive
+2025-02-11,-0.2791555602023674,Negative,2024 Campaign & Return,Historical Archive
+2025-02-18,0.26881575006586733,Positive,2024 Campaign & Return,Historical Archive
+2025-02-25,-0.14816051185536738,Negative,2024 Campaign & Return,Historical Archive
+2025-03-04,0.6213926073436677,Positive,2024 Campaign & Return,Historical Archive
+2025-03-11,-0.05107715334625729,Negative,2024 Campaign & Return,Historical Archive
+2025-03-18,0.2511681353037257,Positive,2024 Campaign & Return,Historical Archive
+2025-03-25,-0.26358889320180223,Negative,2024 Campaign & Return,Historical Archive
+2025-04-01,-0.06444496335226381,Negative,2024 Campaign & Return,Historical Archive
+2025-04-08,0.17065832001535233,Positive,2024 Campaign & Return,Historical Archive
+2025-04-15,-0.3059113857998884,Negative,2024 Campaign & Return,Historical Archive
+2025-04-22,0.008986657938380507,Neutral,2024 Campaign & Return,Historical Archive
+2025-04-29,0.10108083630748865,Positive,2024 Campaign & Return,Historical Archive
+2025-05-06,0.3072206658915726,Positive,2024 Campaign & Return,Historical Archive
+2025-05-13,-0.214616287778351,Negative,2024 Campaign & Return,Historical Archive
+2025-05-20,0.42791609731102587,Positive,2024 Campaign & Return,Historical Archive
+2025-05-27,-0.45933901586838743,Negative,2024 Campaign & Return,Historical Archive
+2025-06-03,0.20935477575795478,Positive,2024 Campaign & Return,Historical Archive
+2025-06-10,-0.42047336462125595,Negative,2024 Campaign & Return,Historical Archive
+2025-06-17,-0.08351660133938864,Negative,2024 Campaign & Return,Historical Archive
+2025-06-24,0.2825993278760668,Positive,2024 Campaign & Return,Historical Archive
+2025-07-01,0.2270614624686135,Positive,2024 Campaign & Return,Historical Archive
+2025-07-08,0.13030467943725754,Positive,2024 Campaign & Return,Historical Archive
+2025-07-15,-0.26731491970648036,Negative,2024 Campaign & Return,Historical Archive
+2025-07-22,-0.12234323993326514,Negative,2024 Campaign & Return,Historical Archive
+2025-07-29,-0.6559904987073226,Negative,2024 Campaign & Return,Historical Archive
+2025-08-05,-0.49849749142390487,Negative,2024 Campaign & Return,Historical Archive
+2025-08-12,-0.3778812749631737,Negative,2024 Campaign & Return,Historical Archive
+2025-08-19,0.18215025628491174,Positive,2024 Campaign & Return,Historical Archive
+2025-08-26,-0.18872457908183343,Negative,2024 Campaign & Return,Historical Archive
+2025-09-02,-0.14394965238576948,Negative,2024 Campaign & Return,Historical Archive
+2025-09-09,-0.1748161265503814,Negative,2024 Campaign & Return,Historical Archive
+2025-09-16,-0.25771405108616485,Negative,2024 Campaign & Return,Historical Archive
+2025-09-23,-0.4987829134809705,Negative,2024 Campaign & Return,Historical Archive
+2025-09-30,-0.2843072820140997,Negative,2024 Campaign & Return,Historical Archive
+2025-10-07,0.41812672009849394,Positive,2024 Campaign & Return,Historical Archive
+2025-10-14,0.39562543415150175,Positive,2024 Campaign & Return,Historical Archive
+2025-10-21,0.16716147757565983,Positive,2024 Campaign & Return,Historical Archive
+2025-10-28,0.08360937385133607,Positive,2024 Campaign & Return,Historical Archive
+2025-11-04,0.06335269487074055,Positive,2024 Campaign & Return,Historical Archive
+2025-11-11,-0.15341280815656888,Negative,2024 Campaign & Return,Historical Archive
+2025-11-18,-0.05613420215012268,Negative,2024 Campaign & Return,Historical Archive
+2025-11-25,0.08845662989624636,Positive,2024 Campaign & Return,Historical Archive
+2025-12-02,-0.057409644315975186,Negative,2024 Campaign & Return,Historical Archive
+2025-12-09,-0.23504608978529823,Negative,2024 Campaign & Return,Historical Archive
+2025-12-16,-0.5571847275777083,Negative,2024 Campaign & Return,Historical Archive
+2025-12-23,-0.24484107954290701,Negative,2024 Campaign & Return,Historical Archive
