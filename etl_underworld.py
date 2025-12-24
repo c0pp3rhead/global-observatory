@@ -1,79 +1,107 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+import time
 import re
 
-print("--- Starting Underworld Atlas Scraper (Browser Mode) ---")
+print("--- Starting Underworld Deep Dive (Clean Filter) ---")
+
+# 1. Scrape the Master List
 URL = "https://en.wikipedia.org/wiki/List_of_criminal_enterprises,_gangs,_and_syndicates"
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+}
 
 try:
-    # 1. Use a Real Browser Header (Prevents blocks/mobile views)
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
-    }
     res = requests.get(URL, headers=headers)
-    print(f"DEBUG: Status Code: {res.status_code}") # Should be 200
-
     soup = BeautifulSoup(res.text, 'html.parser')
     
-    # 2. Target the main content ID (More stable than class names)
+    groups_to_scan = []
     content = soup.find('div', {'id': 'bodyContent'})
-    if not content:
-        print("Fallback: Scanning entire body tag...")
-        content = soup.body
-
-    all_groups = []
-    current_region = "Global" 
     
-    # 3. Iterate
-    for element in content.find_all(['h2', 'li']):
-        
-        # --- HEADER DETECTION ---
-        if element.name == 'h2':
-            text = element.get_text(strip=True).replace('[edit]', '').lower()
+    # BANNED TERMS (Generic pages to skip)
+    BANNED = ["list of", "gangs", "mafias", "syndicates", "crime in", "organized crime", "cartel", "triad", "mafia"]
+    
+    count = 0
+    if content:
+        for link in content.find_all('a'):
+            href = link.get('href')
+            text = link.get_text(strip=True)
             
-            # Update Region
-            if 'africa' in text: current_region = "Africa"
-            elif 'asia' in text: current_region = "Asia"
-            elif 'europe' in text: current_region = "Europe"
-            elif 'north america' in text: current_region = "North America"
-            elif 'south america' in text: current_region = "South America"
-            elif 'oceania' in text: current_region = "Oceania"
+            # --- SAFETY CHECK: Skip empty text ---
+            if not text: continue
 
-        # --- LIST ITEM DETECTION ---
-        elif element.name == 'li':
-            link = element.find('a')
-            if link and link.get('href'):
-                text = link.get_text(strip=True)
-                href = link.get('href')
+            if href and href.startswith('/wiki/') and count < 60:
+                # Check if it looks like a real group name
                 
-                # --- FILTERS ---
-                if not href.startswith('/wiki/'): continue
-                if len(text) < 3: continue
+                # 1. Must be capitalized (Real names are Proper Nouns)
+                # We use safe access here just in case
+                if len(text) > 0 and not text[0].isupper(): continue
                 
-                # Banned terms (Navigation garbage)
-                banned = ["list of", "gangs in", "crime in", "edit", "template", 
-                          "category", "portal", "timeline", "main page", "help", "contact"]
-                if any(b in text.lower() for b in banned): continue
+                # 2. Must not be a generic "List of" page
+                if any(b in text.lower() for b in ["list of", "crime in"]): continue
                 
-                all_groups.append({
-                    "Region": current_region,
-                    "Group Name": text,
-                    "Wiki_Link": "https://en.wikipedia.org" + href,
-                    "Status": "Active"
-                })
+                # 3. Must not be just a generic word like "Gangs"
+                if text.lower() in BANNED: continue
+                
+                # 4. Keyword Check (Must sound like a group)
+                keywords = ['cartel', 'mafia', 'triad', 'syndicate', 'gang', 'family', 'brotherhood', 'organization', 'clan', 'posse']
+                if any(k in text.lower() for k in keywords):
+                    groups_to_scan.append({
+                        "Group Name": text,
+                        "Wiki_Link": "https://en.wikipedia.org" + href
+                    })
+                    count += 1
+                
+    print(f"Found {len(groups_to_scan)} VALID targets. Extracting dossiers...")
+
+    detailed_data = []
+
+    # 2. Visit each page
+    for group in groups_to_scan:
+        print(f"   > Analyzing: {group['Group Name']}...")
+        try:
+            g_res = requests.get(group['Wiki_Link'], headers=headers)
+            g_soup = BeautifulSoup(g_res.text, 'html.parser')
+            infobox = g_soup.find('table', {'class': 'infobox'})
+            
+            # Defaults
+            activities = "Unknown"
+            revenue = "Unknown"
+            membership = "Unknown"
+            founded = "Unknown"
+            
+            if infobox:
+                for row in infobox.find_all('tr'):
+                    if row.find('th') and row.find('td'):
+                        head = row.find('th').text.lower()
+                        val = row.find('td').text.strip().split('[')[0]
+                        
+                        if any(x in head for x in ["activities", "acts", "specialty"]): activities = val[:120] + "..."
+                        if any(x in head for x in ["revenue", "income", "profit"]): revenue = val
+                        if any(x in head for x in ["membership", "members", "size", "manpower"]): membership = val
+                        if "founded" in head: founded = val
+
+            detailed_data.append({
+                "Group Name": group['Group Name'],
+                "Wiki_Link": group['Wiki_Link'],
+                "Criminal Activities": activities,
+                "Est. Revenue": revenue,
+                "Membership": membership,
+                "Founded": founded
+            })
+            time.sleep(0.3)
+            
+        except: pass
 
     # Save
-    if len(all_groups) > 0:
-        df = pd.DataFrame(all_groups)
-        df = df.drop_duplicates(subset=['Group Name'])
-        # Limit to 300
-        df = df.head(300)
-        df.to_csv("underworld_atlas.csv", index=False)
-        print(f"--- SUCCESS: Found {len(df)} organizations ---")
-        print(df['Region'].value_counts())
+    if detailed_data:
+        df = pd.DataFrame(detailed_data)
+        df.to_csv("underworld_rich_data.csv", index=False)
+        print("--- SUCCESS: Clean Dossiers Updated ---")
+        print(df[['Group Name', 'Membership']].head())
     else:
-        print("FAILED. No data found.")
+        print("Warning: No dossiers extracted.")
 
 except Exception as e:
     print(f"Critical Error: {e}")
