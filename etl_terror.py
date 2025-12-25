@@ -2,15 +2,14 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-print("--- Starting Global Terror Monitor Scraper (Enriched) ---")
+print("--- Starting Global Terror Monitor Scraper (Map Fix) ---")
 
 YEARS = [2024, 2023]
 all_incidents = []
 
 for year in YEARS:
     url = f"https://en.wikipedia.org/wiki/List_of_terrorist_incidents_in_{year}"
-    print(f"Scanning Security Logs: {year}...")
-    
+    print(f"Scanning: {year}...")
     try:
         res = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
         soup = BeautifulSoup(res.text, 'html.parser')
@@ -23,41 +22,34 @@ for year in YEARS:
                 for row in rows[1:]:
                     cols = row.find_all('td')
                     if len(cols) >= 4:
-                        # 1. Extract Data
-                        date = cols[0].text.strip()
                         place = cols[1].text.strip()
+                        country = place.split(",")[-1].strip()
+                        
+                        # --- CLEAN COUNTRY NAMES FOR MAPPING ---
+                        country = country.replace("Democratic Republic of the Congo", "DR Congo")
+                        country = country.replace("United States", "USA")
+                        country = country.replace("State of Palestine", "Palestine")
+                        
                         deaths_txt = cols[2].text.strip().split('[')[0]
                         try: deaths = int(deaths_txt)
                         except: deaths = 0
-                        perpetrator = cols[3].text.strip()
                         
-                        # 2. Extract Country for Map (Simple split by comma)
-                        if "," in place:
-                            country = place.split(",")[-1].strip()
-                        else:
-                            country = place # Fallback
-                        
-                        # 3. Extract Source Link (from the Date column usually)
-                        link = "Unknown"
+                        # Extract Link
+                        link = url
                         if cols[0].find('a'):
                             link = "https://en.wikipedia.org" + cols[0].find('a')['href']
-                        else:
-                            link = url # Fallback to main page
-                        
-                        all_incidents.append({
-                            "Date": f"{date}, {year}",
-                            "Location": place,
-                            "Country": country,
-                            "Deaths": deaths,
-                            "Perpetrator": perpetrator,
-                            "Source_Link": link
-                        })
-    except Exception as e:
-        print(f"Error scanning {year}: {e}")
+
+                        if deaths > 0:
+                            all_incidents.append({
+                                "Date": f"{cols[0].text.strip()}, {year}",
+                                "Location": place,
+                                "Country": country,
+                                "Deaths": deaths,
+                                "Perpetrator": cols[3].text.strip(),
+                                "Source_Link": link
+                            })
+    except: pass
 
 df = pd.DataFrame(all_incidents)
-# Clean up Country names for Map matching
-df['Country'] = df['Country'].replace({"United States": "USA", "Democratic Republic of the Congo": "DR Congo"})
-df = df[df['Deaths'] > 0]
 df.to_csv("global_terror_log.csv", index=False)
-print(f"--- SUCCESS: Logged {len(df)} Incidents with Sources ---")
+print(f"--- SUCCESS: {len(df)} Incidents Logged for Map ---")
