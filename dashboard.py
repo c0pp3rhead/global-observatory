@@ -26,48 +26,48 @@ if selection == "1. Commodity-Climate":
         st.line_chart(df.set_index('Date')[['Close_Price', 'Rolling_Rain_30d']])
     except: st.error("Data missing.")
 
-# 2. BIO-RADAR (RESTORED GENERAL MORTALITY)
+# 2. BIO-RADAR (FIXED MAPS)
 elif selection == "2. Bio-Radar (Mortality)":
     st.title("🧬 THE BIO-RADAR")
     try:
         df = pd.read_csv("health_unified.csv")
         
-        # Tabs for metrics
-        t1, t2, t3 = st.tabs(["General Death Count", "Suicide Rates (2021)", "HIV/AIDS (2023)"])
+        t1, t2, t3 = st.tabs(["General Death Count", "Suicide Rates (Latest)", "HIV/AIDS (Latest)"])
         
         with t1:
             st.markdown("### 💀 General Mortality (Crude Death Rate per 1k)")
+            # Using 'Reds' for death
             fig = px.choropleth(df, locations="iso_code", color="General_Death_Rate_1k", hover_name="Country", color_continuous_scale="Reds")
             fig.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117"))
             st.plotly_chart(fig, use_container_width=True)
             
         with t2:
             st.markdown("### 📉 Suicide Rate (per 100k)")
+            # Using 'Viridis' for contrast
             fig = px.choropleth(df, locations="iso_code", color="Suicide_Rate_100k", hover_name="Country", color_continuous_scale="Viridis")
             fig.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117"))
             st.plotly_chart(fig, use_container_width=True)
 
         with t3:
             st.markdown("### 🎗️ HIV/AIDS Prevalence (%)")
+            # Using 'Plasma' for disease
             fig = px.choropleth(df, locations="iso_code", color="AIDS_Prevalence_Pct", hover_name="Country", color_continuous_scale="Plasma")
             fig.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117"))
             st.plotly_chart(fig, use_container_width=True)
             
     except: st.error("Data missing. Run 'etl_health_unified.py'.")
 
-# 3. SECURITY MONITOR (SUBTEXT ADDED)
+# 3. SECURITY MONITOR
 elif selection == "3. Security Monitor":
     st.title("🛡️ SECURITY MONITOR")
-    st.markdown("##### 📡 Live Feed: Global Conflict & Protest Events (GDELT)")
+    st.markdown("##### 📡 Live Feed: Global Conflict & Protest Events")
     st.caption("Data represents real-time news volume intensity for conflict-related keywords in the last 24 hours.")
     try:
         df = pd.read_csv("security_events.csv")
         st.metric("Active Events", len(df))
-        
         fig = px.scatter_geo(df, lat='Latitude', lon='Longitude', size='Article_Count',
                              color="Article_Count", color_continuous_scale="Plasma")
-        fig.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117"),
-                          coloraxis_colorbar=dict(title="News Intensity"))
+        fig.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117"), coloraxis_colorbar=dict(title="News Intensity"))
         st.plotly_chart(fig, use_container_width=True)
     except: st.error("Data missing.")
 
@@ -83,23 +83,28 @@ elif selection == "4. Agenda Setter":
         st.dataframe(df[['Year', 'Event', 'Category']], hide_index=True)
     except: st.error("Data missing.")
 
-# 5. UNDERWORLD ATLAS (REVENUE/MEMBERSHIP FIXED)
+# 5. UNDERWORLD ATLAS (SORTED)
 elif selection == "5. Underworld Atlas (Deep)":
     st.title("💀 THE UNDERWORLD ATLAS")
     try:
         df = pd.read_csv("underworld_rich_data.csv")
         st.metric("Groups Tracked", len(df))
         
+        # --- CRITICAL FIX: SORT BY KNOWN DATA ---
+        # Create a helper column to push "Unknown" to the bottom
+        df['HasData'] = df['Membership'].apply(lambda x: 0 if str(x).lower() == 'unknown' else 1)
+        df_sorted = df.sort_values('HasData', ascending=False).drop('HasData', axis=1)
+        
         # Main Table
         st.dataframe(
-            df[['Group Name', 'Membership', 'Est. Revenue', 'Founded']], 
+            df_sorted[['Group Name', 'Membership', 'Est. Revenue', 'Founded']], 
             hide_index=True, use_container_width=True
         )
         
         search = st.text_input("🔍 Search Dossier")
-        if search: df = df[df.apply(lambda row: search.lower() in str(row).lower(), axis=1)]
+        if search: df_sorted = df_sorted[df_sorted.apply(lambda row: search.lower() in str(row).lower(), axis=1)]
         
-        for i, row in df.iterrows():
+        for i, row in df_sorted.iterrows():
             with st.expander(f"{row['Group Name']}"):
                 c1, c2 = st.columns(2)
                 c1.markdown(f"**💰 Revenue:** {row['Est. Revenue']}")
@@ -109,7 +114,7 @@ elif selection == "5. Underworld Atlas (Deep)":
                 st.markdown(f"[Source Link]({row['Wiki_Link']})")
     except: st.error("Data missing.")
 
-# 6. GLOBAL TERROR LOG (MAP FIXED)
+# 6. GLOBAL TERROR LOG (FIXED MAP)
 elif selection == "6. Global Terror Log":
     st.title("💣 GLOBAL TERROR MONITOR")
     st.markdown("### 🚨 Impact Map: Deaths by Country")
@@ -117,14 +122,15 @@ elif selection == "6. Global Terror Log":
     try:
         df = pd.read_csv("global_terror_log.csv")
         
-        # 1. MAP
+        # MAP
+        # Aggregate deaths per country
         df_map = df.groupby('Country')['Deaths'].sum().reset_index()
         fig = px.choropleth(df_map, locations="Country", locationmode="country names",
                             color="Deaths", hover_name="Country", color_continuous_scale="Reds")
         fig.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117"))
         st.plotly_chart(fig, use_container_width=True)
         
-        # 2. TABLE
+        # TABLE
         st.markdown("### 📋 Verified Incident Log")
         st.dataframe(
             df[['Date', 'Location', 'Deaths', 'Perpetrator', 'Source_Link']],
@@ -133,7 +139,7 @@ elif selection == "6. Global Terror Log":
         )
     except: st.error("Data missing.")
 
-# 7. AUTISM DIAGNOSIS (SYMPTOMS VISIBLE)
+# 7. AUTISM DIAGNOSIS
 elif selection == "7. Autism Diagnosis History":
     st.title("🧩 DIAGNOSIS TIMELINE")
     try:

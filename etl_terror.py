@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-print("--- Starting Global Terror Monitor Scraper (Map Fix) ---")
+print("--- Starting Global Terror Map Fix ---")
 
 YEARS = [2024, 2023]
 all_incidents = []
@@ -17,24 +17,28 @@ for year in YEARS:
         
         for table in tables:
             headers = [th.text.strip().lower() for th in table.find_all('th')]
-            if 'date' in headers and 'location' in headers:
+            if 'location' in headers:
                 rows = table.find_all('tr')
                 for row in rows[1:]:
                     cols = row.find_all('td')
                     if len(cols) >= 4:
+                        # CLEAN LOCATION
                         place = cols[1].text.strip()
+                        # Take the last part after the comma (usually the country)
                         country = place.split(",")[-1].strip()
                         
-                        # --- CLEAN COUNTRY NAMES FOR MAPPING ---
+                        # --- CRITICAL MAP FIXES ---
                         country = country.replace("Democratic Republic of the Congo", "DR Congo")
                         country = country.replace("United States", "USA")
                         country = country.replace("State of Palestine", "Palestine")
+                        country = country.replace("Islamic Republic of Iran", "Iran")
                         
+                        # CLEAN DEATHS
                         deaths_txt = cols[2].text.strip().split('[')[0]
                         try: deaths = int(deaths_txt)
                         except: deaths = 0
                         
-                        # Extract Link
+                        # LINK
                         link = url
                         if cols[0].find('a'):
                             link = "https://en.wikipedia.org" + cols[0].find('a')['href']
@@ -51,5 +55,7 @@ for year in YEARS:
     except: pass
 
 df = pd.DataFrame(all_incidents)
+# Debug: Print unique countries found to verify
+print("Countries Found:", df['Country'].unique())
 df.to_csv("global_terror_log.csv", index=False)
-print(f"--- SUCCESS: {len(df)} Incidents Logged for Map ---")
+print(f"--- SUCCESS: {len(df)} Incidents Ready for Mapping ---")
