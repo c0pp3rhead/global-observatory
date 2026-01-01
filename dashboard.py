@@ -21,6 +21,7 @@ selection = st.sidebar.radio("Select Module:", options)
 # 1. COMMODITY
 if selection == "1. Commodity-Climate":
     st.title("🌧️ COMMODITY-CLIMATE MONITOR")
+    st.caption("ℹ️ **Legend:** Data correlates daily coffee market prices (USD) with rolling 30-day rainfall averages in key production regions, highlighting climate impact on soft commodities.")
     try:
         df = pd.read_csv("coffee_weather_master.csv")
         st.line_chart(df.set_index('Date')[['Close_Price', 'Rolling_Rain_30d']])
@@ -65,6 +66,7 @@ elif selection == "3. Security Monitor":
 # 4. AGENDA SETTER
 elif selection == "4. Agenda Setter":
     st.title("🗳️ THE AGENDA SETTER")
+    st.caption("ℹ️ **Legend:** Data represents the sentiment polarity (Positive/Negative) of historical events and publications involving Donald Trump over the last 40 years, tracked via NLP analysis.")
     try:
         df = pd.read_csv("trump_real_timeline.csv")
         fig = px.scatter(df, x="Year", y="Sentiment_Score", color="Category", hover_data=["Event"], 
@@ -74,77 +76,71 @@ elif selection == "4. Agenda Setter":
         st.dataframe(df[['Year', 'Event', 'Category']], hide_index=True)
     except: st.error("Data missing.")
 
-# 5. UNDERWORLD ASSET TRACKER (NEW)
+# 5. UNDERWORLD ASSET TRACKER
 elif selection == "5. Underworld Asset Tracker":
     st.title("💀 UNDERWORLD ASSET TRACKER")
     st.markdown("### 💰 Confiscated Wealth & Contraband")
-    st.markdown("*This ledger tracks specific seizures (Drugs, Money, Weapons) linked to criminal groups. Only events with verified data are listed.*")
+    st.caption("ℹ️ **Legend:** This ledger tracks specific verified seizures (Drugs, Money, Weapons) linked to criminal groups.")
     
     try:
         df = pd.read_csv("seizure_log.csv")
         
-        # Metrics
         col1, col2 = st.columns(2)
         col1.metric("Seizure Events Logged", len(df))
         col2.metric("Groups Impacted", df['Group'].nunique())
         
-        # Search Filter
         search = st.text_input("🔍 Search Logs (e.g., 'Cocaine', 'Sinaloa', '2023')")
-        if search:
-            df = df[df.apply(lambda row: search.lower() in str(row).lower(), axis=1)]
+        if search: df = df[df.apply(lambda row: search.lower() in str(row).lower(), axis=1)]
 
-        # Display Clean Table
         st.dataframe(
             df[['Year', 'Group', 'Seized Assets', 'Source_Link']],
             column_config={
                 "Source_Link": st.column_config.LinkColumn("Source"),
                 "Seized Assets": st.column_config.TextColumn("Confiscated Items", width="medium"),
-            },
-            hide_index=True,
-            use_container_width=True
+            }, hide_index=True, use_container_width=True
         )
         
-        # Detailed View
         st.markdown("### 📂 Event Details")
         for i, row in df.iterrows():
             with st.expander(f"{row['Year']} - {row['Group']}: {row['Seized Assets']}"):
                 st.write(f"**Context:** \"{row['Full Description']}...\"")
                 st.markdown(f"[Verify Source]({row['Source_Link']})")
-
     except: st.error("Data missing. Run 'etl_seizures.py'.")
 
 # 6. GLOBAL TERROR LOG
 elif selection == "6. Global Terror Log":
     st.title("💣 GLOBAL TERROR MONITOR")
+    st.caption("ℹ️ **Legend:** Visualizing verified terrorist incidents from 2023-2024. Map intensity reflects total deaths per country.")
+    
     try:
         df = pd.read_csv("global_terror_log.csv")
         
-        # Metrics
         c1, c2, c3 = st.columns(3)
         c1.metric("Total Incidents", len(df))
         c2.metric("Total Deaths", df['Deaths'].sum())
         c3.metric("Countries Affected", df['Country'].nunique())
         st.divider()
 
-        # Timeline
-        st.markdown("### 📊 Attack Frequency Over Time")
-        df['Date_Obj'] = pd.to_datetime(df['Date'], errors='coerce')
-        df_timeline = df.groupby(df['Date_Obj'].dt.to_period("M")).size().reset_index(name='Incidents')
-        df_timeline['Date_Str'] = df_timeline['Date_Obj'].astype(str)
-        fig_time = px.bar(df_timeline, x='Date_Str', y='Incidents', labels={'Date_Str': 'Month', 'Incidents': 'Attacks'}, color='Incidents', color_continuous_scale='Reds')
-        fig_time.update_layout(template="plotly_dark", height=350, xaxis_title=None)
-        st.plotly_chart(fig_time, use_container_width=True)
-
-        # Map
+        # 1. MAP
         st.markdown("### 🚨 Impact Map: Deaths by Country")
         df_map = df.groupby('Country')['Deaths'].sum().reset_index()
-        fig_map = px.choropleth(df_map, locations="Country", locationmode="country names", color="Deaths", hover_name="Country", color_continuous_scale="Reds")
+        fig_map = px.choropleth(df_map, locations="Country", locationmode="country names",
+                            color="Deaths", hover_name="Country", color_continuous_scale="Reds")
         fig_map.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117", showlakes=False))
         st.plotly_chart(fig_map, use_container_width=True)
+
+        # 2. DEADLIEST ATTACKS TABLE
+        st.markdown("### ⚰️ Deadliest Attacks (Specific Locations)")
+        df_sorted = df.sort_values('Deaths', ascending=False).head(10)
+        st.dataframe(
+            df_sorted[['Date', 'Location', 'Deaths', 'Perpetrator']],
+            hide_index=True, use_container_width=True
+        )
         
-        # Log
-        st.markdown("### 📋 Verified Incident Log")
-        st.dataframe(df[['Date', 'Location', 'Deaths', 'Source_Link']], column_config={"Source_Link": st.column_config.LinkColumn("Source")}, hide_index=True, use_container_width=True)
+        # 3. FULL LOG
+        with st.expander("View Full Incident Log"):
+            st.dataframe(df[['Date', 'Location', 'Deaths', 'Source_Link']], column_config={"Source_Link": st.column_config.LinkColumn("Source")}, hide_index=True)
+
     except: st.error("Data missing.")
 
 # 7. AUTISM DIAGNOSIS
@@ -164,5 +160,5 @@ elif selection == "7. Autism Diagnosis History":
                     st.markdown(f"<div style='border-left: 4px solid {color}; padding-left: 15px; margin-bottom: 20px;'>"
                                 f"<h4 style='margin:0'>{row['Authority']}</h4>"
                                 f"<h5 style='margin:0; color: #00d4ff'>{row['Definition']}</h5>"
-                                f"<p>{row['Context']}</p><p style='font-size:0.85em; background-color:#1f2937; padding:10px; border-radius:5px'><b>Symptoms:</b><br>{row.get('Symptoms', '').replace(chr(10), '<br>')}</p></div>", unsafe_allow_html=True)
+                                f"<p>{row['Context']}</p><p style='font-size:0.85em; background-color:#1f2937; padding:10px; border-radius:5px'>{row.get('Symptoms', '')}</p></div>", unsafe_allow_html=True)
     except: st.error("Data missing.")

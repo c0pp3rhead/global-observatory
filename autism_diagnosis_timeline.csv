@@ -1,16 +1,6 @@
 Year,Authority,Definition,Context,Prevalence,Est_US_Cases,Symptoms
-1943,Leo Kanner,Early Infantile Autism,Rare condition defined by 'insistence on sameness' & social isolation.,"1 in 10,000","< 15,000","• Extreme aloneness
-• Delayed echolalia
-• Hypersensitivity to stimuli"
-1980,DSM-III,Infantile Autism,Officially recognized as distinct from schizophrenia. Strict onset criteria.,"1 in 2,000","~100,000","• Lack of social responsiveness
-• Deficits in language
-• Onset before 30 months"
-1994,DSM-IV,Asperger's & Spectrum,Major expansion. Included high-functioning cases (Asperger's).,1 in 150,~1.5 Million,"• Impaired social interaction
-• Restricted interests
-• No general language delay (Asperger's)"
-2013,DSM-5,Autism Spectrum Disorder,Merged all diagnoses into a single spectrum with severity levels (1-3).,1 in 59,~3.5 Million,"• Deficits in social communication
-• Repetitive patterns of behavior
-• Sensory processing issues"
-2025,CDC / Current Status,The Current Epidemic,Highest recorded prevalence. Debate continues on environmental drivers.,1 in 31,~5.4 Million+,"• Broad spectrum covering non-verbal to high IQ
-• Co-occurring conditions (ADHD, Anxiety)
-• GI issues frequently reported"
+1943,Leo Kanner,Early Infantile Autism,Rare condition defined by 'insistence on sameness' & social isolation.,"1 in 10,000","< 15,000","• <b>Extreme aloneness:</b> Profound lack of interest in others or social interaction.<br>• <b>Delayed echolalia:</b> Repetition of words/phrases heard previously, often out of context.<br>• <b>Hypersensitivity:</b> Extreme adverse reaction to loud noises or bright lights."
+1980,DSM-III,Infantile Autism,Officially recognized as distinct from schizophrenia. Strict onset criteria.,"1 in 2,000","~100,000",• <b>Social responsiveness:</b> Failure to cuddle or make eye contact.<br>• <b>Language deficit:</b> Failure to develop speech or use it for communication.<br>• <b>Onset:</b> Symptoms must appear before 30 months of age.
+1994,DSM-IV,Asperger's & Spectrum,Major expansion. Included high-functioning cases (Asperger's).,1 in 150,~1.5 Million,"• <b>Restricted interests:</b> Intense focus on specific topics (e.g., trains, math).<br>• <b>Asperger's distinction:</b> No significant delay in language or cognitive development, unlike classic autism."
+2013,DSM-5,Autism Spectrum Disorder,Merged all diagnoses into a single spectrum with severity levels (1-3).,1 in 59,~3.5 Million,"• <b>Sensory processing:</b> Over or under-sensitivity to pain, temperature, or sound.<br>• <b>Social-emotional reciprocity:</b> Difficulty with back-and-forth conversation or sharing interests."
+2025,CDC / Current Status,The Current Epidemic,Highest recorded prevalence. Debate continues on environmental drivers.,1 in 31,~5.4 Million+,"• <b>Broad Spectrum:</b> Includes non-verbal individuals requiring 24/7 care to high-IQ professionals.<br>• <b>Co-occurring conditions:</b> High rates of GI issues, seizures, and anxiety."
