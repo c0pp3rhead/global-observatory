@@ -114,30 +114,56 @@ elif selection == "5. Underworld Atlas (Deep)":
                 st.markdown(f"[Source Link]({row['Wiki_Link']})")
     except: st.error("Data missing.")
 
-# 6. GLOBAL TERROR LOG (FIXED MAP)
+# 6. GLOBAL TERROR LOG (WIKIPEDIA STYLE)
 elif selection == "6. Global Terror Log":
     st.title("💣 GLOBAL TERROR MONITOR")
-    st.markdown("### 🚨 Impact Map: Deaths by Country")
     
     try:
         df = pd.read_csv("global_terror_log.csv")
         
-        # MAP
-        # Aggregate deaths per country
-        df_map = df.groupby('Country')['Deaths'].sum().reset_index()
-        fig = px.choropleth(df_map, locations="Country", locationmode="country names",
-                            color="Deaths", hover_name="Country", color_continuous_scale="Reds")
-        fig.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117"))
-        st.plotly_chart(fig, use_container_width=True)
+        # --- 1. METRICS ROW ---
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Total Incidents", len(df))
+        c2.metric("Total Deaths", df['Deaths'].sum())
+        c3.metric("Countries Affected", df['Country'].nunique())
         
-        # TABLE
+        st.divider()
+
+        # --- 2. TIMELINE CHART (Mirroring Wiki Style) ---
+        st.markdown("### 📊 Attack Frequency Over Time")
+        # Convert date to datetime object for sorting
+        df['Date_Obj'] = pd.to_datetime(df['Date'], errors='coerce')
+        # Group by Month-Year
+        df_timeline = df.groupby(df['Date_Obj'].dt.to_period("M")).size().reset_index(name='Incidents')
+        df_timeline['Date_Str'] = df_timeline['Date_Obj'].astype(str)
+        
+        fig_time = px.bar(df_timeline, x='Date_Str', y='Incidents', 
+                          labels={'Date_Str': 'Month', 'Incidents': 'Attacks'},
+                          color='Incidents', color_continuous_scale='Reds')
+        fig_time.update_layout(template="plotly_dark", height=350, xaxis_title=None)
+        st.plotly_chart(fig_time, use_container_width=True)
+
+        # --- 3. IMPACT MAP ---
+        st.markdown("### 🚨 Impact Map: Deaths by Country")
+        df_map = df.groupby('Country')['Deaths'].sum().reset_index()
+        
+        fig_map = px.choropleth(df_map, locations="Country", locationmode="country names",
+                            color="Deaths", hover_name="Country", 
+                            color_continuous_scale="Reds",
+                            range_color=(0, df_map['Deaths'].max())) # Fix scale
+        fig_map.update_layout(template="plotly_dark", geo=dict(bgcolor="#0e1117", showlakes=False))
+        st.plotly_chart(fig_map, use_container_width=True)
+        
+        # --- 4. DATA TABLE ---
         st.markdown("### 📋 Verified Incident Log")
         st.dataframe(
-            df[['Date', 'Location', 'Deaths', 'Perpetrator', 'Source_Link']],
-            column_config={"Source_Link": st.column_config.LinkColumn("Evidence Link")},
+            df[['Date', 'Location', 'Deaths', 'Source_Link']],
+            column_config={"Source_Link": st.column_config.LinkColumn("Source")},
             hide_index=True, use_container_width=True
         )
-    except: st.error("Data missing.")
+
+    except Exception as e:
+        st.error(f"Data Error: {e}")
 
 # 7. AUTISM DIAGNOSIS
 elif selection == "7. Autism Diagnosis History":
