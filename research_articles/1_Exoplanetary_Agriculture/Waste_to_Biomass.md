@@ -1,17 +1,26 @@
-# Waste-to-Biomass
+# Waste-to-Biomass: Fungal Remediation in Closed Loops
 **Author:** Cristian Morales | **Date:** January 8, 2026
+**Field:** Mycology & Waste Management
 
-## 1. Abstract
-Myco-remediation of solid human waste using Pleurotus ostreatus. The fungal breakdown converts metabolic waste into edible protein with a 14% conversion efficiency.
+## 1. Introduction
+In a Closed Ecological Life Support System (CELSS), "waste" is a misnomer; everything is a resource in the wrong place. This note explores the utility of **Fungi (*Pleurotus ostreatus*)** to degrade inedible plant matter (lignin/cellulose) and solid human waste, converting it into edible protein and fungal-composite materials.
 
-## 2. Methodology
-Data was aggregated using proprietary scrapers and satellite telemetry (2023-2025). We applied multivariate regression to isolate the primary signal from environmental noise.
+## 2. The Lignin Problem
+Traditional composting is too slow for the rapid cycle requirements of a Mars base. Additionally, crops like wheat and corn produce 60% inedible biomass (stems/husks) which represents "trapped" carbon and nutrients.
+* **Mechanism:** Fungi secrete enzymes (laccase/peroxidase) that break down the tough lignin bonds that bacteria struggle with [1].
 
-## 3. Data Visualization
-This chart visualizes the core trend identified in the study.
-[IMAGE: waste_to_biomass.png]
+## 3. Methodology
+We propose a **Myco-Reactor** downstream of the hydroponic bay.
+1.  **Input:** Grey biomass (roots/stems) + solid human waste.
+2.  **Process:** Inoculation with *P. ostreatus* mycelium.
+3.  **Output:** Edible mushrooms (Protein) + Myco-bricks (Construction Material).
 
-**Figure 1:** Waste-to-Biomass analysis. The data indicates a significant deviation from historical baselines, suggesting a structural shift in the system.
+## 4. Results
+Experimental data suggests a conversion efficiency where 100kg of waste biomass yields approximately **14kg of edible fungal protein** within 21 days [2]. This effectively "unlocks" the nutrients trapped in the waste stream.
 
-## 4. Conclusion
-Immediate policy intervention is recommended. The correlation between the observed variables is statistically significant (p < 0.05).
+## 5. Conclusion
+Fungi act as the "digestive system" of the habitat. By integrating myco-remediation, we close the nutrient loop tighter, reducing the need for fertilizer resupply from Earth.
+
+## 6. References
+1.  Sanchez, C. (2009). "Lignocellulosic residues: biodegradation and bioconversion by fungi." *Biotechnology Advances*.
+2.  NASA. (2021). *Myco-Architecture off-planet: growing structures at destination.*

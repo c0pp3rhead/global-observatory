@@ -1,4 +1,4 @@
-# The Caloric ROI of Entomophagy: Energy Modeling for Closed Systems
+# The Caloric ROI of Entomophagy in Sealed Systems
 **Author:** Cristian Morales | **Date:** January 8, 2026
 **Field:** Exoplanetary Agriculture & Bio-Thermodynamics
 
