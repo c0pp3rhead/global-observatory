@@ -5,17 +5,24 @@ Welcome to the live research portfolio for my PhD candidacy.
 
 ---
 
-## 🏛 Pillar 1: Exoplanetary Agriculture
+## 🏛 Pillar 1: Exoplanetary Agriculture (100 Articles)
+*Engineering life support for hostile environments.*
+
+[📂 **View Full Archive: 100 Articles**](research_articles/1_Exoplanetary_Agriculture/)
+
+### Selected Research
 1. [**Regolith Remediation**](research_articles/1_Exoplanetary_Agriculture/Regolith_Remediation.md)
 2. [**The Caloric ROI of Entomophagy**](research_articles/1_Exoplanetary_Agriculture/The_Caloric_ROI_of_Entomophagy.md)
 3. [**Genetic Resilience**](research_articles/1_Exoplanetary_Agriculture/Genetic_Resilience.md)
 4. [**Hydroponic Substrates**](research_articles/1_Exoplanetary_Agriculture/Hydroponic_Substrates.md)
-5. [**Closed-Loop Hydrology**](research_articles/1_Exoplanetary_Agriculture/Closed_Loop_Hydrology.md)
-6. [**Algae Photobioreactors**](research_articles/1_Exoplanetary_Agriculture/Algae_Photobioreactors.md)
-7. [**Waste-to-Biomass**](research_articles/1_Exoplanetary_Agriculture/Waste_to_Biomass.md)
-8. [**Automated Pollination**](research_articles/1_Exoplanetary_Agriculture/Automated_Pollination.md)
-9. [**Psychological Botany**](research_articles/1_Exoplanetary_Agriculture/Psychological_Botany.md)
-10. [**Biosphere 2 Revisited**](research_articles/1_Exoplanetary_Agriculture/Biosphere_2_Revisited.md)
+5. [**Solar Storm Protocol**](research_articles/1_Exoplanetary_Agriculture/Solar_Storm_Protocol.md)
+6. [**Lava Tube Farming**](research_articles/1_Exoplanetary_Agriculture/Lava_Tube_Farming.md)
+7. [**Dust Storm Resilience**](research_articles/1_Exoplanetary_Agriculture/Dust_Storm_Resilience.md)
+8. [**Planetary Protection**](research_articles/1_Exoplanetary_Agriculture/Planetary_Protection.md)
+9. [**Seed Vaults**](research_articles/1_Exoplanetary_Agriculture/Seed_Vaults.md)
+10. [**The Salad Machine**](research_articles/1_Exoplanetary_Agriculture/The_Salad_Machine.md)
+
+*(...Archive contains 90 additional technical notes on Water, Robotics, and ISRU)*
 
 ## 📉 Pillar 2: Climate Finance
 1. [**The Robusta Volatility Index**](research_articles/2_Climate_Finance/The_Robusta_Volatility_Index.md)
