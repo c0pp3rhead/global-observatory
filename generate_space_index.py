@@ -1,6 +1,6 @@
 import os
 
-# Define the structure (matches the categories we used to generate them)
+# Define the structure
 categories = {
     "🌱 Staple Crops & Gravity": [
         "The Potato Paradox", "Hypobaric Quinoa", "Duckweed Radiation Shields", "Sweet Potato",
@@ -64,10 +64,10 @@ This archive contains **100 technical research notes** focusing on the transitio
 for category, titles in categories.items():
     content += f"## {category}\n"
     for title in titles:
-        # Construct relative link
+        # Construct filename
         filename = title.replace(" ", "_").replace("-", "_") + ".md"
-        # Check if file exists to avoid broken links (optional, but good practice)
-        link = f"- [{title}]({filename})\n"
+        # NEW SMART LINK: Uses query parameter for Deep Linking
+        link = f"- [{title}](/?article={filename})\n"
         content += link
     content += "\n"
 
