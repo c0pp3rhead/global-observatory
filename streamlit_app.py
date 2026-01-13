@@ -8,110 +8,109 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- 1. HELPER FUNCTIONS ---
-def get_all_articles():
-    """Scans all folders and returns a dict of {filename: full_path}"""
-    article_map = {}
-    for root, dirs, files in os.walk("research_articles"):
-        for file in files:
-            if file.endswith(".md") and file != "index.md":
-                article_map[file] = os.path.join(root, file)
-    return article_map
+# --- 1. ROBUST URL RETRIEVAL ---
+# Try the new method first, fall back to the old method if needed
+try:
+    # New Streamlit versions
+    query_params = st.query_params
+    article_requested = query_params.get("article", None)
+except:
+    # Older Streamlit versions
+    query_params = st.experimental_get_query_params()
+    # Old method returns a list ['filename.md'], so we grab the first item
+    raw = query_params.get("article", [None])
+    article_requested = raw[0]
 
-def load_markdown(path):
-    """Safely reads a markdown file"""
-    if os.path.exists(path):
-        with open(path, "r") as f:
-            return f.read()
+# --- 2. FILE SYSTEM HELPER ---
+def find_article_path(filename):
+    """Recursively searches for the file in the research_articles directory"""
+    target = filename.strip() # Remove any accidental whitespace
+    for root, dirs, files in os.walk("research_articles"):
+        if target in files:
+            return os.path.join(root, target)
     return None
 
-# --- 2. URL PARAMETER HANDLING (THE FIX) ---
-# We grab the query params immediately
-query_params = st.query_params
-article_requested = query_params.get("article", None)
+# --- 3. DEBUGGING SECTION (Temporary) ---
+# This will show us exactly what the app sees.
+# with st.expander("🛠 System Debug Info (Click to View)", expanded=False):
+#    st.write(f"**URL Parameter Detected:** `{article_requested}`")
+#    st.write(f"**Current Working Directory:** `{os.getcwd()}`")
+#    st.write("**Search Test:** Searching for 'The_Potato_Paradox.md'...")
+#    test_path = find_article_path("The_Potato_Paradox.md")
+#    st.write(f"-> Found at: `{test_path}`")
 
-# If 'article_requested' is a list (rare edge case), take the first item
-if isinstance(article_requested, list):
-    article_requested = article_requested[0]
+# --- 4. NAVIGATION LOGIC ---
 
-# --- 3. SIDEBAR SETUP ---
-st.sidebar.title("🏛 Fields of Study")
-st.sidebar.write("Select Discipline:")
-
-pillars = {
-    "🌱 Exoplanetary Agriculture": "research_articles/1_Exoplanetary_Agriculture",
-    "📉 Climate Finance": "research_articles/2_Climate_Finance",
-    "☣️ Biosecurity & Illicit Economies": "research_articles/3_Biosecurity_Illicit_Economies"
-}
-
-# We only show the radio button if we are NOT viewing an article
-# OR we allow it to act as a "Home" button
-selected_pillar = st.sidebar.radio(
-    "Go to Pillar:", 
-    list(pillars.keys()), 
-    index=0
-)
-
-st.sidebar.markdown("---")
-st.sidebar.info("**Note:** Articles in the 'Biosecurity' section focus on economic impact and supply chain analysis.")
-
-# --- 4. MAIN LOGIC FLOW ---
-
-# PRIORITY 1: VIEWING AN ARTICLE (URL TRIGGER)
+# SCENARIO A: Article Requested via URL
 if article_requested:
-    # Scan for the file
-    article_map = get_all_articles()
+    file_path = find_article_path(article_requested)
     
-    if article_requested in article_map:
-        file_path = article_map[article_requested]
+    if file_path:
+        # success! Render the article
         
-        # Add a prominent BACK button
-        if st.button("← Back to Research Pillars"):
-            st.query_params.clear() # Wipe the URL
-            st.rerun() # Reload the app in "Pillar Mode"
-
-        # Render the Article
-        content = load_markdown(file_path)
-        if content:
+        # Back Button
+        if st.button("← Back to Dashboard"):
+            st.query_params.clear()
+            st.rerun()
+            
+        # Render Content
+        if os.path.exists(file_path):
+            with open(file_path, "r") as f:
+                content = f.read()
             st.markdown(content, unsafe_allow_html=True)
         else:
-            st.error("Error loading article content.")
+            st.error(f"File found at {file_path} but could not be opened.")
+            
     else:
-        st.error(f"404: The article '{article_requested}' could not be found.")
-        if st.button("Return to Home"):
+        # File not found in folders
+        st.error(f"404 Error: The system could not locate the file `{article_requested}`.")
+        st.warning("Please check that the file exists in the 'research_articles' folder.")
+        if st.button("Return Home"):
             st.query_params.clear()
             st.rerun()
 
-# PRIORITY 2: BROWSING A PILLAR (DEFAULT)
+# SCENARIO B: Default Dashboard View
 else:
-    # Header
+    # Sidebar Setup
+    st.sidebar.title("🏛 Fields of Study")
+    st.sidebar.write("Select Discipline:")
+
+    pillars = {
+        "🌱 Exoplanetary Agriculture": "research_articles/1_Exoplanetary_Agriculture",
+        "📉 Climate Finance": "research_articles/2_Climate_Finance",
+        "☣️ Biosecurity & Illicit Economies": "research_articles/3_Biosecurity_Illicit_Economies"
+    }
+
+    selected_pillar = st.sidebar.radio(
+        "Go to Pillar:", 
+        list(pillars.keys()), 
+        index=0
+    )
+
+    st.sidebar.markdown("---")
+    st.sidebar.info("**Note:** Articles in the 'Biosecurity' section focus on economic impact and supply chain analysis.")
+
+    # Main Content Area
     st.title("Cristian Morales")
     st.subheader("Research Portfolio: Economics, Systems & Security")
     st.markdown("_A repository of static analysis, data visualizations, and research notes._")
     st.markdown("---")
 
-    # Determine which folder to show based on Sidebar
+    # Render Pillar Content
     folder_path = pillars[selected_pillar]
-    
-    # Render the Pillar Header
     st.header(f"Research Focus: {selected_pillar}")
     
-    # 1. Try to load the curated 'index.md' (The nice list you generated)
+    # Load Index
     index_path = os.path.join(folder_path, "index.md")
-    
     if os.path.exists(index_path):
-        index_content = load_markdown(index_path)
-        # We need to ensure the index.md links are rendered correctly by Streamlit
+        with open(index_path, "r") as f:
+            index_content = f.read()
         st.markdown(index_content, unsafe_allow_html=True)
-    
-    # 2. Fallback: If no index.md exists, list files automatically
     else:
+        # Fallback list
         files = sorted([f for f in os.listdir(folder_path) if f.endswith(".md")])
         for f in files:
-            # Clean up the name for display
-            clean_name = f.replace("_", " ").replace(".md", "")
-            # Create the link that triggers Priority 1
-            st.markdown(f"- [{clean_name}](/?article={f})")
+            st.markdown(f"- [{f}](/?article={f})")
 
 # --- FOOTER ---
 st.markdown("---")
