@@ -9,25 +9,24 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- 1. HELPER FUNCTIONS ---
+# --- 1. ROUTER LOGIC (THE SUPREME AUTHORITY) ---
+# Check URL immediately. If present, this overrides everything else.
+query_params = st.query_params
+article_requested = query_params.get("article", None)
+
+# Helper: Find file recursively
 def find_article_path(filename):
-    """Recursively search for the article in all folders"""
     target = filename.strip()
     for root, dirs, files in os.walk("research_articles"):
         if target in files:
             return os.path.join(root, target)
     return None
 
-def reset_app():
-    """Clears URL and resets state"""
+# Helper: Clear URL to go home
+def go_home():
     st.query_params.clear()
 
-# --- 2. URL CHECK (THE ROUTER) ---
-# We check this BEFORE drawing the sidebar to prioritize the link
-query_params = st.query_params
-article_requested = query_params.get("article", None)
-
-# --- 3. SIDEBAR SETUP ---
+# --- 2. SIDEBAR (ALWAYS VISIBLE) ---
 st.sidebar.title("🏛 Fields of Study")
 
 pillars = {
@@ -36,31 +35,36 @@ pillars = {
     "☣️ Biosecurity & Illicit Economies": "research_articles/3_Biosecurity_Illicit_Economies"
 }
 
-# The Pillar Selector
-# Note: We use a callback to clear the URL if the user switches pillars
+# We use a session state to track the pilllar so it doesn't reset weirdly
+if "pillar" not in st.session_state:
+    st.session_state.pillar = list(pillars.keys())[0]
+
+# The Radio Button
 selected_pillar = st.sidebar.radio(
     "Select Discipline:", 
     list(pillars.keys()), 
-    index=0,
-    on_change=reset_app # CRITICAL: Clicking sidebar clears the article view
+    key="pillar_selector",
+    on_change=go_home # CRITICAL: If they touch the sidebar, we clear the article view
 )
 
 st.sidebar.markdown("---")
 st.sidebar.info("**Note:** Articles in the 'Biosecurity' section focus on economic impact and supply chain analysis.")
 
-# --- 4. MAIN CONTENT AREA ---
+# --- 3. MAIN CONTENT CONTROLLER ---
 
-# SCENARIO A: VIEWING AN ARTICLE
 if article_requested:
+    # --- MODE A: READER VIEW ---
+    # The URL has an article, so we IGNORE the sidebar selection entirely.
+    
     file_path = find_article_path(article_requested)
     
     if file_path and os.path.exists(file_path):
-        # 1. Navigation Bar
-        if st.button("← Back to Index"):
-            reset_app()
+        # Back Button
+        if st.button("← Back to Research Index"):
+            go_home()
             st.rerun()
             
-        # 2. Render Article
+        # Render Markdown
         with open(file_path, "r") as f:
             content = f.read()
         st.markdown(content, unsafe_allow_html=True)
@@ -68,33 +72,38 @@ if article_requested:
     else:
         st.error(f"404 Not Found: '{article_requested}'")
         if st.button("Return Home"):
-            reset_app()
+            go_home()
             st.rerun()
 
-# SCENARIO B: PILLAR INDEX
 else:
-    # Header
+    # --- MODE B: INDEX VIEW ---
+    # No URL detected, so we obey the Sidebar.
+    
     st.title("Cristian Morales")
     st.subheader("Research Portfolio: Economics, Systems & Security")
-    st.markdown("_A repository of static analysis, data visualizations, and research notes._")
     st.markdown("---")
 
-    # Render Pillar Header
+    # 1. Header
     st.header(f"Research Focus: {selected_pillar}")
     
-    # Load the specific Index
+    # 2. Load the Pillar Folder
     folder_path = pillars[selected_pillar]
     index_path = os.path.join(folder_path, "index.md")
     
+    # 3. Render the Index
     if os.path.exists(index_path):
+        # Use the nice curated list (100 links)
         with open(index_path, "r") as f:
             index_content = f.read()
         st.markdown(index_content, unsafe_allow_html=True)
-        
     else:
-        # Fallback if index.md is missing (Safety Net)
-        st.write("### Research Notes")
+        # Fallback (Auto-generate list if index.md is missing)
+        st.write("### Available Research Notes")
         files = sorted([f for f in os.listdir(folder_path) if f.endswith(".md")])
         for f in files:
             # Create the exact same link format
             st.markdown(f"- [{f}](/?article={f})")
+
+# --- FOOTER ---
+st.markdown("---")
+st.caption("Global Pulse Observatory | Live Research Platform")

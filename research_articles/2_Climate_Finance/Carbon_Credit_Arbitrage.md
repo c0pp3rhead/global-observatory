@@ -1,20 +1,18 @@
-# Carbon Credit Arbitrage: VCM vs. Compliance Markets
-**Author:** Cristian Morales | **Date:** January 8, 2026
+# Carbon Credit Arbitrage
+**Author:** Cristian Morales | **Category:** 📜 Carbon Markets
 
-## 1. Abstract
-Analysis of the price spread between the EU ETS and Voluntary Carbon Markets. The data suggests a structural arbitrage opportunity driven by verification lag times.
+## 1. Executive Summary
+This research note analyzes the financial materiality of **Carbon Credit Arbitrage**. As volatility increases in the physical biosphere, traditional risk models (VaR) fail to capture these "Fat Tail" events.
 
 ## 2. Methodology
-Data was aggregated using proprietary scrapers and satellite telemetry (2023-2025). We applied multivariate regression to isolate the primary signal from environmental noise.
+We utilized a stochastic model to project the cost impact over a 10-year horizon.
+* **Input Variable:** Historical weather/market anomalies (2010-2025).
+* **Output Metric:** Net Present Value (NPV) at Risk.
 
-## 3. Data Analysis
-[IMAGE: carbon_arbitrage.png]
+## 3. Data Visualization
+[IMAGE: images/carbon_credit_arbitrage.png]
 
-**Figure 1:** Visual analysis of the core dataset. The trends indicate a statistically significant deviation from the baseline, supporting the hypothesis of structural change in the system.
+**Figure 1:** The trend line indicates a structural break from historical averages, suggesting that previous pricing mechanisms are now obsolete.
 
-## 4. Conclusion
-The evidence suggests that current models must be recalibrated to account for these anomalies. Future work will focus on expanding the dataset to include real-time sensor feeds.
-
-## 5. References
-1. World Bank (2024). State and Trends of Carbon Pricing.
-2. Trove Research (2023).
+## 4. Investment Implication
+Capital allocation strategies must hedge against this specific vector. We recommend an overweight position in resilience assets and a reduction in exposure to unmitigated legacy infrastructure.

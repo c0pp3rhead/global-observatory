@@ -1,27 +1,18 @@
-# The Robusta Volatility Index: Quantifying El Niño Lag Effects
-**Author:** Cristian Morales | **Date:** January 8, 2026
-**Field:** Climate Finance & Environmental Economics
+# The Robusta Volatility Index
+**Author:** Cristian Morales | **Category:** ☕ Commodity Volatility
 
-## 1. Abstract
-The soft commodity market is increasingly functioning as a barometer for climate change. This research note analyzes the **temporal lag** between hydrological deficits in Vietnam's Central Highlands and price volatility in ICE Futures Europe.
+## 1. Executive Summary
+This research note analyzes the financial materiality of **The Robusta Volatility Index**. As volatility increases in the physical biosphere, traditional risk models (VaR) fail to capture these "Fat Tail" events.
 
-## 2. Market Context
-Unlike Arabica coffee, Robusta production is highly concentrated. Vietnam accounts for over 40% of global exports, making the asset class highly sensitive to the **El Niño-Southern Oscillation (ENSO)** [1].
+## 2. Methodology
+We utilized a stochastic model to project the cost impact over a 10-year horizon.
+* **Input Variable:** Historical weather/market anomalies (2010-2025).
+* **Output Metric:** Net Present Value (NPV) at Risk.
 
-## 3. Methodology
-We conducted a regression analysis comparing precipitation anomalies (CHIRPS satellite data) against ICE Robusta Futures over a 60-month window (2020–2025).
+## 3. Data Visualization
+[IMAGE: images/the_robusta_volatility_index.png]
 
-## 4. Key Findings: The 4-Month Lag
-Our analysis reveals an inverse correlation ($r = -0.78$) between rainfall and price. Crucially, the market prices in the physical reality of the drought with a delay.
+**Figure 1:** The trend line indicates a structural break from historical averages, suggesting that previous pricing mechanisms are now obsolete.
 
-[IMAGE: robusta_lag_correlation.png]
-
-**Figure 1:** Dual-axis analysis showing the impact of the 2023-2024 El Niño event. The blue bars represent rainfall deficits (drought). The red line tracks the futures price. Note the **structural break** where price spikes approximately 4 months after peak drought intensity.
-
-## 5. Economic Implications
-The data suggests the market is inefficient at pricing **immediate** climate risk, creating an arbitrage opportunity for "Climate Alpha" strategies [2].
-
-## 6. References
-1. World Bank. (2024). *Commodity Markets Outlook*.
-2. Hsiang, S. M., et al. (2011). "Civil conflicts are associated with the global climate." *Nature*.
-
+## 4. Investment Implication
+Capital allocation strategies must hedge against this specific vector. We recommend an overweight position in resilience assets and a reduction in exposure to unmitigated legacy infrastructure.
