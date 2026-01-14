@@ -1,4 +1,4 @@
-import streamlit as st
+code = """import streamlit as st
 import os
 
 # --- PAGE CONFIGURATION ---
@@ -71,3 +71,9 @@ else:
 
 st.markdown("---")
 st.caption("Global Pulse Observatory | Live Research Platform")
+"""
+
+with open("streamlit_app.py", "w") as f:
+    f.write(code)
+
+print("✅ Success: streamlit_app.py has been overwritten with the Reader App code.")
