@@ -5,12 +5,30 @@ import os
 st.set_page_config(
     page_title="Global Pulse Observatory",
     page_icon="🔭",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
-# --- 1. SIDEBAR CONFIGURATION (CLEAN) ---
+# --- 1. HELPER FUNCTIONS ---
+def find_article_path(filename):
+    """Recursively search for the article in all folders"""
+    target = filename.strip()
+    for root, dirs, files in os.walk("research_articles"):
+        if target in files:
+            return os.path.join(root, target)
+    return None
+
+def reset_app():
+    """Clears URL and resets state"""
+    st.query_params.clear()
+
+# --- 2. URL CHECK (THE ROUTER) ---
+# We check this BEFORE drawing the sidebar to prioritize the link
+query_params = st.query_params
+article_requested = query_params.get("article", None)
+
+# --- 3. SIDEBAR SETUP ---
 st.sidebar.title("🏛 Fields of Study")
-st.sidebar.write("Select Discipline:")
 
 pillars = {
     "🌱 Exoplanetary Agriculture": "research_articles/1_Exoplanetary_Agriculture",
@@ -18,90 +36,65 @@ pillars = {
     "☣️ Biosecurity & Illicit Economies": "research_articles/3_Biosecurity_Illicit_Economies"
 }
 
-# The only interactive element in the sidebar
+# The Pillar Selector
+# Note: We use a callback to clear the URL if the user switches pillars
 selected_pillar = st.sidebar.radio(
-    "Discipline Selector", 
+    "Select Discipline:", 
     list(pillars.keys()), 
-    label_visibility="collapsed"
+    index=0,
+    on_change=reset_app # CRITICAL: Clicking sidebar clears the article view
 )
 
 st.sidebar.markdown("---")
-st.sidebar.info("**Note:** Articles in the 'Biosecurity' section focus on economic impact and supply chain analysis, not synthesis or instruction.")
+st.sidebar.info("**Note:** Articles in the 'Biosecurity' section focus on economic impact and supply chain analysis.")
 
-# --- 2. URL LOGIC (THE ROUTER) ---
-# We check the URL to see if the user clicked a specific article link
-query_params = st.query_params
-article_requested = query_params.get("article", None)
-
-# Handle edge case where param returns as a list
-if isinstance(article_requested, list):
-    article_requested = article_requested[0]
-
-# Helper to find file path
-def find_article_path(filename):
-    for root, dirs, files in os.walk("research_articles"):
-        if filename in files:
-            return os.path.join(root, filename)
-    return None
-
-# --- 3. MAIN CONTENT RENDERER ---
+# --- 4. MAIN CONTENT AREA ---
 
 # SCENARIO A: VIEWING AN ARTICLE
 if article_requested:
     file_path = find_article_path(article_requested)
     
     if file_path and os.path.exists(file_path):
-        # Navigation Bar
-        col1, col2 = st.columns([1, 5])
-        with col1:
-            if st.button("← Back to Index"):
-                st.query_params.clear()
-                st.rerun()
-        
-        # Render Article
+        # 1. Navigation Bar
+        if st.button("← Back to Index"):
+            reset_app()
+            st.rerun()
+            
+        # 2. Render Article
         with open(file_path, "r") as f:
             content = f.read()
         st.markdown(content, unsafe_allow_html=True)
         
     else:
-        st.error(f"404: Article '{article_requested}' not found.")
+        st.error(f"404 Not Found: '{article_requested}'")
         if st.button("Return Home"):
-            st.query_params.clear()
+            reset_app()
             st.rerun()
 
-# SCENARIO B: PILLAR INDEX (DEFAULT VIEW)
+# SCENARIO B: PILLAR INDEX
 else:
-    # Title Header
+    # Header
     st.title("Cristian Morales")
     st.subheader("Research Portfolio: Economics, Systems & Security")
     st.markdown("_A repository of static analysis, data visualizations, and research notes._")
     st.markdown("---")
 
-    # Load the specific folder for the selected pillar
-    folder_path = pillars[selected_pillar]
+    # Render Pillar Header
     st.header(f"Research Focus: {selected_pillar}")
-
-    # Check for a curated 'index.md' (We created this for Pillar 1)
+    
+    # Load the specific Index
+    folder_path = pillars[selected_pillar]
     index_path = os.path.join(folder_path, "index.md")
     
     if os.path.exists(index_path):
-        # Render the curated index
         with open(index_path, "r") as f:
             index_content = f.read()
         st.markdown(index_content, unsafe_allow_html=True)
         
     else:
-        # AUTOMATIC FALLBACK for Pillar 2 & 3 (No index.md yet)
-        # We generate the link list dynamically so they aren't empty
-        st.markdown("### Available Research Notes")
+        # Fallback if index.md is missing (Safety Net)
+        st.write("### Research Notes")
         files = sorted([f for f in os.listdir(folder_path) if f.endswith(".md")])
-        
         for f in files:
-            # Create a Deep Link for every file
-            clean_name = f.replace("_", " ").replace(".md", "")
-            # This format triggers Scenario A when clicked
-            st.markdown(f"- [{clean_name}](/?article={f})")
-
-# --- FOOTER ---
-st.markdown("---")
-st.caption("Global Pulse Observatory | Live Research Platform")
+            # Create the exact same link format
+            st.markdown(f"- [{f}](/?article={f})")
