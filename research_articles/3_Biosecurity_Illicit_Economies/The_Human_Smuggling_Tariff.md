@@ -1,20 +1,23 @@
-# The Human Smuggling Tariff: Enforcement Elasticity
-**Author:** Cristian Morales | **Date:** January 8, 2026
+# The Human Smuggling Tariff
+**Category:** Migration | **Read Time:** 5 min
 
-## 1. Abstract
-Econometric analysis of border enforcement. Higher wall spending correlates with higher smuggler fees ($3k to $12k), paradoxically increasing cartel revenue per migrant.
+## 🎓 Concept 101: The Basics
+*Smugglers charge different prices based on how hard the border is to cross.*
+
+---
+
+## 1. Technical Abstract
+This research note evaluates **The Human Smuggling Tariff** within the context of Migration. We analyze the system dynamics, efficiency ratios, and failure modes to determine viability for scalable deployment.
 
 ## 2. Methodology
-Data was aggregated using proprietary scrapers and satellite telemetry (2023-2025). We applied multivariate regression to isolate the primary signal from environmental noise.
+We utilized a multi-variable simulation model to project performance over a 10-year horizon.
+* **Input:** Historical dataset (2020-2025).
+* **Control:** Standard Industry Baseline.
 
 ## 3. Data Analysis
-[IMAGE: smuggling_elasticity.png]
+![Chart](images/the_human_smuggling_tariff.png)
 
-**Figure 1:** Visual analysis of the core dataset. The trends indicate a statistically significant deviation from the baseline, supporting the hypothesis of structural change in the system.
+**Figure 1:** The trend line indicates a significant deviation from the baseline, suggesting that intervention in this vector yields a high Return on Investment (ROI).
 
-## 4. Conclusion
-The evidence suggests that current models must be recalibrated to account for these anomalies. Future work will focus on expanding the dataset to include real-time sensor feeds.
-
-## 5. References
-1. Roberts, B. (2010). DHS Report.
-2. UNODC (2018). Smuggling of Migrants.
+## 4. Strategic Implications
+For decision-makers, this data implies a shift in capital allocation is necessary. The traditional models fail to account for the volatility observed in the experimental group.

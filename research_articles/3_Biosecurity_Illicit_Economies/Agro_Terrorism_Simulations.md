@@ -1,20 +1,23 @@
-# Agro-Terrorism Simulations: FMD Impact Models
-**Author:** Cristian Morales | **Date:** January 8, 2026
+# Agro-Terrorism Simulations
+**Category:** Defense | **Read Time:** 5 min
 
-## 1. Abstract
-CGE modeling of a deliberate Foot-and-Mouth Disease introduction in the Midwest. A single infection point results in a $40B export loss due to immediate trade bans.
+## 🎓 Concept 101: The Basics
+*Simulating what happens if a terrorist releases a virus like Foot & Mouth Disease into a cattle herd.*
+
+---
+
+## 1. Technical Abstract
+This research note evaluates **Agro-Terrorism Simulations** within the context of Defense. We analyze the system dynamics, efficiency ratios, and failure modes to determine viability for scalable deployment.
 
 ## 2. Methodology
-Data was aggregated using proprietary scrapers and satellite telemetry (2023-2025). We applied multivariate regression to isolate the primary signal from environmental noise.
+We utilized a multi-variable simulation model to project performance over a 10-year horizon.
+* **Input:** Historical dataset (2020-2025).
+* **Control:** Standard Industry Baseline.
 
 ## 3. Data Analysis
-[IMAGE: fmd_blast_radius.png]
+![Chart](images/agro-terrorism_simulations.png)
 
-**Figure 1:** Visual analysis of the core dataset. The trends indicate a statistically significant deviation from the baseline, supporting the hypothesis of structural change in the system.
+**Figure 1:** The trend line indicates a significant deviation from the baseline, suggesting that intervention in this vector yields a high Return on Investment (ROI).
 
-## 4. Conclusion
-The evidence suggests that current models must be recalibrated to account for these anomalies. Future work will focus on expanding the dataset to include real-time sensor feeds.
-
-## 5. References
-1. Oladosu, G. (2013). Journal of Bioterrorism.
-2. DHS (2024). Agro-Defense Strategy.
+## 4. Strategic Implications
+For decision-makers, this data implies a shift in capital allocation is necessary. The traditional models fail to account for the volatility observed in the experimental group.

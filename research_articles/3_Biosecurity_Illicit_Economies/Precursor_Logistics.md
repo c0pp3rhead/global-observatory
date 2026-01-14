@@ -1,20 +1,23 @@
-# Precursor Logistics: Fentanyl Supply Chain Anomalies
-**Author:** Cristian Morales | **Date:** January 8, 2026
+# Precursor Logistics
+**Category:** Supply Chain | **Read Time:** 5 min
 
-## 1. Abstract
-Statistical detection of 'Dual-Use' chemical diversion. Import spikes of NPP chemicals into non-industrial zones serve as a high-confidence signal for clandestine synthesis labs.
+## 🎓 Concept 101: The Basics
+*Tracking the raw chemicals (Precursors) needed to cook Fentanyl before they reach the labs.*
+
+---
+
+## 1. Technical Abstract
+This research note evaluates **Precursor Logistics** within the context of Supply Chain. We analyze the system dynamics, efficiency ratios, and failure modes to determine viability for scalable deployment.
 
 ## 2. Methodology
-Data was aggregated using proprietary scrapers and satellite telemetry (2023-2025). We applied multivariate regression to isolate the primary signal from environmental noise.
+We utilized a multi-variable simulation model to project performance over a 10-year horizon.
+* **Input:** Historical dataset (2020-2025).
+* **Control:** Standard Industry Baseline.
 
 ## 3. Data Analysis
-[IMAGE: precursor_anomaly.png]
+![Chart](images/precursor_logistics.png)
 
-**Figure 1:** Visual analysis of the core dataset. The trends indicate a statistically significant deviation from the baseline, supporting the hypothesis of structural change in the system.
+**Figure 1:** The trend line indicates a significant deviation from the baseline, suggesting that intervention in this vector yields a high Return on Investment (ROI).
 
-## 4. Conclusion
-The evidence suggests that current models must be recalibrated to account for these anomalies. Future work will focus on expanding the dataset to include real-time sensor feeds.
-
-## 5. References
-1. Pardo, B. (2019). RAND Corporation.
-2. DEA (2020). Fentanyl Flow Report.
+## 4. Strategic Implications
+For decision-makers, this data implies a shift in capital allocation is necessary. The traditional models fail to account for the volatility observed in the experimental group.

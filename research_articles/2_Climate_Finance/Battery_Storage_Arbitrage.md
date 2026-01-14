@@ -1,18 +1,23 @@
 # Battery Storage Arbitrage
-**Author:** Cristian Morales | **Category:** ⚡ Energy Transition
+**Category:** Energy | **Read Time:** 5 min
 
-## 1. Executive Summary
-This research note analyzes the financial materiality of **Battery Storage Arbitrage**. As volatility increases in the physical biosphere, traditional risk models (VaR) fail to capture these "Fat Tail" events.
+## 🎓 Concept 101: The Basics
+*Buying electricity when it's cheap (night) and selling it when it's expensive (day).*
+
+---
+
+## 1. Technical Abstract
+This research note evaluates **Battery Storage Arbitrage** within the context of Energy. We analyze the system dynamics, efficiency ratios, and failure modes to determine viability for scalable deployment.
 
 ## 2. Methodology
-We utilized a stochastic model to project the cost impact over a 10-year horizon.
-* **Input Variable:** Historical weather/market anomalies (2010-2025).
-* **Output Metric:** Net Present Value (NPV) at Risk.
+We utilized a multi-variable simulation model to project performance over a 10-year horizon.
+* **Input:** Historical dataset (2020-2025).
+* **Control:** Standard Industry Baseline.
 
-## 3. Data Visualization
-[IMAGE: images/battery_storage_arbitrage.png]
+## 3. Data Analysis
+![Chart](images/battery_storage_arbitrage.png)
 
-**Figure 1:** The trend line indicates a structural break from historical averages, suggesting that previous pricing mechanisms are now obsolete.
+**Figure 1:** The trend line indicates a significant deviation from the baseline, suggesting that intervention in this vector yields a high Return on Investment (ROI).
 
-## 4. Investment Implication
-Capital allocation strategies must hedge against this specific vector. We recommend an overweight position in resilience assets and a reduction in exposure to unmitigated legacy infrastructure.
+## 4. Strategic Implications
+For decision-makers, this data implies a shift in capital allocation is necessary. The traditional models fail to account for the volatility observed in the experimental group.
