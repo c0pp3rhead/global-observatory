@@ -22,27 +22,20 @@ def format_func(filename):
 
 # --- SIDEBAR ---
 st.sidebar.title("🏛 Fields of Study")
-
 pillars = {
     "🌱 Exoplanetary Agriculture": "research_articles/1_Exoplanetary_Agriculture",
     "📉 Climate Finance": "research_articles/2_Climate_Finance",
     "☣️ Biosecurity & Illicit Economies": "research_articles/3_Biosecurity_Illicit_Economies"
 }
 
-selected_pillar = st.sidebar.radio(
-    "Select Discipline:", 
-    list(pillars.keys()), 
-    index=0
-)
-
+selected_pillar = st.sidebar.radio("Select Discipline:", list(pillars.keys()), index=0)
 st.sidebar.markdown("---")
-st.sidebar.info("Select a Discipline above, then search for an article in the main window.")
+st.sidebar.info("Select a Discipline, then search for a research note.")
 
 # --- MAIN PAGE ---
 st.title("Cristian Morales")
 st.subheader("Research Portfolio: Economics, Systems & Security")
 st.markdown("---")
-
 st.header(f"Research Focus: {selected_pillar}")
 
 folder_path = pillars[selected_pillar]
@@ -50,24 +43,35 @@ files = get_file_list(folder_path)
 
 if files:
     st.write(f"**Browse {len(files)} Research Notes:**")
-    
-    selected_file = st.selectbox(
-        "Select an article to read:",
-        options=files,
-        format_func=format_func,
-        index=0
-    )
-    
+    selected_file = st.selectbox("Select an article:", options=files, format_func=format_func)
     st.markdown("---")
     
+    # RENDER CONTENT
     file_path = os.path.join(folder_path, selected_file)
     with open(file_path, "r") as f:
         content = f.read()
     
-    st.markdown(content, unsafe_allow_html=True)
+    # Filter out any old markdown image links to avoid duplicates/errors
+    content_clean = "\n".join([line for line in content.split('\n') if "![Chart]" not in line])
+    st.markdown(content_clean, unsafe_allow_html=True)
+
+    # RENDER IMAGE MANUALLY (The Fix)
+    img_name = selected_file.replace(".md", ".png")
+    # Try exact match first, then lowercase
+    paths_to_try = [
+        os.path.join(folder_path, "images", img_name),
+        os.path.join(folder_path, "images", img_name.lower())
+    ]
+    
+    image_loaded = False
+    for p in paths_to_try:
+        if os.path.exists(p):
+            st.image(p, caption=f"Figure 1: Data Analysis for {format_func(selected_file)}")
+            image_loaded = True
+            break
+            
+    if not image_loaded:
+        st.caption("*(Chart generation pending)*")
 
 else:
-    st.error(f"No files found in {folder_path}. Please check your directories.")
-
-st.markdown("---")
-st.caption("Global Pulse Observatory | Live Research Platform")
+    st.error(f"No files found in {folder_path}.")
