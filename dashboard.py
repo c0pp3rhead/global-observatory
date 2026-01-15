@@ -37,6 +37,31 @@ def format_func(filename):
     return filename.replace("_", " ").replace(".md", "")
 
 # --- SIDEBAR ---
+
+# --- SIDEBAR PROFILE ---
+with st.sidebar:
+    st.image("https://ui-avatars.com/api/?name=Cristián+Morales&background=0D8ABC&color=fff&size=128", width=100)
+    st.markdown("### Cristián Morales")
+    st.markdown("**Digital Marketing & Business Analytics**")
+    st.caption("MBA | INCAE Business School") 
+    st.caption("📍 San José, Costa Rica")
+    
+    # Social Links
+    st.link_button("🔗 LinkedIn", "https://www.linkedin.com/in/cris-morales-ema2024/") 
+    st.link_button("🐙 GitHub", "https://github.com/c0pp3rhead")
+    
+    # Resume Download Logic
+    if os.path.exists("resume.pdf"):
+        with open("resume.pdf", "rb") as pdf_file:
+            st.download_button(
+                label="📄 Download Resume",
+                data=pdf_file,
+                file_name="Cristian_Morales_Resume.pdf",
+                mime="application/pdf"
+            )
+    
+    st.markdown("---")
+
 st.sidebar.title("🏛 Fields of Study")
 pillars = {
     "🌱 Exoplanetary Agriculture": "research_articles/1_Exoplanetary_Agriculture",
