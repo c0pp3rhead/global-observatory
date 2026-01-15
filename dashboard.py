@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import streamlit.components.v1 as components
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
@@ -8,6 +9,21 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# --- 2. GOOGLE ANALYTICS INJECTION ---
+# Replace 'G-MTQ30TPFCV' with your actual Measurement ID
+GA_ID = "G-MTQ30TPFCV"
+GA_JS = f"""
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', '{GA_ID}');
+</script>
+"""
+# This inserts the code invisibly
+components.html(GA_JS, height=0, width=0)
 
 # --- HELPER FUNCTIONS ---
 def get_file_list(folder_path):
