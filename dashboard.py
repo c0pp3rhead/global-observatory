@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import random
 import streamlit.components.v1 as components
 
 # --- PAGE CONFIGURATION ---
@@ -11,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- GOOGLE ANALYTICS (Keep this for your own stats) ---
+# --- GOOGLE ANALYTICS ---
 GA_ID = "G-MTQ30TPFCV"
 GA_JS = f"""
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
@@ -35,35 +34,39 @@ def get_file_list(folder_path):
 def format_func(filename):
     return filename.replace("_", " ").replace(".md", "")
 
+# --- DYNAMIC COMMENTARY (The Student's Perspective) ---
 def get_research_gaps(category):
-    """Injects dynamic PhD commentary based on the research pillar."""
+    """Injects dynamic analysis of the current engineering landscape."""
     if "Exoplanetary" in category:
         return """
-        **🧪 Principal Investigator's Note:**
-        * **Current State:** Most closed-loop life support systems (ECLSS) operate at TRL 4-6. We currently rely on resupply for Earth orbit missions.
-        * **The Engineering Gap:** The primary hurdle is **nutrient recovery efficiency**. We need to move from 75% water recycling to 98%+ closed-loop mass balance. My research focuses on the fluid dynamics of nutrient delivery in variable gravity to bridge this gap.
+        **🔭 Research Roadmap (Future Focus):**
+        * **Status Quo:** Current Environmental Control and Life Support Systems (ECLSS) on the ISS operate at ~90% water recovery but struggle with solid waste loop closure.
+        * **The Challenge:** To make these simulations a reality, we need >99% closed-loop mass balance and significantly higher thermodynamic efficiency.
+        * **My Objective:** As I progress in my engineering studies, I aim to investigate the fluid dynamics and biological control systems required to bridge this gap, using these AI simulations as a theoretical baseline.
         """
     elif "Finance" in category:
         return """
-        **🧪 Principal Investigator's Note:**
-        * **Current State:** Biosystems valuation is currently theoretical or based on voluntary carbon markets with high volatility.
-        * **The Engineering Gap:** We lack **thermodynamic accounting standards** for biological assets. This paper explores the gap between physical exergy (useful energy) and monetary valuation. Making these engineered systems bankable requires rigorous Techno-Economic Analysis (TEA) verified by sensors, not just estimates.
+        **🔭 Research Roadmap (Future Focus):**
+        * **Status Quo:** Climate finance currently lacks rigorous hardware-to-value verification standards, relying heavily on estimates rather than sensor data.
+        * **The Challenge:** We need 'Thermodynamic Accounting'—valuing assets based on physical exergy (useful work) rather than speculative carbon markets.
+        * **My Objective:** I am building this database to identify how engineered biosystems can be instrumented to provide real-time valuation data, a key area I plan to explore during my degree.
         """
     else: # Security
         return """
-        **🧪 Principal Investigator's Note:**
-        * **Current State:** Biological manufacturing is becoming digitized, but industrial control systems (ICS) for bio-reactors are insecure by design.
-        * **The Engineering Gap:** There is a critical lack of **cyber-physical attribution**. We can detect a failure, but we cannot distinguish between a sensor error, a mutation, or a cyber-attack. My work investigates 'digital signatures' in biological hardware to secure the bio-economy supply chain.
+        **🔭 Research Roadmap (Future Focus):**
+        * **Status Quo:** Biological manufacturing infrastructure (bioreactors) currently lacks cyber-attribution features, making it vulnerable to supply chain interdiction.
+        * **The Challenge:** Distinguishing between natural mutation and adversarial attack in real-time is currently impossible with standard sensors.
+        * **My Objective:** These simulations highlight the urgent need for 'Digital Signatures' in biological hardware. I intend to study the intersection of cybersecurity and biological control systems to address this vulnerability.
         """
 
-# --- SIDEBAR PROFILE (ACADEMIC) ---
+# --- SIDEBAR PROFILE (THE UNDERGRADUATE RESEARCHER) ---
 with st.sidebar:
-    # Use a neutral or academic avatar if you have one, or keep the abstract one
+    # Academic/Neutral Avatar
     st.image("https://ui-avatars.com/api/?name=Cristián+Morales&background=0D8ABC&color=fff&size=128", width=100)
     
     st.markdown("### Cristián Morales")
-    st.markdown("**PhD Candidate**")
-    st.markdown("Biosystems Engineering")
+    st.markdown("**Biosystems Engineering Student**")
+    st.markdown("*Undergraduate Researcher*")
     st.caption("🏛 University of Costa Rica (UCR)")
     
     st.markdown("---")
@@ -79,7 +82,7 @@ with st.sidebar:
     selected_pillar = st.sidebar.radio("Select Research Focus:", list(pillars.keys()), index=0)
     
     st.markdown("---")
-    st.info("**Methodology:** This library utilizes Generative AI to simulate high-volume scenarios (n=2000). My PhD work focuses on validating the governing equations and bridging the engineering gaps identified in these simulations.")
+    st.info("**About this Lab:** I am using Generative AI to map the frontier of Biosystems Engineering. This library represents 2,000 theoretical scenarios I plan to investigate and validate throughout my academic career.")
 
 # --- MAIN PAGE ---
 st.title("Biosystems Engineering | Research Roadmap")
@@ -90,7 +93,7 @@ folder_path = pillars[selected_pillar]
 files = get_file_list(folder_path)
 
 if files:
-    # Search and Select
+    # Search Feature
     search_term = st.text_input("🔍 Search database by keyword (e.g., 'Thermodynamics', 'Sensor', 'Algorithm')", "")
     
     if search_term:
@@ -107,7 +110,7 @@ if files:
         with open(file_path, "r") as f:
             content = f.read()
         
-        # Clean out old images text if any
+        # Clean out old markdown images text if any exists to prevent duplicates
         content_clean = "\n".join([line for line in content.split('\n') if "![Chart]" not in line])
         st.markdown(content_clean, unsafe_allow_html=True)
 
@@ -125,7 +128,10 @@ if files:
                 image_loaded = True
                 break
         
-        # --- INJECT PHD COMMENTARY ---
+        if not image_loaded:
+            st.caption("*(Theoretical model - Visualization pending)*")
+        
+        # --- INJECT STUDENT ROADMAP COMMENTARY ---
         st.markdown("---")
         st.success(get_research_gaps(selected_pillar))
         
