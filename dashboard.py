@@ -11,7 +11,6 @@ st.set_page_config(
 )
 
 # --- 2. GOOGLE ANALYTICS INJECTION ---
-# Replace 'G-MTQ30TPFCV' with your actual Measurement ID
 GA_ID = "G-MTQ30TPFCV"
 GA_JS = f"""
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
